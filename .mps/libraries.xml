@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="iets3.os">
+          <value>
+            <Library>
+              <option name="name" value="iets3.os" />
+              <option name="path" value="${ch.updbern.root}/lib/org.iets3.opensource" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="mbeddr.platform">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.platform" />
+              <option name="path" value="${ch.updbern.root}/lib/com.mbeddr.platform" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

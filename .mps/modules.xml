@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/playground/playground.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

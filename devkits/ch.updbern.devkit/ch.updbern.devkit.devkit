@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="ch.updbern.devkit" uuid="31ca19ef-56b9-4aa0-83cd-e8a4ead47643">
+  <exported-language name="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+  <exported-language name="6b277d9a-d52d-416f-a209-1919bd737f50(org.iets3.core.expr.simpleTypes)" />
+  <exported-language name="cfaa4966-b7d5-4b69-b66a-309a6e1a7290(org.iets3.core.expr.base)" />
+  <exported-solutions>
+    <exported-solution>3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+
