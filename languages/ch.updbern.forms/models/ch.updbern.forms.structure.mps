@@ -64,7 +64,7 @@
     <node concept="1TJgyj" id="10jkM9FUDEu" role="1TKVEi">
       <property role="IQ2ns" value="1158360936468880030" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
+      <property role="20kJfa" value="declaredType" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="hm2y:6sdnDbSlaok" resolve="Type" />
     </node>

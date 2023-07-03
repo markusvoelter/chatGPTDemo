@@ -2,6 +2,8 @@
 <model ref="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms)">
   <persistence version="9" />
   <languages>
+    <use id="8bb1251e-eae5-47ab-9843-33adfae8edaa" name="org.iets3.core.expr.util" version="2" />
+    <use id="6fadc44e-69c2-4a4a-9d16-7ebf5f8d3ba0" name="org.iets3.core.expr.math" version="0" />
     <devkit ref="31ca19ef-56b9-4aa0-83cd-e8a4ead47643(ch.updbern.devkit)" />
   </languages>
   <imports />
@@ -14,13 +16,14 @@
         <child id="1158360936468880036" name="expr" index="1VYsA6" />
       </concept>
       <concept id="1158360936468880027" name="ch.updbern.forms.structure.Field" flags="ng" index="1VYsAT">
-        <child id="1158360936468880030" name="type" index="1VYsAW" />
+        <child id="1158360936468880030" name="declaredType" index="1VYsAW" />
       </concept>
       <concept id="1158360936468800959" name="ch.updbern.forms.structure.Form" flags="ng" index="1VYzqt">
         <child id="1158360936468880038" name="data" index="1VYsA4" />
       </concept>
     </language>
     <language id="cfaa4966-b7d5-4b69-b66a-309a6e1a7290" name="org.iets3.core.expr.base">
+      <concept id="5115872837156652453" name="org.iets3.core.expr.base.structure.MinusExpression" flags="ng" index="30dvUo" />
       <concept id="5115872837156578546" name="org.iets3.core.expr.base.structure.PlusExpression" flags="ng" index="30dDZf" />
       <concept id="5115872837156576277" name="org.iets3.core.expr.base.structure.BinaryExpression" flags="ng" index="30dEsC">
         <child id="5115872837156576280" name="right" index="30dEs_" />
@@ -32,6 +35,10 @@
         <property id="5115872837157252555" name="value" index="30bdrQ" />
       </concept>
       <concept id="5115872837157252551" name="org.iets3.core.expr.simpleTypes.structure.StringType" flags="ng" index="30bdrU" />
+      <concept id="5115872837157054169" name="org.iets3.core.expr.simpleTypes.structure.IntegerType" flags="ng" index="30bXR$" />
+      <concept id="5115872837157054170" name="org.iets3.core.expr.simpleTypes.structure.NumberLiteral" flags="ng" index="30bXRB">
+        <property id="5115872837157054173" name="value" index="30bXRw" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -48,6 +55,10 @@
     <node concept="1VYsAT" id="10jkM9FUJrl" role="1VYsA4">
       <property role="TrG5h" value="firstName" />
       <node concept="30bdrU" id="10jkM9FUJrm" role="1VYsAW" />
+    </node>
+    <node concept="1VYsAT" id="10jkM9FVsyG" role="1VYsA4">
+      <property role="TrG5h" value="temp" />
+      <node concept="30bXR$" id="10jkM9FVszG" role="1VYsAW" />
     </node>
     <node concept="1VYsA1" id="10jkM9FUJr_" role="1VYsA4">
       <property role="TrG5h" value="greeting" />
@@ -69,6 +80,24 @@
           <ref role="1VYqni" node="10jkM9FUJrc" resolve="name" />
         </node>
       </node>
+    </node>
+    <node concept="1VYsA1" id="10jkM9FVs$3" role="1VYsA4">
+      <property role="TrG5h" value="feverLevel" />
+      <node concept="30dvUo" id="10jkM9FVsVe" role="1VYsA6">
+        <node concept="30bXRB" id="10jkM9FVs$B" role="30dEsF">
+          <property role="30bXRw" value="38" />
+        </node>
+        <node concept="1VYqnd" id="10jkM9FV$Vr" role="30dEs_">
+          <ref role="1VYqni" node="10jkM9FVsyG" resolve="temp" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1VYzqt" id="10jkM9FVtBi">
+    <property role="TrG5h" value="Form2" />
+    <node concept="1VYsAT" id="10jkM9FVtBj" role="1VYsA4">
+      <property role="TrG5h" value="fieldX" />
+      <node concept="30bdrU" id="10jkM9FVtBk" role="1VYsAW" />
     </node>
   </node>
 </model>
