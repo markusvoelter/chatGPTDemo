@@ -4,17 +4,14 @@ you. Please use it when providing answers to my prompts.
 --------------
 
 A questionnaire is enclosed by the <questionnaire> tag. It has a name attribute.
-Inside a <questionnaire> there are <field> and <calculation> tags, each with a 
+Inside a <questionnaire> there are a list of <field> tags each with a 
 type and a type. Here is an example:
 
 <questionnaire name="FeverQuestionnaire">
   <field name="measuredTemperature" type="int"/>
   <field name="doYouHaveAHeadache" type="boolean"/>
-  <calculation name="deltaFever" type="int"/>
 </questionnaire>
 
-Calculations are optional; they should only be added if they make sense.
-Not every questionnaire needs calculations.
 
 ---------------
 
@@ -26,6 +23,72 @@ example for an enum; it lists its literals in curly braces, separated by comma.
   <field name="gender" type="{male, female, other}"/>
 </questionnaire>
 
+----------------
 
+Questionnaires can also contain calculations. They are meant to compute
+derived data from the data captured in fields. Here is an example regarding fever:
 
+<questionnaire name="FeverQuestionnaire">
+  <field name="measuredTemperature" type="int"/>
+  <calc name="overtemp">
+    <minus>
+		<fieldref name="measuredTemperature"/>	    	
+	  	<intLit value="38"/>
+    </minus>
+  </calc>
+</questionnaire>
 
+A calculation contains an expression represented as an abstract syntax
+tree. This example here subtracts 38 from the value of the measuredTemperature field.
+Only fields in the current form can be referenced with the fieldref tag.
+
+In addition to <minus>, there is also <plus>, <mul> and <div>. They have
+the same structure in which the two arguments are listed as child elements.
+
+----------------------------------
+
+The expressions in calculations can be nested. For example, to represent
+"38 - measuredTemperature + 1", one would write:
+
+<plus>
+	<minus>
+		<fieldref name="measuredTemperature"/>	    	
+	  	<intLit value="38"/>
+	</minus>
+	<intLit value="1"/>
+</plus>
+
+----------------
+
+There are also logical expressions, <and> as well as <or>. And there is also 
+an <if> expression that takes three children (ie., arguments). The first one
+is the condition, the second one is the resulting value in case the condition
+is true, and the third one is the value of the "if" in case the condition is false.
+Here is an example:
+
+  <calc name="overallSleepQuality">
+    <div>
+      <plus>
+        <fieldref name="hoursOfSleep"/>
+        <if>
+          <and>
+            <fieldref name="difficultyFallingAsleep"/>
+            <fieldref name="wakingUpDuringNight"/>
+          </and>
+          <intLit value="1"/>
+          <intLit value="0"/>
+        </if>
+      </plus>
+      <if>
+        <and>
+          <fieldref name="feelingRefreshed"/>
+          <fieldref name="dreaming"/>
+        </and>
+        <intLit value="1"/>
+        <intLit value="0"/>
+      </if>
+    </div>
+  </calc>
+
+Do not use any other expression structures, don't make up ones that feel similar.
+Only use the ones introduced explicitly.

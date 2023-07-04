@@ -19,8 +19,10 @@
       </concept>
       <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
         <property id="1225456424731" name="value" index="1iTho6" />
@@ -52,12 +54,21 @@
         <node concept="2iRfu4" id="6W$F1JuklkJ" role="2iSdaV" />
         <node concept="3F0ifn" id="6W$F1JuklkF" role="3EZMnx">
           <property role="3F0ifm" value="[" />
+          <node concept="VechU" id="6W$F1JutQ2b" role="3F10Kt">
+            <property role="Vb096" value="hEZAO13/white" />
+          </node>
         </node>
         <node concept="3F0A7n" id="6W$F1JuklkR" role="3EZMnx">
           <ref role="1NtTu8" to="capj:6W$F1Juklkd" resolve="error" />
+          <node concept="VechU" id="6W$F1JutQ2e" role="3F10Kt">
+            <property role="Vb096" value="hEZAO13/white" />
+          </node>
         </node>
         <node concept="3F0ifn" id="6W$F1Jukll5" role="3EZMnx">
           <property role="3F0ifm" value="]" />
+          <node concept="VechU" id="6W$F1JutQ2g" role="3F10Kt">
+            <property role="Vb096" value="hEZAO13/white" />
+          </node>
         </node>
         <node concept="Veino" id="6W$F1Juklla" role="3F10Kt">
           <node concept="1iSF2X" id="6W$F1Jukllc" role="VblUZ">
@@ -66,6 +77,30 @@
         </node>
       </node>
       <node concept="2SsqMj" id="6W$F1JukllD" role="3EZMnx" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1JutQ1P">
+    <ref role="1XX52x" to="capj:6W$F1JutQ1k" resolve="UnknownExpr" />
+    <node concept="3EZMnI" id="6W$F1JutWvf" role="2wV5jI">
+      <node concept="2iRfu4" id="6W$F1JutWvg" role="2iSdaV" />
+      <node concept="3F0ifn" id="6W$F1JutQ1R" role="3EZMnx">
+        <property role="3F0ifm" value="[error:" />
+        <node concept="VechU" id="6W$F1JutQ1Z" role="3F10Kt">
+          <property role="Vb096" value="hEZAO13/white" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="6W$F1JutWvu" role="3EZMnx">
+        <ref role="1NtTu8" to="capj:6W$F1JutWvd" resolve="error" />
+        <node concept="VechU" id="6W$F1JutWvM" role="3F10Kt">
+          <property role="Vb096" value="hEZAO13/white" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6W$F1JutWvE" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="VechU" id="6W$F1JutWvO" role="3F10Kt">
+          <property role="Vb096" value="hEZAO13/white" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

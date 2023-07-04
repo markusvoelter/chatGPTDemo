@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -19,6 +20,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -50,6 +52,17 @@
     </node>
     <node concept="1TJgyi" id="6W$F1Juklkd" role="1TKVEl">
       <property role="IQ2nx" value="8008715273065551117" />
+      <property role="TrG5h" value="error" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6W$F1JutQ1k">
+    <property role="EcuMT" value="8008715273068044372" />
+    <property role="TrG5h" value="UnknownExpr" />
+    <property role="34LRSv" value="error" />
+    <ref role="1TJDcQ" to="hm2y:6sdnDbSla17" resolve="Expression" />
+    <node concept="1TJgyi" id="6W$F1JutWvd" role="1TKVEl">
+      <property role="IQ2nx" value="8008715273068070861" />
       <property role="TrG5h" value="error" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
