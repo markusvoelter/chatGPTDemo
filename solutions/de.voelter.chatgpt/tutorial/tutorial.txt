@@ -1,0 +1,28 @@
+I have this XML format for describing questionnaires. I will explain this format to 
+you. Please use it when providing answers to my prompts.
+
+--------------
+
+A questionnaire is enclosed by the <questionnaire> tag. It has a name attribute.
+Inside a <questionnaire> there are <field> and <calculation> tags, each with a 
+type and a type. Here is an example:
+
+<questionnaire name="FeverQuestionnaire"/>
+  <field name="measuredTemperature" type="int"/>
+  <field name="doYouHaveAHeadache" type="boolean"/>
+  <calculation name="deltaFever" type="int"/>
+</questionnaire>
+
+---------------
+
+The data types that are available are int (for numbers), boolean (for truth values)
+and enumerations. You have seen examples for int and boolean above. Here is an
+example for an enum:
+
+<questionnaire name="FeverQuestionnaire"/>
+  <field name="gender" type="enum{male, female, other}"/>
+</questionnaire>
+
+
+
+

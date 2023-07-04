@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="chatgpt integration technically working">
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="dialog kinda works, with XML">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +181,8 @@
               <option name="myItemId" value="upd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,11 +210,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
+              <option name="myItemId" value="upd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,6 +227,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688411257299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dialog kinda works, with XML">
+      <created>1688482846221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688482846221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -333,6 +339,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="scopes added" />
     <MESSAGE value="chatgpt integration technically working" />
-    <option name="LAST_COMMIT_MESSAGE" value="chatgpt integration technically working" />
+    <MESSAGE value="dialog kinda works, with XML" />
+    <option name="LAST_COMMIT_MESSAGE" value="dialog kinda works, with XML" />
   </component>
 </project>
