@@ -92,6 +92,18 @@ Here is an example:
 
 There is also greaterThan, lessThan, equals and notEquals. And finally,
 there's a <booleanLit> with attribute "value" that can be "true" or "false".
+There is also <stringLit value='someText'/>. Finally, you can add precedence
+to operations by enclosing them in parentheses like this:
+
+ <div>
+	<fieldref name="weight"/>
+    <parens>
+		<mul>
+			<fieldref name="height"/>
+            <fieldref name="height"/>
+		</mul>
+	</parens>
+</div>
 
 Do not use any other expression structures, don't make up ones that feel similar.
 Only use the ones introduced explicitly.
