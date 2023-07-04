@@ -4,6 +4,8 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="b33d119e-196d-4497-977c-5c167b21fe33" name="com.mbeddr.mpsutil.framecell" version="0" />
+    <use id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -44,6 +46,10 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
+    </language>
+    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
+      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
     </language>
   </registry>
   <node concept="24kQdi" id="6W$F1JuklkD">
@@ -104,6 +110,37 @@
       <node concept="Veino" id="6W$F1Juxm8_" role="3F10Kt">
         <property role="Vb096" value="fLwANPn/red" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1JuHVZv">
+    <ref role="1XX52x" to="capj:6W$F1JuHVYY" resolve="ChatGPTInput" />
+    <node concept="3EZMnI" id="6W$F1JuHXVy" role="2wV5jI">
+      <node concept="2iRkQZ" id="6W$F1JuHXVz" role="2iSdaV" />
+      <node concept="3EZMnI" id="6W$F1JuHVZ$" role="3EZMnx">
+        <node concept="2iRfu4" id="6W$F1JuHVZ_" role="2iSdaV" />
+        <node concept="3F0ifn" id="6W$F1JuHVZx" role="3EZMnx">
+          <property role="3F0ifm" value="[" />
+        </node>
+        <node concept="3F0A7n" id="6W$F1JuHVZH" role="3EZMnx">
+          <ref role="1NtTu8" to="capj:6W$F1JuHVZ3" resolve="inputThatGeneratedThis" />
+        </node>
+        <node concept="3F0ifn" id="6W$F1JuHVZP" role="3EZMnx">
+          <property role="3F0ifm" value="]" />
+        </node>
+        <node concept="Veino" id="6W$F1JuHVZU" role="3F10Kt">
+          <node concept="1iSF2X" id="6W$F1JuHVZW" role="VblUZ">
+            <property role="1iTho6" value="dddddd" />
+          </node>
+        </node>
+      </node>
+      <node concept="2T_mXK" id="6W$F1JuHXWl" role="3EZMnx">
+        <node concept="2T_bXS" id="6W$F1JuHXWw" role="3F10Kt">
+          <node concept="1iSF2X" id="6W$F1JuHXWy" role="VblUZ">
+            <property role="1iTho6" value="666666" />
+          </node>
+        </node>
+      </node>
+      <node concept="2SsqMj" id="6W$F1JuHXVX" role="3EZMnx" />
     </node>
   </node>
 </model>

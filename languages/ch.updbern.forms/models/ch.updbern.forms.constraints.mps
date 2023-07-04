@@ -84,6 +84,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -201,6 +202,41 @@
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <node concept="37vLTw" id="10jkM9FUZ7G" role="37wK5m">
                 <ref role="3cqZAo" node="10jkM9FUYTi" resolve="allData" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6W$F1JuFDLq">
+    <ref role="1M2myG" to="pfdp:6W$F1JuFDKl" resolve="EnumLitRef" />
+    <node concept="1N5Pfh" id="6W$F1JuFDLr" role="1Mr941">
+      <ref role="1N5Vy1" to="pfdp:6W$F1JuFDKm" resolve="lit" />
+      <node concept="3dgokm" id="6W$F1JuFDMb" role="1N6uqs">
+        <node concept="3clFbS" id="6W$F1JuFDMc" role="2VODD2">
+          <node concept="3clFbF" id="6W$F1JuFHJT" role="3cqZAp">
+            <node concept="2YIFZM" id="6W$F1JuFHRv" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="6W$F1JuFECU" role="37wK5m">
+                <node concept="2OqwBi" id="6W$F1JuFEf0" role="2Oq$k0">
+                  <node concept="2rP1CM" id="6W$F1JuFE3Z" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="6W$F1JuFEo6" role="2OqNvi">
+                    <node concept="1xMEDy" id="6W$F1JuFEo8" role="1xVPHs">
+                      <node concept="chp4Y" id="6W$F1JuFEsd" role="ri$Ld">
+                        <ref role="cht4Q" to="pfdp:10jkM9FUmmZ" resolve="Form" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="6W$F1JuFETd" role="2OqNvi">
+                  <node concept="1xMEDy" id="6W$F1JuFETf" role="1xVPHs">
+                    <node concept="chp4Y" id="6W$F1JuFFeZ" role="ri$Ld">
+                      <ref role="cht4Q" to="pfdp:6W$F1JuqyQd" resolve="InlineEnumLit" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>

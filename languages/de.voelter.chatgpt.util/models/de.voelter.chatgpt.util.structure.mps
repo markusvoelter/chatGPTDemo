@@ -67,5 +67,21 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6W$F1JuHVYY">
+    <property role="EcuMT" value="8008715273072263102" />
+    <property role="TrG5h" value="ChatGPTInput" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="6W$F1JuHVYZ" role="lGtFl">
+      <property role="Hh88m" value="chatGPTInput" />
+      <node concept="trNpa" id="6W$F1JuHVZ1" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="6W$F1JuHVZ3" role="1TKVEl">
+      <property role="IQ2nx" value="8008715273072263107" />
+      <property role="TrG5h" value="inputThatGeneratedThis" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

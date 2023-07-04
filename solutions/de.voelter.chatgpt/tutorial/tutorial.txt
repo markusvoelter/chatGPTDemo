@@ -40,7 +40,8 @@ derived data from the data captured in fields. Here is an example regarding feve
 
 A calculation contains an expression represented as an abstract syntax
 tree. This example here subtracts 38 from the value of the measuredTemperature field.
-Only fields in the current form can be referenced with the fieldref tag.
+The fieldref tag refers to other fields or calculations by name. 
+Only fields or calculations in the current form can be referenced with the fieldref tag.
 
 In addition to <minus>, there is also <plus>, <mul> and <div>. They have
 the same structure in which the two arguments are listed as child elements.
@@ -90,7 +91,7 @@ Here is an example:
     </div>
   </calc>
 
-There is also greaterThan, lessThan, equals and notEquals. And finally,
+There is also "greaterThan", "lessThan", "equals" and "notEquals". And finally,
 there's a <booleanLit> with attribute "value" that can be "true" or "false".
 There is also <stringLit value='someText'/>. Finally, you can add precedence
 to operations by enclosing them in parentheses like this:
@@ -105,5 +106,29 @@ to operations by enclosing them in parentheses like this:
 	</parens>
 </div>
 
+Finally, you can also refer to enum literals using 
+
+  <litref value="nameOfTheLiteral"/>
+
 Do not use any other expression structures, don't make up ones that feel similar.
 Only use the ones introduced explicitly.
+
+----------------
+
+Sometimes "if" expressions become too complicated. So there is another
+way to express conditionals, similar to a switch in C or Java.
+
+<alternatives>
+  <case>
+  	<condition>put the first condition expression here</condition>
+  	<value>put the first value here</value>
+  </case>
+  <case>
+  	<condition>put the second condition expression here</condition>
+  	<value>put the second value here</value>
+  </case>
+  ... and so on.
+</alternatives>
+
+You can use as many <case> tags as you need, each with its own 
+<condition> and <value>
