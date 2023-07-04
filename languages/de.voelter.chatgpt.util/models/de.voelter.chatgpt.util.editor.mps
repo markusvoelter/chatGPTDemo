@@ -101,6 +101,9 @@
           <property role="Vb096" value="hEZAO13/white" />
         </node>
       </node>
+      <node concept="Veino" id="6W$F1Juxm8_" role="3F10Kt">
+        <property role="Vb096" value="fLwANPn/red" />
+      </node>
     </node>
   </node>
 </model>

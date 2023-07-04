@@ -90,5 +90,8 @@ Here is an example:
     </div>
   </calc>
 
+There is also greaterThan, lessThan, equals and notEquals. And finally,
+there's a <booleanLit> with attribute "value" that can be "true" or "false".
+
 Do not use any other expression structures, don't make up ones that feel similar.
 Only use the ones introduced explicitly.
