@@ -13,14 +13,17 @@ type and a type. Here is an example:
   <calculation name="deltaFever" type="int"/>
 </questionnaire>
 
+Calculations are optional; they should only be added if they make sense.
+Not every questionnaire needs calculations.
+
 ---------------
 
 The data types that are available are int (for numbers), boolean (for truth values)
 and enumerations. You have seen examples for int and boolean above. Here is an
-example for an enum:
+example for an enum; it lists its literals in curly braces, separated by comma.
 
 <questionnaire name="FeverQuestionnaire"/>
-  <field name="gender" type="enum{male, female, other}"/>
+  <field name="gender" type="{male, female, other}"/>
 </questionnaire>
 
 
