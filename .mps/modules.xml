@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/playground/playground.msd" folder="" />
     </projectModules>

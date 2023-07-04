@@ -7,7 +7,7 @@ A questionnaire is enclosed by the <questionnaire> tag. It has a name attribute.
 Inside a <questionnaire> there are <field> and <calculation> tags, each with a 
 type and a type. Here is an example:
 
-<questionnaire name="FeverQuestionnaire"/>
+<questionnaire name="FeverQuestionnaire">
   <field name="measuredTemperature" type="int"/>
   <field name="doYouHaveAHeadache" type="boolean"/>
   <calculation name="deltaFever" type="int"/>

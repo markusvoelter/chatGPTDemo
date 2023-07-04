@@ -26,6 +26,7 @@
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -124,6 +125,22 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1JujsM2">
+    <ref role="1XX52x" to="pfdp:6W$F1Juj8PR" resolve="FormRoot" />
+    <node concept="3EZMnI" id="6W$F1JujsMe" role="2wV5jI">
+      <node concept="2iRkQZ" id="6W$F1JujsMf" role="2iSdaV" />
+      <node concept="3F0ifn" id="6W$F1JujsM4" role="3EZMnx">
+        <property role="3F0ifm" value="Form Root" />
+      </node>
+      <node concept="2T_mXK" id="6W$F1JujsMn" role="3EZMnx" />
+      <node concept="3F0ifn" id="6W$F1JujsMr" role="3EZMnx" />
+      <node concept="3F0ifn" id="6W$F1JujsMx" role="3EZMnx" />
+      <node concept="3F1sOY" id="6W$F1JujsMG" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1JujsLA" resolve="form" />
+      </node>
+      <node concept="VPM3Z" id="6W$F1JujsMv" role="3F10Kt" />
     </node>
   </node>
 </model>
