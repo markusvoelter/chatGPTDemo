@@ -69,7 +69,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="6W$F1JuZoAs">
-    <ref role="13h7C2" to="capj:6W$F1JuZojM" resolve="IChatGPTHistoryProvider" />
+    <ref role="13h7C2" to="capj:6W$F1JuZojM" resolve="IChatGPTRoot" />
     <node concept="13i0hz" id="6W$F1JuZoAB" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />

@@ -91,7 +91,7 @@
   </node>
   <node concept="PlHQZ" id="6W$F1JuZojM">
     <property role="EcuMT" value="8008715273076835570" />
-    <property role="TrG5h" value="IChatGPTHistoryProvider" />
+    <property role="TrG5h" value="IChatGPTRoot" />
   </node>
 </model>
 

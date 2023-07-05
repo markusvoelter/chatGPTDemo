@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="using an alt instead of an if by default">
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" afterDir="false" />
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="modularizing the form specific stuff out of the utilitites">
       <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/playground/playground.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/playground.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +231,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -367,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688549621226</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="modularizing the form specific stuff out of the utilitites">
+      <created>1688550433684</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688550433684</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -496,6 +501,7 @@
     <MESSAGE value="WIP" />
     <MESSAGE value="flexible temperature added" />
     <MESSAGE value="using an alt instead of an if by default" />
-    <option name="LAST_COMMIT_MESSAGE" value="using an alt instead of an if by default" />
+    <MESSAGE value="modularizing the form specific stuff out of the utilitites" />
+    <option name="LAST_COMMIT_MESSAGE" value="modularizing the form specific stuff out of the utilitites" />
   </component>
 </project>
