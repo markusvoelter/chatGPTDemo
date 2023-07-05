@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="interactive editing works.">
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="intermediate commit">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.typesystem.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/tutorial.txt" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/tutorial.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,15 +230,21 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
+              <option name="myItemId" value="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,12 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,14 +285,6 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,6 +306,70 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/languages/ch.updbern.forms/models/ch.updbern.forms.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8008715273067179402" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -473,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688561282966</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="intermediate commit">
+      <created>1688564138334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688564138334</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -584,7 +646,7 @@
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/1158360936468903663" title="DataRefExpr" />
+            <node ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273067179402" title="InlineEnumTypeDecl" />
           </holder>
         </query>
         <usage_view>
@@ -606,7 +668,7 @@
                     <child caption="ch.updbern.forms.structure" excluded="false" isresult="false" results_section="false">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="DataRefExpr" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/1158360936468903663" isRoot="true">
+                      <child caption="InlineEnumTypeDecl" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273067179402" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
@@ -627,29 +689,29 @@
                     <child caption="ch.updbern.forms.behavior" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="FormExpressionParser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273084129221" isRoot="true">
+                      <child caption="FormSerialiser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273082739421" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="parseInternalCustom(Element):node&lt;Expression&gt;" info="(role: member in: FormExpressionParser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273084129381">
+                        <child caption="encodeType(node&lt;Type&gt;):string" info="(role: member in: FormSerialiser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083057194">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="DataRefExpr" info="(role: quotedNode in: &lt;light quotation&gt;)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273067941993">
+                          <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: :)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083179656">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="target" />
+                          </child>
+                          <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083127176">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                             <role name="target" />
                           </child>
                         </child>
                       </child>
-                      <child caption="FormExpressionSerialiser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273084782126" isRoot="true">
+                      <child caption="FormXMLParser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273065432720" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="serialiseInternalCustom(node&lt;Expression&gt;):Element" info="(role: member in: FormExpressionSerialiser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273084782266">
+                        <child caption="convertType(string):node&lt;Type&gt;" info="(role: member in: FormXMLParser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273066834938">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="DataRefExpr" info="(role: conceptArgument in: :)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273087480682">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                          <child caption="DataRefExpr" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273087476894">
+                          <child caption="InlineEnumTypeDecl" info="(role: quotedNode in: &lt;light quotation&gt;)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273067329810">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                             <role name="target" />
                           </child>
@@ -657,31 +719,51 @@
                       </child>
                       <model uid="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)" />
                     </child>
-                    <child caption="ch.updbern.forms.constraints" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="DataRefExpr_Constraints" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:152c2f3f-818f-4bd7-a145-547f7fbe08e1(ch.updbern.forms.constraints)/1158360936468929614" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="target" />
-                      </child>
-                      <model uid="r:152c2f3f-818f-4bd7-a145-547f7fbe08e1(ch.updbern.forms.constraints)" />
-                    </child>
                     <child caption="ch.updbern.forms.editor" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="DataRefExpr_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:7867a220-2ae6-46e3-8a4e-805ace33a02c(ch.updbern.forms.editor)/1158360936468903692" isRoot="true">
+                      <child caption="InlineEnumTypeDecl_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:7867a220-2ae6-46e3-8a4e-805ace33a02c(ch.updbern.forms.editor)/8008715273067179482" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="target" />
                       </child>
                       <model uid="r:7867a220-2ae6-46e3-8a4e-805ace33a02c(ch.updbern.forms.editor)" />
                     </child>
+                    <child caption="ch.updbern.forms.structure" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="EnumTypeType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273097694611" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="decl" info="(role: linkDeclaration in: EnumTypeType)" excluded="false" isresult="true" results_section="true" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273097694612">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" />
+                    </child>
                     <child caption="ch.updbern.forms.typesystem" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="typeof_DataRefExpr" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/1158360936468903734" isRoot="true">
+                      <child caption="enum" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097672368" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="dre" info="(role: applicableNode in: typeof_DataRefExpr)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/1158360936468903737">
+                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: :)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097688685">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097679215">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097682473">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <child caption="supertypeOf_InlineEnumType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097673863" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="inlineEnum" info="(role: applicableNode in: supertypeOf_InlineEnumType)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097673930">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -726,6 +808,7 @@
     <MESSAGE value="optimised imports" />
     <MESSAGE value="added the serialiser framework" />
     <MESSAGE value="interactive editing works." />
-    <option name="LAST_COMMIT_MESSAGE" value="interactive editing works." />
+    <MESSAGE value="intermediate commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intermediate commit" />
   </component>
 </project>

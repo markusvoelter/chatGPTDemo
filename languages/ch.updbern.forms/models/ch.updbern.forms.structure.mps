@@ -130,7 +130,7 @@
   </node>
   <node concept="1TIwiD" id="6W$F1JuqyQa">
     <property role="EcuMT" value="8008715273067179402" />
-    <property role="TrG5h" value="InlineEnumType" />
+    <property role="TrG5h" value="InlineEnumTypeDecl" />
     <property role="34LRSv" value="enum" />
     <ref role="1TJDcQ" to="hm2y:6sdnDbSlaok" resolve="Type" />
     <node concept="1TJgyj" id="6W$F1JuqyQb" role="1TKVEi">
@@ -163,6 +163,22 @@
       <property role="IQ2nx" value="8008715273071771075" />
       <property role="TrG5h" value="tempLitName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6W$F1JweRM6">
+    <property role="EcuMT" value="8008715273097673862" />
+    <property role="TrG5h" value="GenericEnumType" />
+    <ref role="1TJDcQ" to="hm2y:6sdnDbSlaok" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="6W$F1JweWQj">
+    <property role="EcuMT" value="8008715273097694611" />
+    <property role="TrG5h" value="EnumTypeType" />
+    <ref role="1TJDcQ" to="hm2y:6sdnDbSlaok" resolve="Type" />
+    <node concept="1TJgyj" id="6W$F1JweWQk" role="1TKVEi">
+      <property role="IQ2ns" value="8008715273097694612" />
+      <property role="20kJfa" value="decl" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
     </node>
   </node>
 </model>

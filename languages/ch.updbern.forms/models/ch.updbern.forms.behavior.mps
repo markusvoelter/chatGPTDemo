@@ -733,7 +733,7 @@
             <node concept="3cpWs6" id="6W$F1Jursx3" role="3cqZAp">
               <node concept="2pJPEk" id="6W$F1Jur7$h" role="3cqZAk">
                 <node concept="2pJPED" id="6W$F1Jur7$i" role="2pJPEn">
-                  <ref role="2pJxaS" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumType" />
+                  <ref role="2pJxaS" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
                   <node concept="2pIpSj" id="6W$F1JuraeB" role="2pJxcM">
                     <ref role="2pIpSl" to="pfdp:6W$F1JuqyQb" resolve="literals" />
                     <node concept="36biLy" id="6W$F1JuraH_" role="28nt2d">
@@ -2008,7 +2008,7 @@
                       <node concept="2OqwBi" id="6W$F1Jvn__q" role="2Oq$k0">
                         <node concept="1PxgMI" id="6W$F1Jvn$DB" role="2Oq$k0">
                           <node concept="chp4Y" id="6W$F1Jvn_a8" role="3oSUPX">
-                            <ref role="cht4Q" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumType" />
+                            <ref role="cht4Q" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
                           </node>
                           <node concept="37vLTw" id="6W$F1Jvnzz1" role="1m5AlR">
                             <ref role="3cqZAo" node="6W$F1Jvn7Iv" resolve="t" />
@@ -2078,7 +2078,7 @@
             </node>
             <node concept="1mIQ4w" id="6W$F1Jvnom7" role="2OqNvi">
               <node concept="chp4Y" id="6W$F1Jvnom8" role="cj9EA">
-                <ref role="cht4Q" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumType" />
+                <ref role="cht4Q" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
               </node>
             </node>
           </node>

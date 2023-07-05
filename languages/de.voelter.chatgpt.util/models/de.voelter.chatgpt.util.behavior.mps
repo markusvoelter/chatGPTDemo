@@ -2079,7 +2079,7 @@
                     <property role="373rjd" value="true" />
                     <ref role="37wK5l" to="mmaq:~Element.&lt;init&gt;(java.lang.String)" resolve="Element" />
                     <node concept="Xl_RD" id="6W$F1JwewhJ" role="37wK5m">
-                      <property role="Xl_RC" value="boleanLit" />
+                      <property role="Xl_RC" value="booleanLit" />
                     </node>
                   </node>
                 </node>

@@ -419,7 +419,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JuqyRq">
-    <ref role="1XX52x" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumType" />
+    <ref role="1XX52x" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
     <node concept="3EZMnI" id="6W$F1JuqyRv" role="2wV5jI">
       <node concept="2iRfu4" id="6W$F1JuqyRw" role="2iSdaV" />
       <node concept="3F0ifn" id="6W$F1JuqyRs" role="3EZMnx">
@@ -457,6 +457,12 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1JwfQz_">
+    <ref role="1XX52x" to="pfdp:6W$F1JweWQj" resolve="EnumTypeType" />
+    <node concept="3F0ifn" id="6W$F1JwfQzB" role="2wV5jI">
+      <property role="3F0ifm" value="enum" />
     </node>
   </node>
 </model>
