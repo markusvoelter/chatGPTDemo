@@ -10,6 +10,7 @@
   <imports>
     <import index="oq0c" ref="r:6c6155f0-4bbe-4af5-8c26-244d570e21e4(org.iets3.core.expr.base.plugin)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="btm1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:org.apache.commons.lang3(MPS.IDEA/)" />
     <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
   </imports>
   <registry>
@@ -49,7 +50,9 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="7723470090030138869" name="foldedCellModel" index="AHCbl" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
@@ -59,7 +62,14 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
+      <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
+        <child id="1225898971709" name="getter" index="1Hhtcw" />
+      </concept>
+      <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
+        <child id="1225900141900" name="modelAccessor" index="1HlULh" />
+      </concept>
       <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
+      <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="1176749715029" name="jetbrains.mps.lang.editor.structure.QueryFunction_CellProvider" flags="in" index="3VJUX4" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -177,6 +187,7 @@
   <node concept="24kQdi" id="6W$F1JuHVZv">
     <ref role="1XX52x" to="capj:6W$F1JuHVYY" resolve="ChatGPTInfo" />
     <node concept="3EZMnI" id="6W$F1JuHXVy" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="2iRkQZ" id="6W$F1JuHXVz" role="2iSdaV" />
       <node concept="3EZMnI" id="6W$F1JuHVZ$" role="3EZMnx">
         <node concept="2iRfu4" id="6W$F1JuHVZ_" role="2iSdaV" />
@@ -197,6 +208,28 @@
         </node>
       </node>
       <node concept="2SsqMj" id="6W$F1JuHXVX" role="3EZMnx" />
+      <node concept="3EZMnI" id="6W$F1JvlgFZ" role="AHCbl">
+        <node concept="2iRfu4" id="6W$F1JvlgG0" role="2iSdaV" />
+        <node concept="3F0ifn" id="6W$F1JvleFZ" role="3EZMnx">
+          <property role="3F0ifm" value="[ChatGPT]" />
+        </node>
+        <node concept="1HlG4h" id="6W$F1JvlgGc" role="3EZMnx">
+          <node concept="1HfYo3" id="6W$F1JvlgGe" role="1HlULh">
+            <node concept="3TQlhw" id="6W$F1JvlgGg" role="1Hhtcw">
+              <node concept="3clFbS" id="6W$F1JvlgGi" role="2VODD2">
+                <node concept="3clFbF" id="6W$F1JvlPtt" role="3cqZAp">
+                  <node concept="2OqwBi" id="6W$F1JvlkZC" role="3clFbG">
+                    <node concept="pncrf" id="6W$F1JvlkJ2" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="6W$F1JvllsI" role="2OqNvi">
+                      <ref role="3TsBF5" to="capj:6W$F1JuHVZ3" resolve="input" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3EZMnI" id="6W$F1JuUb1N" role="6VMZX">
       <node concept="3EZMnI" id="6W$F1JuPKLF" role="3EZMnx">

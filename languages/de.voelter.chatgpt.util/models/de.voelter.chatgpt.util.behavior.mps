@@ -120,6 +120,16 @@
       </node>
       <node concept="3clFbS" id="6W$F1Jvgqlh" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="6W$F1Jvjoxp" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="createSerialiserIfAvailable" />
+      <node concept="3Tm1VV" id="6W$F1Jvjoxq" role="1B3o_S" />
+      <node concept="3uibUv" id="6W$F1Jvjoxr" role="3clF45">
+        <ref role="3uigEE" node="6W$F1JvjlMx" resolve="NodesToXMLSerialiser" />
+      </node>
+      <node concept="3clFbS" id="6W$F1Jvjoxs" role="3clF47" />
+    </node>
     <node concept="13hLZK" id="6W$F1JuZoAt" role="13h7CW">
       <node concept="3clFbS" id="6W$F1JuZoAu" role="2VODD2" />
     </node>
@@ -139,6 +149,23 @@
     </node>
     <node concept="2tJIrI" id="6W$F1JvdoIZ" role="jymVt" />
     <node concept="3Tm1VV" id="6W$F1JvdoIp" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="6W$F1JvjlMx">
+    <property role="TrG5h" value="NodesToXMLSerialiser" />
+    <node concept="2tJIrI" id="6W$F1JvjlMy" role="jymVt" />
+    <node concept="3clFb_" id="6W$F1JvjlQe" role="jymVt">
+      <property role="TrG5h" value="serialise" />
+      <node concept="17QB3L" id="6W$F1JvjlS8" role="3clF45" />
+      <node concept="3Tm1VV" id="6W$F1JvjlQg" role="1B3o_S" />
+      <node concept="3clFbS" id="6W$F1JvjlQh" role="3clF47" />
+      <node concept="37vLTG" id="6W$F1JvjlQi" role="3clF46">
+        <property role="TrG5h" value="n" />
+        <node concept="3Tqbb2" id="6W$F1JvjlRr" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6W$F1JvjlPU" role="jymVt" />
+    <node concept="2tJIrI" id="6W$F1JvjlMD" role="jymVt" />
+    <node concept="3Tm1VV" id="6W$F1JvjlME" role="1B3o_S" />
   </node>
 </model>
 
