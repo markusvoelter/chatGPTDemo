@@ -2235,7 +2235,7 @@
                         <node concept="liA8E" id="6W$F1JuG7JX" role="2OqNvi">
                           <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String)" resolve="getAttributeValue" />
                           <node concept="Xl_RD" id="6W$F1JuG7JY" role="37wK5m">
-                            <property role="Xl_RC" value="lit" />
+                            <property role="Xl_RC" value="value" />
                           </node>
                         </node>
                       </node>
@@ -2293,7 +2293,7 @@
                                     <node concept="liA8E" id="6W$F1JutCIM" role="2OqNvi">
                                       <ref role="37wK5l" to="mmaq:~Element.getAttributeValue(java.lang.String)" resolve="getAttributeValue" />
                                       <node concept="Xl_RD" id="6W$F1JutCXu" role="37wK5m">
-                                        <property role="Xl_RC" value="name" />
+                                        <property role="Xl_RC" value="value" />
                                       </node>
                                     </node>
                                   </node>
@@ -2482,7 +2482,7 @@
                 <node concept="liA8E" id="6W$F1JvBYGZ" role="2OqNvi">
                   <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
                   <node concept="Xl_RD" id="6W$F1JvBYHv" role="37wK5m">
-                    <property role="Xl_RC" value="name" />
+                    <property role="Xl_RC" value="value" />
                   </node>
                   <node concept="2OqwBi" id="6W$F1JvC0pw" role="37wK5m">
                     <node concept="2OqwBi" id="6W$F1JvBZpX" role="2Oq$k0">
@@ -2532,7 +2532,7 @@
                 <node concept="liA8E" id="6W$F1JvC0Na" role="2OqNvi">
                   <ref role="37wK5l" to="mmaq:~Element.setAttribute(java.lang.String,java.lang.String)" resolve="setAttribute" />
                   <node concept="Xl_RD" id="6W$F1JvC0Nb" role="37wK5m">
-                    <property role="Xl_RC" value="lit" />
+                    <property role="Xl_RC" value="value" />
                   </node>
                   <node concept="2OqwBi" id="6W$F1JvC0Nc" role="37wK5m">
                     <node concept="2OqwBi" id="6W$F1JvC0Nd" role="2Oq$k0">

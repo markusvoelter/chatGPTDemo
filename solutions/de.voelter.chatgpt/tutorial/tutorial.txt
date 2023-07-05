@@ -32,7 +32,7 @@ derived data from the data captured in fields. Here is an example regarding feve
   <field name="measuredTemperature" type="int"/>
   <calc name="overtemp">
     <minus>
-		<fieldref name="measuredTemperature"/>	    	
+		<fieldref value="measuredTemperature"/>	    	
 	  	<intLit value="38"/>
     </minus>
   </calc>
@@ -53,7 +53,7 @@ The expressions in calculations can be nested. For example, to represent
 
 <plus>
 	<minus>
-		<fieldref name="measuredTemperature"/>	    	
+		<fieldref value="measuredTemperature"/>	    	
 	  	<intLit value="38"/>
 	</minus>
 	<intLit value="1"/>
@@ -70,11 +70,11 @@ Here is an example:
   <calc name="overallSleepQuality">
     <div>
       <plus>
-        <fieldref name="hoursOfSleep"/>
+        <fieldref value="hoursOfSleep"/>
         <if>
           <and>
-            <fieldref name="difficultyFallingAsleep"/>
-            <fieldref name="wakingUpDuringNight"/>
+            <fieldref value="difficultyFallingAsleep"/>
+            <fieldref value="wakingUpDuringNight"/>
           </and>
           <intLit value="1"/>
           <intLit value="0"/>
@@ -82,8 +82,8 @@ Here is an example:
       </plus>
       <if>
         <and>
-          <fieldref name="feelingRefreshed"/>
-          <fieldref name="dreaming"/>
+          <fieldref value="feelingRefreshed"/>
+          <fieldref value="dreaming"/>
         </and>
         <intLit value="1"/>
         <intLit value="0"/>
@@ -97,11 +97,11 @@ There is also <stringLit value='someText'/>. Finally, you can add precedence
 to operations by enclosing them in parentheses like this:
 
  <div>
-	<fieldref name="weight"/>
+	<fieldref value="weight"/>
     <parens>
 		<mul>
-			<fieldref name="height"/>
-            <fieldref name="height"/>
+			<fieldref value="height"/>
+            <fieldref value="height"/>
 		</mul>
 	</parens>
 </div>
@@ -120,15 +120,14 @@ way to express conditionals, similar to a switch in C or Java.
 
 <alternatives>
   <case>
-  	<condition>put the first condition expression here</condition>
-  	<value>put the first value here</value>
+  	...
   </case>
   <case>
-  	<condition>put the second condition expression here</condition>
-  	<value>put the second value here</value>
+  	...
   </case>
   ... and so on.
 </alternatives>
 
-You can use as many <case> tags as you need, each with its own 
-<condition> and <value>
+You can use as many <case> tags as you need. A Case has two child expressions.
+The first one is the condition, and the second one is the value. The semantics
+is that if the condition is true, the value is returned.
