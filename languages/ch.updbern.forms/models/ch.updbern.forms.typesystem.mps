@@ -130,6 +130,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -137,6 +140,7 @@
   </registry>
   <node concept="1YbPZF" id="10jkM9FUJsQ">
     <property role="TrG5h" value="typeof_DataRefExpr" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="10jkM9FUJsR" role="18ibNy">
       <node concept="1Z5TYs" id="10jkM9FUJKE" role="3cqZAp">
         <node concept="mw_s8" id="10jkM9FUJKY" role="1ZfhKB">
@@ -167,6 +171,7 @@
   </node>
   <node concept="1YbPZF" id="10jkM9FUK5i">
     <property role="TrG5h" value="typeof_Field" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="10jkM9FUK5j" role="18ibNy">
       <node concept="1Z5TYs" id="10jkM9FUKd6" role="3cqZAp">
         <node concept="mw_s8" id="10jkM9FUKdq" role="1ZfhKB">
@@ -197,6 +202,7 @@
   </node>
   <node concept="1YbPZF" id="10jkM9FUKHx">
     <property role="TrG5h" value="typeof_Calculated" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="10jkM9FUKHy" role="18ibNy">
       <node concept="1Z5TYs" id="10jkM9FUKQZ" role="3cqZAp">
         <node concept="mw_s8" id="10jkM9FUKRg" role="1ZfhKB">
@@ -227,6 +233,7 @@
   </node>
   <node concept="1YbPZF" id="6W$F1JweQim">
     <property role="TrG5h" value="typeof_EnumLitRef" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="6W$F1JweQin" role="18ibNy">
       <node concept="1Z5TYs" id="6W$F1JweQrF" role="3cqZAp">
         <node concept="mw_s8" id="6W$F1Jwf0sH" role="1ZfhKB">
@@ -346,6 +353,7 @@
   </node>
   <node concept="2sgARr" id="6W$F1JweRM7">
     <property role="TrG5h" value="supertypeOf_InlineEnumType" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="6W$F1JweRM8" role="2sgrp5">
       <node concept="3clFbF" id="6W$F1JweRO6" role="3cqZAp">
         <node concept="2pJPEk" id="6W$F1JweRO4" role="3clFbG">
@@ -362,6 +370,7 @@
   </node>
   <node concept="1YbPZF" id="6W$F1Jwf0fm">
     <property role="TrG5h" value="typeof_InlineEnumTypeDecl" />
+    <property role="3GE5qa" value="form" />
     <node concept="3clFbS" id="6W$F1Jwf0fn" role="18ibNy">
       <node concept="1Z5TYs" id="6W$F1Jwf0ql" role="3cqZAp">
         <node concept="mw_s8" id="6W$F1Jwf0qD" role="1ZfhKB">

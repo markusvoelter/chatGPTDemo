@@ -187,6 +187,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -196,6 +199,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="10jkM9FUDF2">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:10jkM9FUDEr" resolve="Field" />
     <node concept="3EZMnI" id="10jkM9FUDF7" role="2wV5jI">
       <node concept="2iRfu4" id="10jkM9FUDF8" role="2iSdaV" />
@@ -214,6 +218,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="10jkM9FUDG2">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:10jkM9FUDEz" resolve="Calculated" />
     <node concept="3EZMnI" id="10jkM9FUDG4" role="2wV5jI">
       <node concept="2iRfu4" id="10jkM9FUDG5" role="2iSdaV" />
@@ -232,6 +237,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="10jkM9FUDGY">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:10jkM9FUmmZ" resolve="Form" />
     <node concept="3EZMnI" id="10jkM9FUDHg" role="2wV5jI">
       <node concept="2iRkQZ" id="10jkM9FUDHh" role="2iSdaV" />
@@ -258,6 +264,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="10jkM9FUJsc">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:10jkM9FUJrJ" resolve="DataRefExpr" />
     <node concept="1iCGBv" id="10jkM9FUJse" role="2wV5jI">
       <ref role="1NtTu8" to="pfdp:10jkM9FUJrK" resolve="data" />
@@ -273,6 +280,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JujsM2">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:6W$F1Juj8PR" resolve="FormRoot" />
     <node concept="3EZMnI" id="6W$F1JujsMe" role="2wV5jI">
       <node concept="2iRkQZ" id="6W$F1JujsMf" role="2iSdaV" />
@@ -407,6 +415,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JuqyQE">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:6W$F1JuqyQd" resolve="InlineEnumLit" />
     <node concept="1kIj98" id="6W$F1JuqyQP" role="2wV5jI">
       <property role="3g2DhO" value="true" />
@@ -423,6 +432,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JuqyRq">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:6W$F1JuqyQa" resolve="InlineEnumTypeDecl" />
     <node concept="3EZMnI" id="6W$F1JuqyRv" role="2wV5jI">
       <node concept="2iRfu4" id="6W$F1JuqyRw" role="2iSdaV" />
@@ -462,6 +472,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JuFDKM">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:6W$F1JuFDKl" resolve="EnumLitRef" />
     <node concept="1iCGBv" id="6W$F1JuFDKO" role="2wV5jI">
       <ref role="1NtTu8" to="pfdp:6W$F1JuFDKm" resolve="lit" />
@@ -474,9 +485,108 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W$F1JwfQz_">
+    <property role="3GE5qa" value="form" />
     <ref role="1XX52x" to="pfdp:6W$F1JweWQj" resolve="EnumTypeType" />
     <node concept="3F0ifn" id="6W$F1JwfQzB" role="2wV5jI">
       <property role="3F0ifm" value="enum" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1Jwh1D0">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="pfdp:6W$F1Jwh1Cz" resolve="FormTest" />
+    <node concept="3EZMnI" id="6W$F1Jwh1Du" role="2wV5jI">
+      <node concept="2iRkQZ" id="6W$F1Jwh1Dv" role="2iSdaV" />
+      <node concept="3EZMnI" id="6W$F1Jwh1D5" role="3EZMnx">
+        <node concept="2iRfu4" id="6W$F1Jwh1D6" role="2iSdaV" />
+        <node concept="3F0ifn" id="6W$F1Jwh1D2" role="3EZMnx">
+          <property role="3F0ifm" value="test for" />
+        </node>
+        <node concept="1iCGBv" id="6W$F1Jwh1De" role="3EZMnx">
+          <ref role="1NtTu8" to="pfdp:6W$F1Jwh1C$" resolve="form" />
+          <node concept="1sVBvm" id="6W$F1Jwh1Dg" role="1sWHZn">
+            <node concept="3F0A7n" id="6W$F1Jwh1Dr" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2T_mXK" id="6W$F1Jwh1DQ" role="3EZMnx" />
+      <node concept="3F2HdR" id="6W$F1Jwh1Ed" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1E1" resolve="contents" />
+        <node concept="2EHx9g" id="6W$F1JwiyV4" role="2czzBx" />
+        <node concept="3F0ifn" id="6W$F1Jwh1Ep" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <node concept="VPxyj" id="6W$F1Jwh1Er" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1Jwh1EV">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="pfdp:6W$F1Jwh1DZ" resolve="FieldValue" />
+    <node concept="3EZMnI" id="6W$F1Jwh1Fc" role="2wV5jI">
+      <node concept="2iRfu4" id="6W$F1Jwh1Fd" role="2iSdaV" />
+      <node concept="1iCGBv" id="6W$F1Jwh1EX" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1Ev" resolve="field" />
+        <node concept="1sVBvm" id="6W$F1Jwh1EZ" role="1sWHZn">
+          <node concept="3F0A7n" id="6W$F1Jwh1F6" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6W$F1Jwh1Fr" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="6W$F1Jwh1FI" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1F9" resolve="value" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1Jwh1Gn">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="pfdp:6W$F1Jwh1FP" resolve="CalcAssert" />
+    <node concept="3EZMnI" id="6W$F1Jwh1Gs" role="2wV5jI">
+      <node concept="2iRfu4" id="6W$F1Jwh1Gt" role="2iSdaV" />
+      <node concept="1iCGBv" id="6W$F1Jwh1GR" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1FS" resolve="calc" />
+        <node concept="1sVBvm" id="6W$F1Jwh1GT" role="1sWHZn">
+          <node concept="3F0A7n" id="6W$F1Jwh1H4" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6W$F1Jwh1Hd" role="3EZMnx">
+        <property role="3F0ifm" value="?" />
+      </node>
+      <node concept="3F1sOY" id="6W$F1Jwh1GC" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1FU" resolve="expected" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6W$F1Jwhyz2">
+    <property role="3GE5qa" value="test" />
+    <ref role="1XX52x" to="pfdp:6W$F1JwhyyB" resolve="FormTestRoot" />
+    <node concept="3EZMnI" id="6W$F1Jwhyzg" role="2wV5jI">
+      <node concept="2iRkQZ" id="6W$F1Jwhyzh" role="2iSdaV" />
+      <node concept="3F0ifn" id="6W$F1Jwhyz4" role="3EZMnx">
+        <property role="3F0ifm" value="Tests" />
+      </node>
+      <node concept="2T_mXK" id="6W$F1Jwhyzp" role="3EZMnx" />
+      <node concept="3F0ifn" id="6W$F1Jwhyzt" role="3EZMnx">
+        <node concept="VPM3Z" id="6W$F1Jwhyzz" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="6W$F1JwhyzA" role="3EZMnx">
+        <node concept="VPM3Z" id="6W$F1JwhyzB" role="3F10Kt" />
+      </node>
+      <node concept="3F2HdR" id="6W$F1JwhyzS" role="3EZMnx">
+        <ref role="1NtTu8" to="pfdp:6W$F1JwhyzI" resolve="tests" />
+        <node concept="2iRkQZ" id="6W$F1JwhyzU" role="2czzBx" />
+      </node>
     </node>
   </node>
 </model>
