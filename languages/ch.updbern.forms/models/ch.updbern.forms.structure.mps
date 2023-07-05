@@ -9,6 +9,7 @@
     <import index="4kwy" ref="r:657c9fde-2f36-4e61-ae17-20f02b8630ad(org.iets3.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
+    <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -120,8 +121,11 @@
     </node>
     <node concept="1TJgyi" id="6W$F1JuJegc" role="1TKVEl">
       <property role="IQ2nx" value="8008715273072600076" />
-      <property role="TrG5h" value="newReplyReplaces" />
+      <property role="TrG5h" value="showOnlyLatest" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="6W$F1JuZoC3" role="PzmwI">
+      <ref role="PrY4T" to="capj:6W$F1JuZojM" resolve="IChatGPTHistoryContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W$F1JuqyQa">

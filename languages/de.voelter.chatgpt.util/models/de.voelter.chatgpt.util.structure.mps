@@ -23,6 +23,7 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
@@ -69,7 +70,7 @@
   </node>
   <node concept="1TIwiD" id="6W$F1JuHVYY">
     <property role="EcuMT" value="8008715273072263102" />
-    <property role="TrG5h" value="ChatGPTInput" />
+    <property role="TrG5h" value="ChatGPTInfo" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6W$F1JuHVYZ" role="lGtFl">
       <property role="Hh88m" value="chatGPTInput" />
@@ -79,9 +80,18 @@
     </node>
     <node concept="1TJgyi" id="6W$F1JuHVZ3" role="1TKVEl">
       <property role="IQ2nx" value="8008715273072263107" />
-      <property role="TrG5h" value="inputThatGeneratedThis" />
+      <property role="TrG5h" value="input" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="6W$F1JuPKL7" role="1TKVEl">
+      <property role="IQ2nx" value="8008715273074314311" />
+      <property role="TrG5h" value="reply" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6W$F1JuZojM">
+    <property role="EcuMT" value="8008715273076835570" />
+    <property role="TrG5h" value="IChatGPTHistoryProvider" />
   </node>
 </model>
 

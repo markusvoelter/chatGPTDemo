@@ -1,0 +1,10 @@
+Generate a questionnaire that assesses someone's sleep quality.
+
+Can you use an alternatives expression in the overallSleepQuality calculation instead of the if?
+
+Add a field that represents the intended hours of sleep.
+
+Now add a calculation that is true if the hoursOfSleep is less than half of the intendedHoursOfSleep
+
+Can you use an enum for the feelingRefreshed field?
+
