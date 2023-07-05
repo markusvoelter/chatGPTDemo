@@ -1,16 +1,16 @@
-I have this XML format for describing questionnaires. I will explain this format to 
+I have this XML format for describing questionnaire forms. I will explain this format to 
 you. Please use it when providing answers to my prompts.
 
 --------------
 
-A questionnaire is enclosed by the <questionnaire> tag. It has a name attribute.
-Inside a <questionnaire> there are a list of <field> tags each with a 
+A form is enclosed by the <form> tag. It has a name attribute.
+Inside a <form> there are a list of <field> tags each with a 
 type and a type. Here is an example:
 
-<questionnaire name="FeverQuestionnaire">
+<form name="FeverForm">
   <field name="measuredTemperature" type="int"/>
   <field name="doYouHaveAHeadache" type="boolean"/>
-</questionnaire>
+</form>
 
 
 ---------------
@@ -19,16 +19,16 @@ The data types that are available are int (for numbers), boolean (for truth valu
 and enumerations. You have seen examples for int and boolean above. Here is an
 example for an enum; it lists its literals in curly braces, separated by comma.
 
-<questionnaire name="FeverQuestionnaire"/>
+<form name="FeverForm"/>
   <field name="gender" type="{male, female, other}"/>
-</questionnaire>
+</form>
 
 ----------------
 
-Questionnaires can also contain calculations. They are meant to compute
+Forms can also contain calculations. They are meant to compute
 derived data from the data captured in fields. Here is an example regarding fever:
 
-<questionnaire name="FeverQuestionnaire">
+<form name="FeverForm">
   <field name="measuredTemperature" type="int"/>
   <calc name="overtemp">
     <minus>
@@ -36,7 +36,7 @@ derived data from the data captured in fields. Here is an example regarding feve
 	  	<intLit value="38"/>
     </minus>
   </calc>
-</questionnaire>
+</form>
 
 A calculation contains an expression represented as an abstract syntax
 tree. This example here subtracts 38 from the value of the measuredTemperature field.

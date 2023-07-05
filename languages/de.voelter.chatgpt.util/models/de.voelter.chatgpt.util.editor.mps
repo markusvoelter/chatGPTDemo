@@ -108,10 +108,6 @@
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
-    <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
-      <concept id="4682418030828844315" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineColorStyle" flags="lg" index="2T_bXS" />
-      <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -197,13 +193,6 @@
         <node concept="Veino" id="6W$F1JuHVZU" role="3F10Kt">
           <node concept="1iSF2X" id="6W$F1JuHVZW" role="VblUZ">
             <property role="1iTho6" value="dddddd" />
-          </node>
-        </node>
-      </node>
-      <node concept="2T_mXK" id="6W$F1JuHXWl" role="3EZMnx">
-        <node concept="2T_bXS" id="6W$F1JuHXWw" role="3F10Kt">
-          <node concept="1iSF2X" id="6W$F1JuHXWy" role="VblUZ">
-            <property role="1iTho6" value="666666" />
           </node>
         </node>
       </node>

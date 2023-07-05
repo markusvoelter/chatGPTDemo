@@ -190,8 +190,12 @@
       </concept>
     </language>
     <language id="1919c723-b60b-4592-9318-9ce96d91da44" name="de.itemis.mps.editor.celllayout">
+      <concept id="4682418030828844314" name="de.itemis.mps.editor.celllayout.structure.HorzontalLineWidthStyle" flags="lg" index="2T_bXT" />
       <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
       <concept id="2728748097294412051" name="de.itemis.mps.editor.celllayout.structure.PushXStyle" flags="lg" index="3T7XNW" />
+      <concept id="2728748097294192922" name="de.itemis.mps.editor.celllayout.structure.IntegerStyle" flags="lg" index="3To2jP">
+        <property id="1221209241505" name="value" index="1lJzqX" />
+      </concept>
     </language>
     <language id="f89904fb-9486-43a1-865e-5ad0375a8a88" name="de.itemis.mps.editor.bool">
       <concept id="7122083600695857782" name="de.itemis.mps.editor.bool.structure.CellModel_BooleanText" flags="sg" stub="416014060004530854" index="2aMyGU">
@@ -328,7 +332,7 @@
       <node concept="3EZMnI" id="6W$F1JuJefI" role="3EZMnx">
         <node concept="2iRfu4" id="6W$F1JuJefJ" role="2iSdaV" />
         <node concept="3F0ifn" id="6W$F1JujsM4" role="3EZMnx">
-          <property role="3F0ifm" value="Form Root" />
+          <property role="3F0ifm" value="Forms Collection" />
         </node>
         <node concept="3XFhqQ" id="6W$F1JuJegx" role="3EZMnx" />
         <node concept="3XFhqQ" id="6W$F1JuJegC" role="3EZMnx" />
@@ -341,7 +345,11 @@
           <ref role="1NtTu8" to="pfdp:6W$F1JuJegc" resolve="showOnlyLatest" />
         </node>
       </node>
-      <node concept="2T_mXK" id="6W$F1JujsMn" role="3EZMnx" />
+      <node concept="2T_mXK" id="6W$F1JujsMn" role="3EZMnx">
+        <node concept="2T_bXT" id="3G8rFPcObVy" role="3F10Kt">
+          <property role="1lJzqX" value="2" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="6W$F1JujsMx" role="3EZMnx">
         <node concept="VPM3Z" id="6W$F1JvHEgI" role="3F10Kt" />
       </node>
@@ -794,7 +802,19 @@
     <ref role="1XX52x" to="pfdp:6W$F1JwhyyB" resolve="FormTestRoot" />
     <node concept="3EZMnI" id="6W$F1Jwhyzg" role="2wV5jI">
       <node concept="2iRkQZ" id="6W$F1Jwhyzh" role="2iSdaV" />
+      <node concept="3F0ifn" id="3G8rFPcNLmA" role="3EZMnx">
+        <property role="3F0ifm" value="Test Collection" />
+      </node>
+      <node concept="2T_mXK" id="3G8rFPcNLmN" role="3EZMnx">
+        <node concept="2T_bXT" id="3G8rFPcNLmV" role="3F10Kt">
+          <property role="1lJzqX" value="2" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3G8rFPcNLmw" role="3EZMnx">
+        <node concept="VPM3Z" id="3G8rFPcNLm$" role="3F10Kt" />
+      </node>
       <node concept="3F2HdR" id="6W$F1JwhyzS" role="3EZMnx">
+        <property role="2czwfO" value="\n" />
         <ref role="1NtTu8" to="pfdp:6W$F1JwhyzI" resolve="tests" />
         <node concept="2iRkQZ" id="6W$F1JwhyzU" role="2czzBx" />
       </node>
