@@ -9,10 +9,28 @@
     <import index="4kwy" ref="r:657c9fde-2f36-4e61-ae17-20f02b8630ad(org.iets3.core.base.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
-    <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
     <import index="av4b" ref="r:ba7faab6-2b80-43d5-8b95-0c440665312c(org.iets3.core.expr.tests.structure)" implicit="true" />
+    <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="2756621024541681841" name="jetbrains.mps.lang.resources.structure.Primitive" flags="ng" index="1irPi6">
+        <child id="1860120738943552529" name="fillColor" index="3PKjn_" />
+        <child id="1860120738943552531" name="borderColor" index="3PKjnB" />
+      </concept>
+      <concept id="2756621024541681849" name="jetbrains.mps.lang.resources.structure.Text" flags="ng" index="1irPie">
+        <property id="2756621024541681854" name="text" index="1irPi9" />
+        <child id="1860120738943552534" name="color" index="3PKjny" />
+      </concept>
+      <concept id="2756621024541674821" name="jetbrains.mps.lang.resources.structure.TextIcon" flags="ng" index="1irR5M">
+        <property id="1358878980655415353" name="iconId" index="2$rrk2" />
+        <child id="2756621024541675110" name="layers" index="1irR9h" />
+      </concept>
+      <concept id="2756621024541675105" name="jetbrains.mps.lang.resources.structure.Rect" flags="ng" index="1irR9m" />
+      <concept id="1860120738943552477" name="jetbrains.mps.lang.resources.structure.ColorLiteral" flags="ng" index="3PKj8D">
+        <property id="1860120738943552481" name="val" index="3PKj8l" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -28,6 +46,7 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -115,28 +134,6 @@
       <property role="20kJfa" value="data" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="10jkM9FUDEw" resolve="Data" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6W$F1Juj8PR">
-    <property role="EcuMT" value="8008715273065237879" />
-    <property role="TrG5h" value="FormRoot" />
-    <property role="19KtqR" value="true" />
-    <property role="3GE5qa" value="form" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="1TJgyj" id="6W$F1JujsLA" role="1TKVEi">
-      <property role="IQ2ns" value="8008715273065319526" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="forms" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    </node>
-    <node concept="1TJgyi" id="6W$F1JuJegc" role="1TKVEl">
-      <property role="IQ2nx" value="8008715273072600076" />
-      <property role="TrG5h" value="showOnlyLatest" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="6W$F1JuZoC3" role="PzmwI">
-      <ref role="PrY4T" to="capj:6W$F1JuZojM" resolve="IChatGPTHistoryContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W$F1JuqyQa">
@@ -282,6 +279,29 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6W$F1Jwh1Cz" resolve="FormTest" />
     </node>
+    <node concept="1irR5M" id="2ISIOq3F3Ok" role="rwd14">
+      <property role="2$rrk2" value="1" />
+      <node concept="1irR9m" id="2ISIOq3F3Oo" role="1irR9h">
+        <node concept="3PKj8D" id="2ISIOq3F3Ot" role="3PKjn_">
+          <property role="3PKj8l" value="ff0000" />
+        </node>
+        <node concept="3PKj8D" id="2ISIOq3F3Ow" role="3PKjnB">
+          <property role="3PKj8l" value="ffffff" />
+        </node>
+      </node>
+      <node concept="1irPie" id="2ISIOq3F3OB" role="1irR9h">
+        <property role="1irPi9" value="T" />
+        <node concept="3PKj8D" id="2ISIOq3F3OJ" role="3PKjny">
+          <property role="3PKj8l" value="ffffff" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3G8rFPcPBak">
+    <property role="EcuMT" value="4253771607368430228" />
+    <property role="TrG5h" value="FormsChatGPTConfig" />
+    <property role="34LRSv" value="forms" />
+    <ref role="1TJDcQ" to="capj:3G8rFPcPsb7" resolve="ChatGPTConfig" />
   </node>
 </model>
 

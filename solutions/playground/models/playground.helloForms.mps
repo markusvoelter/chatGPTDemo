@@ -18,13 +18,7 @@
         <child id="8008715273067179403" name="literals" index="2LjC6g" />
       </concept>
       <concept id="8008715273067179405" name="ch.updbern.forms.structure.InlineEnumLit" flags="ng" index="2LjC6m" />
-      <concept id="8008715273065237879" name="ch.updbern.forms.structure.FormRoot" flags="ng" index="2Lq25G">
-        <property id="8008715273072600076" name="showOnlyLatest" index="2LA4wn" />
-        <child id="8008715273065319526" name="forms" index="2Lqm1X" />
-      </concept>
-      <concept id="8008715273071664149" name="ch.updbern.forms.structure.EnumLitRef" flags="ng" index="2Lyz0e">
-        <reference id="8008715273071664150" name="lit" index="2Lyz0d" />
-      </concept>
+      <concept id="4253771607368430228" name="ch.updbern.forms.structure.FormsChatGPTConfig" flags="ng" index="1RRxKD" />
       <concept id="1158360936468903663" name="ch.updbern.forms.structure.DataRefExpr" flags="ng" index="1VYqnd">
         <reference id="1158360936468903664" name="data" index="1VYqni" />
       </concept>
@@ -46,11 +40,7 @@
       <concept id="7971844778466793028" name="org.iets3.core.expr.base.structure.AlternativesExpression" flags="ng" index="2fGnzi">
         <child id="7971844778466793162" name="alternatives" index="2fGnxs" />
       </concept>
-      <concept id="5115872837156761033" name="org.iets3.core.expr.base.structure.EqualsExpression" flags="ng" index="30cPrO" />
       <concept id="5115872837156687764" name="org.iets3.core.expr.base.structure.GreaterExpression" flags="ng" index="30d7iD" />
-      <concept id="5115872837156724025" name="org.iets3.core.expr.base.structure.LogicalAndExpression" flags="ng" index="30deo4" />
-      <concept id="5115872837156723899" name="org.iets3.core.expr.base.structure.LogicalOrExpression" flags="ng" index="30deu6" />
-      <concept id="5115872837156578671" name="org.iets3.core.expr.base.structure.MulExpression" flags="ng" index="30dDTi" />
       <concept id="5115872837156576277" name="org.iets3.core.expr.base.structure.BinaryExpression" flags="ng" index="30dEsC">
         <child id="5115872837156576280" name="right" index="30dEs_" />
         <child id="5115872837156576278" name="left" index="30dEsF" />
@@ -58,9 +48,11 @@
     </language>
     <language id="6b277d9a-d52d-416f-a209-1919bd737f50" name="org.iets3.core.expr.simpleTypes">
       <concept id="7971844778467001950" name="org.iets3.core.expr.simpleTypes.structure.OtherwiseLiteral" flags="ng" index="2fHqz8" />
-      <concept id="7425695345928358745" name="org.iets3.core.expr.simpleTypes.structure.TrueLiteral" flags="ng" index="2vmpnb" />
-      <concept id="7425695345928358774" name="org.iets3.core.expr.simpleTypes.structure.FalseLiteral" flags="ng" index="2vmpn$" />
       <concept id="7425695345928349207" name="org.iets3.core.expr.simpleTypes.structure.BooleanType" flags="ng" index="2vmvy5" />
+      <concept id="5115872837157252552" name="org.iets3.core.expr.simpleTypes.structure.StringLiteral" flags="ng" index="30bdrP">
+        <property id="5115872837157252555" name="value" index="30bdrQ" />
+      </concept>
+      <concept id="5115872837157252551" name="org.iets3.core.expr.simpleTypes.structure.StringType" flags="ng" index="30bdrU" />
       <concept id="5115872837157054169" name="org.iets3.core.expr.simpleTypes.structure.IntegerType" flags="ng" index="30bXR$" />
       <concept id="5115872837157054170" name="org.iets3.core.expr.simpleTypes.structure.NumberLiteral" flags="ng" index="30bXRB">
         <property id="5115872837157054173" name="value" index="30bXRw" />
@@ -75,248 +67,102 @@
       </concept>
     </language>
     <language id="c83bec13-da66-49d6-8783-522e7fada865" name="de.voelter.chatgpt.util">
+      <concept id="8008715273083708577" name="de.voelter.chatgpt.util.structure.IUnknown" flags="ng" index="2KgGyU">
+        <property id="8008715273083708578" name="error" index="2KgGyT" />
+      </concept>
+      <concept id="8008715273068044372" name="de.voelter.chatgpt.util.structure.UnknownExpr" flags="ng" index="2LkWLf" />
       <concept id="8008715273072263102" name="de.voelter.chatgpt.util.structure.ChatGPTInfo" flags="ng" index="2L$Le_">
         <property id="8008715273072263107" name="input" index="2L$Lfo" />
         <property id="8008715273074314311" name="reply" index="2LWU1s" />
       </concept>
+      <concept id="4253771607368385351" name="de.voelter.chatgpt.util.structure.ChatGPTConsole" flags="ng" index="1RRqRU">
+        <child id="4253771607368385352" name="nodes" index="1RRqRP" />
+        <child id="4253771607368385354" name="config" index="1RRqRR" />
+      </concept>
     </language>
   </registry>
-  <node concept="2Lq25G" id="6W$F1JujIkN">
-    <property role="2LA4wn" value="true" />
-    <node concept="1VYzqt" id="3G8rFPcPrhc" role="2Lqm1X">
-      <property role="TrG5h" value="AlcoholAssessmentForm" />
-      <node concept="1VYsAT" id="3G8rFPcPrhe" role="1VYsA4">
-        <property role="TrG5h" value="age" />
-        <node concept="30bXR$" id="3G8rFPcPrhd" role="1VYsAW" />
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrhj" role="1VYsA4">
-        <property role="TrG5h" value="gender" />
-        <node concept="2LjC6h" id="3G8rFPcPrhi" role="1VYsAW">
-          <node concept="2LjC6m" id="3G8rFPcPrhf" role="2LjC6g">
-            <property role="TrG5h" value="male" />
-          </node>
-          <node concept="2LjC6m" id="3G8rFPcPrhg" role="2LjC6g">
-            <property role="TrG5h" value="female" />
-          </node>
-          <node concept="2LjC6m" id="3G8rFPcPrhh" role="2LjC6g">
-            <property role="TrG5h" value="other" />
-          </node>
-        </node>
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrhl" role="1VYsA4">
-        <property role="TrG5h" value="drinksPerWeek" />
-        <node concept="30bXR$" id="3G8rFPcPrhk" role="1VYsAW" />
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrhn" role="1VYsA4">
-        <property role="TrG5h" value="bingeDrinking" />
-        <node concept="2vmvy5" id="3G8rFPcPrhm" role="1VYsAW" />
-      </node>
-      <node concept="1VYsA1" id="3G8rFPcPrho" role="1VYsA4">
-        <property role="TrG5h" value="weeklyAlcoholUnits" />
-        <node concept="30dDTi" id="3G8rFPcPrhs" role="1VYsA6">
-          <node concept="1VYqnd" id="3G8rFPcPrht" role="30dEsF">
-            <ref role="1VYqni" node="3G8rFPcPrhl" resolve="drinksPerWeek" />
-          </node>
-          <node concept="2fGnzi" id="3G8rFPcPrhu" role="30dEs_">
-            <node concept="2fGnzd" id="3G8rFPcPrhv" role="2fGnxs">
-              <node concept="30cPrO" id="3G8rFPcPrhw" role="2fGnzS">
-                <node concept="1VYqnd" id="3G8rFPcPrhx" role="30dEsF">
-                  <ref role="1VYqni" node="3G8rFPcPrhj" resolve="gender" />
-                </node>
-                <node concept="2Lyz0e" id="3G8rFPcPrhy" role="30dEs_">
-                  <ref role="2Lyz0d" node="3G8rFPcPrhf" resolve="male" />
-                </node>
-              </node>
-              <node concept="30bXRB" id="3G8rFPcPrhz" role="2fGnzA">
-                <property role="30bXRw" value="20" />
-              </node>
-            </node>
-            <node concept="2fGnzd" id="3G8rFPcPrh$" role="2fGnxs">
-              <node concept="2fHqz8" id="3G8rFPcPrh_" role="2fGnzS" />
-              <node concept="30bXRB" id="3G8rFPcPrhA" role="2fGnzA">
-                <property role="30bXRw" value="14" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1VYsA1" id="3G8rFPcPrhq" role="1VYsA4">
-        <property role="TrG5h" value="abuseRisk" />
-        <node concept="2fGnzi" id="3G8rFPcPrhB" role="1VYsA6">
-          <node concept="2fGnzd" id="3G8rFPcPrhC" role="2fGnxs">
-            <node concept="30d7iD" id="3G8rFPcPrhD" role="2fGnzS">
-              <node concept="1VYqnd" id="3G8rFPcPrhE" role="30dEsF">
-                <ref role="1VYqni" node="3G8rFPcPrhe" resolve="age" />
-              </node>
-              <node concept="30bXRB" id="3G8rFPcPrhF" role="30dEs_">
-                <property role="30bXRw" value="17" />
-              </node>
-            </node>
-            <node concept="2fGnzi" id="3G8rFPcPrhG" role="2fGnzA">
-              <node concept="2fGnzd" id="3G8rFPcPrhH" role="2fGnxs">
-                <node concept="30deu6" id="3G8rFPcPrhI" role="2fGnzS">
-                  <node concept="30d7iD" id="3G8rFPcPrhJ" role="30dEsF">
-                    <node concept="1VYqnd" id="3G8rFPcPrhK" role="30dEsF">
-                      <ref role="1VYqni" node="3G8rFPcPrho" resolve="weeklyAlcoholUnits" />
-                    </node>
-                    <node concept="30bXRB" id="3G8rFPcPrhL" role="30dEs_">
-                      <property role="30bXRw" value="14" />
-                    </node>
-                  </node>
-                  <node concept="30deo4" id="3G8rFPcPrhM" role="30dEs_">
-                    <node concept="1VYqnd" id="3G8rFPcPrhN" role="30dEsF">
-                      <ref role="1VYqni" node="3G8rFPcPrhn" resolve="bingeDrinking" />
-                    </node>
-                    <node concept="30d7iD" id="3G8rFPcPrhO" role="30dEs_">
-                      <node concept="1VYqnd" id="3G8rFPcPrhP" role="30dEsF">
-                        <ref role="1VYqni" node="3G8rFPcPrho" resolve="weeklyAlcoholUnits" />
-                      </node>
-                      <node concept="30bXRB" id="3G8rFPcPrhQ" role="30dEs_">
-                        <property role="30bXRw" value="6" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2vmpnb" id="3G8rFPcPrhR" role="2fGnzA" />
-              </node>
-              <node concept="2fGnzd" id="3G8rFPcPrhS" role="2fGnxs">
-                <node concept="2fHqz8" id="3G8rFPcPrhT" role="2fGnzS" />
-                <node concept="2vmpn$" id="3G8rFPcPrhU" role="2fGnzA" />
-              </node>
-            </node>
-          </node>
-          <node concept="2fGnzd" id="3G8rFPcPrhV" role="2fGnxs">
-            <node concept="2fHqz8" id="3G8rFPcPror" role="2fGnzS" />
-            <node concept="2vmpn$" id="3G8rFPcPrhX" role="2fGnzA" />
-          </node>
-        </node>
-      </node>
-      <node concept="2L$Le_" id="3G8rFPcPrhY" role="lGtFl">
-        <property role="2L$Lfo" value="generate a form that assesses if somebody is an alcoholic" />
-        <property role="2LWU1s" value="&lt;form name=&quot;AlcoholAssessmentForm&quot;&gt;&#10;  &lt;field name=&quot;age&quot; type=&quot;int&quot;/&gt;&#10;  &lt;field name=&quot;gender&quot; type=&quot;{male, female, other}&quot;/&gt;&#10;  &lt;field name=&quot;drinksPerWeek&quot; type=&quot;int&quot;/&gt;&#10;  &lt;field name=&quot;bingeDrinking&quot; type=&quot;boolean&quot;/&gt;&#10;  &#10;  &lt;calc name=&quot;weeklyAlcoholUnits&quot;&gt;&#10;    &lt;mul&gt;&#10;      &lt;fieldref value=&quot;drinksPerWeek&quot;/&gt;&#10;      &lt;if&gt;&#10;        &lt;equals&gt;&#10;          &lt;fieldref value=&quot;gender&quot;/&gt;&#10;          &lt;litref value=&quot;male&quot;/&gt;&#10;        &lt;/equals&gt;&#10;        &lt;intLit value=&quot;20&quot;/&gt;&#10;        &lt;intLit value=&quot;14&quot;/&gt;&#10;      &lt;/if&gt;&#10;    &lt;/mul&gt;&#10;  &lt;/calc&gt;&#10;  &#10;  &lt;calc name=&quot;alcoholAbuseRisk&quot;&gt;&#10;    &lt;alternatives&gt;&#10;      &lt;case&gt;&#10;        &lt;greaterThan&gt;&#10;          &lt;fieldref value=&quot;age&quot;/&gt;&#10;          &lt;intLit value=&quot;17&quot;/&gt;&#10;        &lt;/greaterThan&gt;&#10;        &lt;if&gt;&#10;          &lt;or&gt;&#10;            &lt;greaterThan&gt;&#10;              &lt;fieldref value=&quot;weeklyAlcoholUnits&quot;/&gt;&#10;              &lt;intLit value=&quot;14&quot;/&gt;&#10;            &lt;/greaterThan&gt;&#10;            &lt;and&gt;&#10;              &lt;fieldref value=&quot;bingeDrinking&quot;/&gt;&#10;              &lt;greaterThan&gt;&#10;                &lt;fieldref value=&quot;weeklyAlcoholUnits&quot;/&gt;&#10;                &lt;intLit value=&quot;6&quot;/&gt;&#10;              &lt;/greaterThan&gt;&#10;            &lt;/and&gt;&#10;          &lt;/or&gt;&#10;          &lt;booleanLit value=&quot;true&quot;/&gt;&#10;          &lt;booleanLit value=&quot;false&quot;/&gt;&#10;        &lt;/if&gt;&#10;      &lt;/case&gt;&#10;      &lt;case&gt;&#10;        &lt;booleanLit value=&quot;false&quot;/&gt;&#10;        &lt;booleanLit value=&quot;false&quot;/&gt;&#10;      &lt;/case&gt;&#10;    &lt;/alternatives&gt;&#10;  &lt;/calc&gt;&#10;&lt;/form&gt;&#10;" />
-      </node>
-    </node>
-    <node concept="1VYzqt" id="3G8rFPcPrA0" role="2Lqm1X">
-      <property role="TrG5h" value="AlcoholAssessmentForm" />
-      <node concept="1VYsAT" id="3G8rFPcPrA2" role="1VYsA4">
-        <property role="TrG5h" value="age" />
-        <node concept="30bXR$" id="3G8rFPcPrA1" role="1VYsAW" />
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrA7" role="1VYsA4">
-        <property role="TrG5h" value="gender" />
-        <node concept="2LjC6h" id="3G8rFPcPrA6" role="1VYsAW">
-          <node concept="2LjC6m" id="3G8rFPcPrA3" role="2LjC6g">
-            <property role="TrG5h" value="male" />
-          </node>
-          <node concept="2LjC6m" id="3G8rFPcPrA4" role="2LjC6g">
-            <property role="TrG5h" value="female" />
-          </node>
-          <node concept="2LjC6m" id="3G8rFPcPrA5" role="2LjC6g">
-            <property role="TrG5h" value="other" />
-          </node>
-        </node>
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrA9" role="1VYsA4">
-        <property role="TrG5h" value="drinksPerWeek" />
-        <node concept="30bXR$" id="3G8rFPcPrA8" role="1VYsAW" />
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrAb" role="1VYsA4">
-        <property role="TrG5h" value="bingeDrinking" />
-        <node concept="2vmvy5" id="3G8rFPcPrAa" role="1VYsAW" />
-      </node>
-      <node concept="1VYsAT" id="3G8rFPcPrAd" role="1VYsA4">
-        <property role="TrG5h" value="familyHistory" />
-        <node concept="2vmvy5" id="3G8rFPcPrAc" role="1VYsAW" />
-      </node>
-      <node concept="1VYsA1" id="3G8rFPcPrAe" role="1VYsA4">
-        <property role="TrG5h" value="weeklyAlcoholUnits" />
-        <node concept="30dDTi" id="3G8rFPcPrAi" role="1VYsA6">
-          <node concept="1VYqnd" id="3G8rFPcPrAj" role="30dEsF">
-            <ref role="1VYqni" node="3G8rFPcPrA9" resolve="drinksPerWeek" />
-          </node>
-          <node concept="2fGnzi" id="3G8rFPcPrAk" role="30dEs_">
-            <node concept="2fGnzd" id="3G8rFPcPrAl" role="2fGnxs">
-              <node concept="30cPrO" id="3G8rFPcPrAm" role="2fGnzS">
-                <node concept="1VYqnd" id="3G8rFPcPrAn" role="30dEsF">
-                  <ref role="1VYqni" node="3G8rFPcPrA7" resolve="gender" />
-                </node>
-                <node concept="2Lyz0e" id="3G8rFPcPrAo" role="30dEs_">
-                  <ref role="2Lyz0d" node="3G8rFPcPrA3" resolve="male" />
-                </node>
-              </node>
-              <node concept="30bXRB" id="3G8rFPcPrAp" role="2fGnzA">
-                <property role="30bXRw" value="20" />
-              </node>
-            </node>
-            <node concept="2fGnzd" id="3G8rFPcPrAq" role="2fGnxs">
-              <node concept="2fHqz8" id="3G8rFPcPrAr" role="2fGnzS" />
-              <node concept="30bXRB" id="3G8rFPcPrAs" role="2fGnzA">
-                <property role="30bXRw" value="14" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1VYsA1" id="3G8rFPcPrAg" role="1VYsA4">
-        <property role="TrG5h" value="abuseRisk" />
-        <node concept="2fGnzi" id="3G8rFPcPrAt" role="1VYsA6">
-          <node concept="2fGnzd" id="3G8rFPcPrAu" role="2fGnxs">
-            <node concept="30d7iD" id="3G8rFPcPrAv" role="2fGnzS">
-              <node concept="1VYqnd" id="3G8rFPcPrAw" role="30dEsF">
-                <ref role="1VYqni" node="3G8rFPcPrA2" resolve="age" />
-              </node>
-              <node concept="30bXRB" id="3G8rFPcPrAx" role="30dEs_">
-                <property role="30bXRw" value="17" />
-              </node>
-            </node>
-            <node concept="2fGnzi" id="3G8rFPcPrAy" role="2fGnzA">
-              <node concept="2fGnzd" id="3G8rFPcPrAz" role="2fGnxs">
-                <node concept="30deu6" id="3G8rFPcPrA$" role="2fGnzS">
-                  <node concept="30d7iD" id="3G8rFPcPrA_" role="30dEsF">
-                    <node concept="1VYqnd" id="3G8rFPcPrAA" role="30dEsF">
-                      <ref role="1VYqni" node="3G8rFPcPrAe" resolve="weeklyAlcoholUnits" />
-                    </node>
-                    <node concept="30bXRB" id="3G8rFPcPrAB" role="30dEs_">
-                      <property role="30bXRw" value="14" />
-                    </node>
-                  </node>
-                  <node concept="30deo4" id="3G8rFPcPrAC" role="30dEs_">
-                    <node concept="1VYqnd" id="3G8rFPcPrAD" role="30dEsF">
-                      <ref role="1VYqni" node="3G8rFPcPrAb" resolve="bingeDrinking" />
-                    </node>
-                    <node concept="30d7iD" id="3G8rFPcPrAE" role="30dEs_">
-                      <node concept="1VYqnd" id="3G8rFPcPrAF" role="30dEsF">
-                        <ref role="1VYqni" node="3G8rFPcPrAe" resolve="weeklyAlcoholUnits" />
-                      </node>
-                      <node concept="30bXRB" id="3G8rFPcPrAG" role="30dEs_">
-                        <property role="30bXRw" value="6" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2vmpnb" id="3G8rFPcPrAH" role="2fGnzA" />
-              </node>
-              <node concept="2fGnzd" id="3G8rFPcPrAI" role="2fGnxs">
-                <node concept="2fHqz8" id="3G8rFPcPrAJ" role="2fGnzS" />
-                <node concept="2vmpn$" id="3G8rFPcPrAK" role="2fGnzA" />
-              </node>
-            </node>
-          </node>
-          <node concept="2fGnzd" id="3G8rFPcPrAL" role="2fGnxs">
-            <node concept="2fHqz8" id="3G8rFPcPrAM" role="2fGnzS" />
-            <node concept="2vmpn$" id="3G8rFPcPrAN" role="2fGnzA" />
-          </node>
-        </node>
-      </node>
-      <node concept="2L$Le_" id="3G8rFPcPrAO" role="lGtFl">
-        <property role="2L$Lfo" value="add another field" />
-        <property role="2LWU1s" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;form name=&quot;AlcoholAssessmentForm&quot;&gt;&#10;  &lt;field name=&quot;age&quot; type=&quot;int&quot; /&gt;&#10;  &lt;field name=&quot;gender&quot; type=&quot;{male,female,other}&quot; /&gt;&#10;  &lt;field name=&quot;drinksPerWeek&quot; type=&quot;int&quot; /&gt;&#10;  &lt;field name=&quot;bingeDrinking&quot; type=&quot;boolean&quot; /&gt;&#10;  &lt;field name=&quot;familyHistory&quot; type=&quot;boolean&quot; /&gt;&#10;  &lt;calc name=&quot;weeklyAlcoholUnits&quot;&gt;&#10;    &lt;mul&gt;&#10;      &lt;fieldref value=&quot;drinksPerWeek&quot; /&gt;&#10;      &lt;if&gt;&#10;        &lt;equals&gt;&#10;          &lt;fieldref value=&quot;gender&quot; /&gt;&#10;          &lt;litref value=&quot;male&quot; /&gt;&#10;        &lt;/equals&gt;&#10;        &lt;intLit value=&quot;20&quot; /&gt;&#10;        &lt;intLit value=&quot;14&quot; /&gt;&#10;      &lt;/if&gt;&#10;    &lt;/mul&gt;&#10;  &lt;/calc&gt;&#10;  &lt;calc name=&quot;abuseRisk&quot;&gt;&#10;    &lt;if&gt;&#10;      &lt;greaterThan&gt;&#10;        &lt;fieldref value=&quot;age&quot; /&gt;&#10;        &lt;intLit value=&quot;17&quot; /&gt;&#10;      &lt;/greaterThan&gt;&#10;      &lt;if&gt;&#10;        &lt;or&gt;&#10;          &lt;greaterThan&gt;&#10;            &lt;fieldref value=&quot;weeklyAlcoholUnits&quot; /&gt;&#10;            &lt;intLit value=&quot;14&quot; /&gt;&#10;          &lt;/greaterThan&gt;&#10;          &lt;and&gt;&#10;            &lt;fieldref value=&quot;bingeDrinking&quot; /&gt;&#10;            &lt;greaterThan&gt;&#10;              &lt;fieldref value=&quot;weeklyAlcoholUnits&quot; /&gt;&#10;              &lt;intLit value=&quot;6&quot; /&gt;&#10;            &lt;/greaterThan&gt;&#10;          &lt;/and&gt;&#10;          &lt;and&gt;&#10;            &lt;fieldref value=&quot;familyHistory&quot; /&gt;&#10;            &lt;greaterThan&gt;&#10;              &lt;fieldref value=&quot;weeklyAlcoholUnits&quot; /&gt;&#10;              &lt;intLit value=&quot;2&quot; /&gt;&#10;            &lt;/greaterThan&gt;&#10;          &lt;/and&gt;&#10;        &lt;/or&gt;&#10;        &lt;booleanLit value=&quot;true&quot; /&gt;&#10;        &lt;booleanLit value=&quot;false&quot; /&gt;&#10;      &lt;/if&gt;&#10;      &lt;booleanLit value=&quot;false&quot; /&gt;&#10;    &lt;/if&gt;&#10;  &lt;/calc&gt;&#10;&lt;/form&gt;&#10;" />
-      </node>
-    </node>
-  </node>
   <node concept="2foCiW" id="6W$F1JwhNeR">
     <node concept="2foboS" id="6W$F1JwhNeS" role="2foCjP">
       <ref role="2foboZ" node="3G8rFPcPrA0" resolve="AlcoholAssessmentForm" />
+    </node>
+  </node>
+  <node concept="1RRqRU" id="3G8rFPcPJGD">
+    <node concept="1RRxKD" id="3G8rFPcS3mi" role="1RRqRR" />
+    <node concept="1VYzqt" id="3G8rFPcTM2Q" role="1RRqRP">
+      <property role="TrG5h" value="ExampleForm" />
+      <node concept="1VYsAT" id="3G8rFPcTM2S" role="1VYsA4">
+        <property role="TrG5h" value="firstName" />
+        <node concept="30bdrU" id="3G8rFPcTM2R" role="1VYsAW" />
+      </node>
+      <node concept="1VYsAT" id="3G8rFPcTM2U" role="1VYsA4">
+        <property role="TrG5h" value="lastName" />
+        <node concept="30bdrU" id="3G8rFPcTM2T" role="1VYsAW" />
+      </node>
+      <node concept="1VYsAT" id="3G8rFPcTM2W" role="1VYsA4">
+        <property role="TrG5h" value="age" />
+        <node concept="30bXR$" id="3G8rFPcTM2V" role="1VYsAW" />
+      </node>
+      <node concept="1VYsAT" id="3G8rFPcTM2Y" role="1VYsA4">
+        <property role="TrG5h" value="isStudent" />
+        <node concept="2vmvy5" id="3G8rFPcTM2X" role="1VYsAW" />
+      </node>
+      <node concept="1VYsAT" id="3G8rFPcTM34" role="1VYsA4">
+        <property role="TrG5h" value="favoriteColor" />
+        <node concept="2LjC6h" id="3G8rFPcTM33" role="1VYsAW">
+          <node concept="2LjC6m" id="3G8rFPcTM2Z" role="2LjC6g">
+            <property role="TrG5h" value="red" />
+          </node>
+          <node concept="2LjC6m" id="3G8rFPcTM30" role="2LjC6g">
+            <property role="TrG5h" value="blue" />
+          </node>
+          <node concept="2LjC6m" id="3G8rFPcTM31" role="2LjC6g">
+            <property role="TrG5h" value="green" />
+          </node>
+          <node concept="2LjC6m" id="3G8rFPcTM32" role="2LjC6g">
+            <property role="TrG5h" value="yellow" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VYsA1" id="3G8rFPcTM35" role="1VYsA4">
+        <property role="TrG5h" value="fullName" />
+        <node concept="2LkWLf" id="3G8rFPcTM3b" role="1VYsA6">
+          <property role="2KgGyT" value="Cannot parse expression: concat" />
+        </node>
+      </node>
+      <node concept="1VYsA1" id="3G8rFPcTM37" role="1VYsA4">
+        <property role="TrG5h" value="isAdult" />
+        <node concept="30d7iD" id="3G8rFPcTM3c" role="1VYsA6">
+          <node concept="1VYqnd" id="3G8rFPcTM3d" role="30dEsF">
+            <ref role="1VYqni" node="3G8rFPcTM2W" resolve="age" />
+          </node>
+          <node concept="30bXRB" id="3G8rFPcTM3e" role="30dEs_">
+            <property role="30bXRw" value="17" />
+          </node>
+        </node>
+      </node>
+      <node concept="1VYsA1" id="3G8rFPcTM39" role="1VYsA4">
+        <property role="TrG5h" value="greeting" />
+        <node concept="2fGnzi" id="3G8rFPcTM3f" role="1VYsA6">
+          <node concept="2fGnzd" id="3G8rFPcTM3g" role="2fGnxs">
+            <node concept="1VYqnd" id="3G8rFPcTM3h" role="2fGnzS">
+              <ref role="1VYqni" node="3G8rFPcTM2Y" resolve="isStudent" />
+            </node>
+            <node concept="30bdrP" id="3G8rFPcTM3i" role="2fGnzA">
+              <property role="30bdrQ" value="Hello, student!" />
+            </node>
+          </node>
+          <node concept="2fGnzd" id="3G8rFPcTM3j" role="2fGnxs">
+            <node concept="2fHqz8" id="3G8rFPcTM3k" role="2fGnzS" />
+            <node concept="30bdrP" id="3G8rFPcTM3l" role="2fGnzA">
+              <property role="30bdrQ" value="Hello, visitor!" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2L$Le_" id="3G8rFPcTM3m" role="lGtFl">
+        <property role="2L$Lfo" value="generate an example form" />
+        <property role="2LWU1s" value="&lt;form name=&quot;ExampleForm&quot;&gt;&#10;  &lt;field name=&quot;firstName&quot; type=&quot;string&quot;/&gt;&#10;  &lt;field name=&quot;lastName&quot; type=&quot;string&quot;/&gt;&#10;  &lt;field name=&quot;age&quot; type=&quot;int&quot;/&gt;&#10;  &lt;field name=&quot;isStudent&quot; type=&quot;boolean&quot;/&gt;&#10;  &lt;field name=&quot;favoriteColor&quot; type=&quot;{red, blue, green, yellow}&quot;/&gt;&#10;  &lt;calc name=&quot;fullName&quot;&gt;&#10;    &lt;concat&gt;&#10;      &lt;fieldref value=&quot;firstName&quot;/&gt;&#10;      &lt;stringLit value=&quot; &quot;/&gt;&#10;      &lt;fieldref value=&quot;lastName&quot;/&gt;&#10;    &lt;/concat&gt;&#10;  &lt;/calc&gt;&#10;  &lt;calc name=&quot;isAdult&quot;&gt;&#10;    &lt;greaterThan&gt;&#10;      &lt;fieldref value=&quot;age&quot;/&gt;&#10;      &lt;intLit value=&quot;17&quot;/&gt;&#10;    &lt;/greaterThan&gt;&#10;  &lt;/calc&gt;&#10;  &lt;calc name=&quot;greeting&quot;&gt;&#10;    &lt;if&gt;&#10;      &lt;fieldref value=&quot;isStudent&quot;/&gt;&#10;      &lt;stringLit value=&quot;Hello, student!&quot;/&gt;&#10;      &lt;stringLit value=&quot;Hello, visitor!&quot;/&gt;&#10;    &lt;/if&gt;&#10;  &lt;/calc&gt;&#10;&lt;/form&gt;&#10;" />
+      </node>
     </node>
   </node>
 </model>

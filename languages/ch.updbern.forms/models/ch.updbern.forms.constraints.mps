@@ -16,6 +16,7 @@
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="pfdp" ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" implicit="true" />
+    <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -375,20 +376,27 @@
                 <node concept="2HTt$P" id="6W$F1Jwi0fN" role="2ShVmc">
                   <node concept="3Tqbb2" id="6W$F1Jwi0fO" role="2HTBi0" />
                   <node concept="2OqwBi" id="6W$F1JwhUF9" role="2HTEbv">
-                    <node concept="2OqwBi" id="6W$F1JwhR56" role="2Oq$k0">
-                      <node concept="2OqwBi" id="6W$F1JwhNNu" role="2Oq$k0">
-                        <node concept="2OqwBi" id="6W$F1JwhNuO" role="2Oq$k0">
-                          <node concept="2rP1CM" id="6W$F1JwhNjN" role="2Oq$k0" />
-                          <node concept="I4A8Y" id="6W$F1JwhNBX" role="2OqNvi" />
-                        </node>
-                        <node concept="2RRcyG" id="6W$F1JwhOZI" role="2OqNvi">
-                          <node concept="chp4Y" id="6W$F1JwhP6I" role="3MHsoP">
-                            <ref role="cht4Q" to="pfdp:6W$F1Juj8PR" resolve="FormRoot" />
+                    <node concept="2OqwBi" id="3G8rFPcQZnc" role="2Oq$k0">
+                      <node concept="2OqwBi" id="6W$F1JwhR56" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6W$F1JwhNNu" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6W$F1JwhNuO" role="2Oq$k0">
+                            <node concept="2rP1CM" id="6W$F1JwhNjN" role="2Oq$k0" />
+                            <node concept="I4A8Y" id="6W$F1JwhNBX" role="2OqNvi" />
+                          </node>
+                          <node concept="2RRcyG" id="6W$F1JwhOZI" role="2OqNvi">
+                            <node concept="chp4Y" id="6W$F1JwhP6I" role="3MHsoP">
+                              <ref role="cht4Q" to="capj:3G8rFPcPsd7" resolve="ChatGPTConsole" />
+                            </node>
                           </node>
                         </node>
+                        <node concept="13MTOL" id="6W$F1JwhSFJ" role="2OqNvi">
+                          <ref role="13MTZf" to="capj:3G8rFPcPsd8" resolve="nodes" />
+                        </node>
                       </node>
-                      <node concept="13MTOL" id="6W$F1JwhSFJ" role="2OqNvi">
-                        <ref role="13MTZf" to="pfdp:6W$F1JujsLA" resolve="forms" />
+                      <node concept="v3k3i" id="3G8rFPcQZGY" role="2OqNvi">
+                        <node concept="chp4Y" id="3G8rFPcQZRN" role="v3oSu">
+                          <ref role="cht4Q" to="pfdp:10jkM9FUmmZ" resolve="Form" />
+                        </node>
                       </node>
                     </node>
                     <node concept="1yVyf7" id="6W$F1JwhUUv" role="2OqNvi" />
