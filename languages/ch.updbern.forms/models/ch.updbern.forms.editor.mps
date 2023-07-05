@@ -174,7 +174,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="10jkM9FUDFy" role="3EZMnx">
-        <ref role="1NtTu8" to="pfdp:10jkM9FUDEu" resolve="declaredType" />
+        <ref role="1NtTu8" to="pfdp:10jkM9FUDEu" resolve="type" />
       </node>
     </node>
   </node>

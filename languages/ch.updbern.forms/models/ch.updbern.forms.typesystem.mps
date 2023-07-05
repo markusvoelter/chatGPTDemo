@@ -96,7 +96,7 @@
                 <ref role="1YBMHb" node="10jkM9FUK5l" resolve="field" />
               </node>
               <node concept="3TrEf2" id="10jkM9FUKDp" role="2OqNvi">
-                <ref role="3Tt5mk" to="pfdp:10jkM9FUDEu" resolve="declaredType" />
+                <ref role="3Tt5mk" to="pfdp:10jkM9FUDEu" resolve="type" />
               </node>
             </node>
           </node>
