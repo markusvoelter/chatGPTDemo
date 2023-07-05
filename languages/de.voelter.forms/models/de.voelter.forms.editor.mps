@@ -637,8 +637,11 @@
   </node>
   <node concept="24kQdi" id="3G8rFPcPBb9">
     <ref role="1XX52x" to="pfdp:3G8rFPcPBak" resolve="FormsChatGPTConfig" />
-    <node concept="3F0ifn" id="3G8rFPcPBbb" role="2wV5jI">
-      <property role="3F0ifm" value="forms" />
+    <node concept="3EZMnI" id="6HJBXF$cNXO" role="2wV5jI">
+      <node concept="2iRfu4" id="6HJBXF$cNXP" role="2iSdaV" />
+      <node concept="3F0ifn" id="3G8rFPcPBbb" role="3EZMnx">
+        <property role="3F0ifm" value="forms" />
+      </node>
     </node>
   </node>
 </model>

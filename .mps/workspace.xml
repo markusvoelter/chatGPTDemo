@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="icons">
-      <change afterPath="$PROJECT_DIR$/devkits/de.voelter.chatgptdemo/de.voelter.chatgptdemo.devkit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/generator/templates/de.voelter.forms.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.intentions.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/models/de.voelter.forms.interpreter.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="bunch of renames">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" beforeDir="false" afterPath="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/generator/templates/ch.updbern.forms.templates@generator.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/icons/test.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.constraints.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.editor.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.intentions.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.typesystem.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/ch.updbern.forms.interpreter/ch.updbern.forms.interpreter.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/ch.updbern.forms.interpreter/models/ch.updbern.forms.interpreter.plugin.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/icons/chatgpt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/lib/json-20230227.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/examples.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/tutorial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.forms/de.voelter.forms.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.forms/de.voelter.forms.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/tutorial/examples.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/tutorial/tutorial.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/playground/playground.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/playground.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +32,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="c168f260-91a1-4db3-95d7-8ee98760c14c/r:d9a8057c-fa5e-4ddc-9342-8c0f89922647(TempModulec168f260-91a1-4db3-95d7-8ee98760c14c/ConsoleModel_3120302602785958)">
+            <model ref="5c01fca1-e292-4b1c-abd1-c72e0991d21e/r:7e6ea625-303e-4bc1-adcb-2bb80db969b1(TempModule5c01fca1-e292-4b1c-abd1-c72e0991d21e/ConsoleModel_3122580862462708)">
               <persistence version="9" />
               <languages>
                 <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
@@ -161,48 +137,48 @@
                   </concept>
                 </language>
               </registry>
-              <node concept="aymSD" id="6HJBXF$9kDB">
-                <node concept="3balQm" id="6HJBXF$9kDC" role="aymYE">
-                  <node concept="2Clz$F" id="6HJBXF$9kDD" role="18xWvz">
-                    <node concept="f80E0" id="6HJBXF$9kDE" role="2Clzx4">
-                      <node concept="24aHrZ" id="6HJBXF$9kDF" role="f80$r">
-                        <node concept="2OqwBi" id="6HJBXF$9kDG" role="iY1wd">
-                          <node concept="qVDSY" id="6HJBXF$9kDH" role="2Oq$k0">
-                            <node concept="chp4Y" id="6HJBXF$9kDI" role="qVDSX">
+              <node concept="aymSD" id="47bF0SmhXOp">
+                <node concept="3balQm" id="47bF0SmhXOq" role="aymYE">
+                  <node concept="2Clz$F" id="47bF0SmhXOr" role="18xWvz">
+                    <node concept="f80E0" id="47bF0SmhXOs" role="2Clzx4">
+                      <node concept="24aHrZ" id="47bF0SmhXOt" role="f80$r">
+                        <node concept="2OqwBi" id="47bF0SmhXOu" role="iY1wd">
+                          <node concept="qVDSY" id="47bF0SmhXOv" role="2Oq$k0">
+                            <node concept="chp4Y" id="47bF0SmhXOw" role="qVDSX">
                               <ref role="cht4Q" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                             </node>
-                            <node concept="1dO9Bo" id="6HJBXF$9kDJ" role="1dOa5D">
-                              <node concept="psT0o" id="6HJBXF$9kDK" role="1dp2q7">
-                                <node concept="p4YG9" id="6HJBXF$9kDL" role="psT0v" />
+                            <node concept="1dO9Bo" id="47bF0SmhXOx" role="1dOa5D">
+                              <node concept="psT0o" id="47bF0SmhXOy" role="1dp2q7">
+                                <node concept="p4YG9" id="47bF0SmhXOz" role="psT0v" />
                               </node>
                             </node>
                           </node>
-                          <node concept="3zZkjj" id="6HJBXF$9kDM" role="2OqNvi">
-                            <node concept="1bVj0M" id="6HJBXF$9kDN" role="23t8la">
+                          <node concept="3zZkjj" id="47bF0SmhXO$" role="2OqNvi">
+                            <node concept="1bVj0M" id="47bF0SmhXO_" role="23t8la">
                               <property role="3yWfEV" value="true" />
-                              <node concept="3clFbS" id="6HJBXF$9kDO" role="1bW5cS">
-                                <node concept="3clFbF" id="6HJBXF$9kDP" role="3cqZAp">
-                                  <node concept="2OqwBi" id="6HJBXF$9kDQ" role="3clFbG">
-                                    <node concept="2OqwBi" id="6HJBXF$9kDR" role="2Oq$k0">
-                                      <node concept="37vLTw" id="6HJBXF$9kDS" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="6HJBXF$9kDW" resolve="node" />
+                              <node concept="3clFbS" id="47bF0SmhXOA" role="1bW5cS">
+                                <node concept="3clFbF" id="47bF0SmhXOB" role="3cqZAp">
+                                  <node concept="2OqwBi" id="47bF0SmhXOC" role="3clFbG">
+                                    <node concept="2OqwBi" id="47bF0SmhXOD" role="2Oq$k0">
+                                      <node concept="37vLTw" id="47bF0SmhXOE" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="47bF0SmhXOI" resolve="node" />
                                       </node>
-                                      <node concept="3TrcHB" id="6HJBXF$9kDT" role="2OqNvi">
+                                      <node concept="3TrcHB" id="47bF0SmhXOF" role="2OqNvi">
                                         <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="6HJBXF$9kDU" role="2OqNvi">
+                                    <node concept="liA8E" id="47bF0SmhXOG" role="2OqNvi">
                                       <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                                      <node concept="Xl_RD" id="6HJBXF$9kDV" role="37wK5m">
+                                      <node concept="Xl_RD" id="47bF0SmhXOH" role="37wK5m">
                                         <property role="Xl_RC" value="questionnaire" />
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="Rh6nW" id="6HJBXF$9kDW" role="1bW2Oz">
+                              <node concept="Rh6nW" id="47bF0SmhXOI" role="1bW2Oz">
                                 <property role="TrG5h" value="node" />
-                                <node concept="2jxLKc" id="6HJBXF$9kDX" role="1tU5fm" />
+                                <node concept="2jxLKc" id="47bF0SmhXOJ" role="1tU5fm" />
                               </node>
                             </node>
                           </node>
@@ -211,9 +187,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2Clz$F" id="6HJBXF$9nFZ" role="aymYO" />
-                <node concept="2_V_lH" id="6HJBXF$9nG0" role="1PhJh3">
-                  <ref role="2_V_lI" node="6HJBXF$9nFZ" resolve="CommandHolder" />
+                <node concept="2Clz$F" id="47bF0SmhXOK" role="aymYO" />
+                <node concept="2_V_lH" id="47bF0SmhXOL" role="1PhJh3">
+                  <ref role="2_V_lI" node="47bF0SmhXOK" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -407,9 +383,96 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="upd" />
@@ -425,6 +488,114 @@
               <option name="myItemId" value="upd" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(de.voelter.forms)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(de.voelter.forms.structure) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/languages/de.voelter.forms/models/de.voelter.forms.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:305127cb-2d5d-4b3f-a7d0-b8557c44193d(de.voelter.forms.interpreter.plugin) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/de.voelter.forms.interpreter/models/de.voelter.forms.interpreter.plugin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(de.voelter.forms)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
@@ -432,11 +603,33 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="f5033491-c843-46f7-a472-14eca43edcdf" />
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4741072209241429267" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
+      </pane>
+      <pane id="FileSystem" />
+      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
@@ -655,152 +848,19 @@
       <option name="project" value="LOCAL" />
       <updated>1688576686639</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="bunch of renames">
+      <created>1688576874321</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688576874321</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
     <tabs>
-      <tab>
-        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
-          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
-            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
-          </child>
-        </result_provider>
-        <query>
-          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
-          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273067179402" title="InlineEnumTypeDecl" />
-          </holder>
-        </query>
-        <usage_view>
-          <tree_wrapper>
-            <view_options>
-              <options category_option="false" module_option="false" model_option="false" root_option="false" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
-            </view_options>
-            <contents caption="" excluded="false" isresult="false" results_section="false">
-              <role name="main root" />
-              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
-                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
-                <role name="searched nodes" />
-                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="ch.updbern.forms" excluded="false" isresult="false" results_section="false" module_ref="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="ch.updbern.forms.structure" excluded="false" isresult="false" results_section="false">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="InlineEnumTypeDecl" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273067179402" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="target" />
-                      </child>
-                      <model uid="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" />
-                    </child>
-                  </child>
-                </child>
-              </child>
-              <child caption="Usages" excluded="false" isresult="false" results_section="true">
-                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
-                <role name="results" />
-                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
-                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
-                  <role name="category:Category" />
-                  <child caption="ch.updbern.forms" excluded="false" isresult="false" results_section="true" module_ref="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)">
-                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
-                    <role name="module" />
-                    <child caption="ch.updbern.forms.behavior" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="FormSerialiser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273082739421" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="encodeType(node&lt;Type&gt;):string" info="(role: member in: FormSerialiser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083057194">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: :)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083179656">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                          <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273083127176">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <child caption="FormXMLParser" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273065432720" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="convertType(string):node&lt;Type&gt;" info="(role: member in: FormXMLParser)" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273066834938">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="InlineEnumTypeDecl" info="(role: quotedNode in: &lt;light quotation&gt;)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)/8008715273067329810">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="target" />
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(ch.updbern.forms.behavior)" />
-                    </child>
-                    <child caption="ch.updbern.forms.editor" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="InlineEnumTypeDecl_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:7867a220-2ae6-46e3-8a4e-805ace33a02c(ch.updbern.forms.editor)/8008715273067179482" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="target" />
-                      </child>
-                      <model uid="r:7867a220-2ae6-46e3-8a4e-805ace33a02c(ch.updbern.forms.editor)" />
-                    </child>
-                    <child caption="ch.updbern.forms.structure" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="EnumTypeType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273097694611" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="decl" info="(role: linkDeclaration in: EnumTypeType)" excluded="false" isresult="true" results_section="true" nodePtr="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)/8008715273097694612">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" />
-                    </child>
-                    <child caption="ch.updbern.forms.typesystem" excluded="false" isresult="false" results_section="true">
-                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
-                      <role name="model" />
-                      <child caption="enum" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097672368" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: :)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097688685">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097679215">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                        <child caption="InlineEnumTypeDecl" info="(role: conceptArgument in: isInstanceOf)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097682473">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <child caption="supertypeOf_InlineEnumType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097673863" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="inlineEnum" info="(role: applicableNode in: supertypeOf_InlineEnumType)" excluded="false" isresult="true" results_section="true" nodePtr="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)/8008715273097673930">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="target" />
-                        </child>
-                      </child>
-                      <model uid="r:1a618c0b-fbab-4552-9318-3d23c1862540(ch.updbern.forms.typesystem)" />
-                    </child>
-                  </child>
-                </child>
-              </child>
-            </contents>
-          </tree_wrapper>
-        </usage_view>
-      </tab>
       <tab>
         <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
           <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
@@ -813,7 +873,7 @@
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/8008715273082079321" title="createSerialiserIfAvailable():NodesToXMLSerialiser" />
+            <node ref="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/7741582046953829092" title="apiKey():string" />
           </holder>
         </query>
         <usage_view>
@@ -838,7 +898,7 @@
                       <child caption="IChatGPTRoot_Behavior" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/8008715273076836764" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: method in: IChatGPTRoot_Behavior)" excluded="false" isresult="true" results_section="false" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/8008715273082079321">
+                        <child caption="apiKey():string" info="(role: method in: IChatGPTRoot_Behavior)" excluded="false" isresult="true" results_section="false" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/7741582046953829092">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -854,61 +914,25 @@
                 <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="de.voelter.chatgpt" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt)">
+                  <child caption="de.voelter.chatgpt.ide" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="de.voelter.chatgpt.plugin" excluded="false" isresult="false" results_section="true">
+                    <child caption="de.voelter.chatgpt.ide.plugin" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="ChatGPTInputPanelFactory" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089218887" isRoot="true">
+                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940263257" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="create(node&lt;IChatGPTRoot&gt;,MPSProject):JComponent" info="(role: member in: ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089219580">
+                        <child caption="chat(string,float):string" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940285014">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="Anonymous in create() in ChatGPTInputPanelFactory" info="(role: cls in: anonymous class)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223647">
+                          <child caption="apiKey():string" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7741582046954357458">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="root to target" />
-                            <child caption="actionPerformed(ActionEvent):void" info="(role: member in: Anonymous in create() in ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223649">
-                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                              <role name="root to target" />
-                              <child caption="Anonymous in actionPerformed() in Anonymous in create() in ChatGPTInputPanelFactory" info="(role: cls in: anonymous class)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223677">
-                                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                <role name="root to target" />
-                                <child caption="run():void" info="(role: member in: Anonymous in actionPerformed() in Anonymous in create() in ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223679">
-                                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                  <role name="root to target" />
-                                  <child caption="serialiserForTesting" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223713">
-                                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                    <role name="root to target" />
-                                    <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223719">
-                                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                      <role name="target" />
-                                    </child>
-                                  </child>
-                                </child>
-                              </child>
-                            </child>
+                            <role name="target" />
                           </child>
                         </child>
                       </child>
-                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/7366371879940263257" isRoot="true">
-                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                        <role name="root" />
-                        <child caption="chat(string,float):string" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/7366371879940285014">
-                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                          <role name="root to target" />
-                          <child caption="serialiser" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273082179670">
-                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="root to target" />
-                            <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273082179673">
-                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                              <role name="target" />
-                            </child>
-                          </child>
-                        </child>
-                      </child>
-                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)" />
+                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)" />
                     </child>
                   </child>
                   <child caption="de.voelter.chatgpt.util" excluded="false" isresult="false" results_section="true" module_ref="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)">
@@ -920,7 +944,7 @@
                       <child caption="ChatGPTConsole_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/4253771607368404222" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: method in: ChatGPTConsole_Behavior)" excluded="false" isresult="true" results_section="true" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/8008715273082435569">
+                        <child caption="apiKey():string" info="(role: method in: ChatGPTConsole_Behavior)" excluded="false" isresult="true" results_section="true" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/7741582046953832568">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="target" />
                         </child>
@@ -932,61 +956,155 @@
                 <child caption="Exact Method Usages" excluded="false" isresult="false" results_section="true" category="Exact Method Usages" category_kind="Category">
                   <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
                   <role name="category:Category" />
-                  <child caption="de.voelter.chatgpt" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt)">
+                  <child caption="de.voelter.chatgpt.ide" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)">
                     <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
                     <role name="module" />
-                    <child caption="de.voelter.chatgpt.plugin" excluded="false" isresult="false" results_section="true">
+                    <child caption="de.voelter.chatgpt.ide.plugin" excluded="false" isresult="false" results_section="true">
                       <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
                       <role name="model" />
-                      <child caption="ChatGPTInputPanelFactory" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089218887" isRoot="true">
+                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940263257" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="create(node&lt;IChatGPTRoot&gt;,MPSProject):JComponent" info="(role: member in: ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089219580">
+                        <child caption="chat(string,float):string" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940285014">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="Anonymous in create() in ChatGPTInputPanelFactory" info="(role: cls in: anonymous class)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223647">
+                          <child caption="apiKey():string" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7741582046954357458">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                            <role name="root to target" />
-                            <child caption="actionPerformed(ActionEvent):void" info="(role: member in: Anonymous in create() in ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223649">
-                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                              <role name="root to target" />
-                              <child caption="Anonymous in actionPerformed() in Anonymous in create() in ChatGPTInputPanelFactory" info="(role: cls in: anonymous class)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223677">
-                                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                <role name="root to target" />
-                                <child caption="run():void" info="(role: member in: Anonymous in actionPerformed() in Anonymous in create() in ChatGPTInputPanelFactory)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223679">
-                                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                  <role name="root to target" />
-                                  <child caption="serialiserForTesting" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223713">
-                                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                    <role name="root to target" />
-                                    <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273089223719">
-                                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
-                                      <role name="target" />
-                                    </child>
-                                  </child>
-                                </child>
-                              </child>
-                            </child>
+                            <role name="target" />
                           </child>
                         </child>
                       </child>
-                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/7366371879940263257" isRoot="true">
+                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.GlobalScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/7741582046953487666" title="tutorialFilePath():string" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="false" model_option="false" root_option="false" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="de.voelter.chatgpt.util" excluded="false" isresult="false" results_section="false" module_ref="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="de.voelter.chatgpt.util.behavior" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="ChatGPTConfig_Behavior" info="" excluded="false" isresult="false" results_section="false" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/4253771607368385308" isRoot="true">
                         <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                         <role name="root" />
-                        <child caption="chat(string,float):string" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/7366371879940285014">
+                        <child caption="tutorialFilePath():string" info="(role: method in: ChatGPTConfig_Behavior)" excluded="false" isresult="true" results_section="false" nodePtr="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)/7741582046953487666">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="de.voelter.chatgpt.ide" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="de.voelter.chatgpt.ide.plugin" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940263257" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="tutorial():list&lt;JSONObject&gt;" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/8008715273062137231">
                           <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                           <role name="root to target" />
-                          <child caption="serialiser" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273082179670">
+                          <child caption="fr" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/8008715273062169004">
                             <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                             <role name="root to target" />
-                            <child caption="createSerialiserIfAvailable():NodesToXMLSerialiser" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)/8008715273082179673">
+                            <child caption="tutorialFilePath():string" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7741582046953865695">
                               <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
                               <role name="target" />
                             </child>
                           </child>
                         </child>
                       </child>
-                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.plugin)" />
+                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)" />
+                    </child>
+                  </child>
+                  <child caption="de.voelter.forms" excluded="false" isresult="false" results_section="true" module_ref="8387094c-8d3d-4bd0-8f06-6fc8065096d2(de.voelter.forms)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="de.voelter.forms.behavior" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="FormsChatGPTConfig_Behavior" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(de.voelter.forms.behavior)/4253771607368430312" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="tutorialFilePath():string" info="(role: method in: FormsChatGPTConfig_Behavior)" excluded="false" isresult="true" results_section="true" nodePtr="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(de.voelter.forms.behavior)/7741582046953487893">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:c7c9bfe3-9ccc-4f4b-8119-d743191d3321(de.voelter.forms.behavior)" />
+                    </child>
+                  </child>
+                </child>
+                <child caption="Exact Method Usages" excluded="false" isresult="false" results_section="true" category="Exact Method Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="de.voelter.chatgpt.ide" excluded="false" isresult="false" results_section="true" module_ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="de.voelter.chatgpt.ide.plugin" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="ChatGPTInterface" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7366371879940263257" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="tutorial():list&lt;JSONObject&gt;" info="(role: member in: ChatGPTInterface)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/8008715273062137231">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="root to target" />
+                          <child caption="fr" info="(role: localVariableDeclaration in: &lt;type&gt; &lt;var&gt;;)" excluded="false" isresult="false" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/8008715273062169004">
+                            <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                            <role name="root to target" />
+                            <child caption="tutorialFilePath():string" info="(role: operation in: DotExpression)" excluded="false" isresult="true" results_section="true" nodePtr="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)/7741582046953865695">
+                              <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                              <role name="target" />
+                            </child>
+                          </child>
+                        </child>
+                      </child>
+                      <model uid="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin)" />
                     </child>
                   </child>
                 </child>
@@ -1033,6 +1151,7 @@
     <MESSAGE value="done for now" />
     <MESSAGE value="more frameworking" />
     <MESSAGE value="icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons" />
+    <MESSAGE value="bunch of renames" />
+    <option name="LAST_COMMIT_MESSAGE" value="bunch of renames" />
   </component>
 </project>

@@ -340,6 +340,24 @@
       </node>
       <node concept="3clFbS" id="6W$F1Jvjoxs" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="6HJBXF$en9I" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="config" />
+      <node concept="3Tm1VV" id="6HJBXF$en9J" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6HJBXF$enap" role="3clF45">
+        <ref role="ehGHo" to="capj:3G8rFPcPsb7" resolve="ChatGPTConfig" />
+      </node>
+      <node concept="3clFbS" id="6HJBXF$en9L" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6HJBXF$enb$" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="apiKey" />
+      <node concept="3Tm1VV" id="6HJBXF$enb_" role="1B3o_S" />
+      <node concept="17QB3L" id="6HJBXF$encP" role="3clF45" />
+      <node concept="3clFbS" id="6HJBXF$enbB" role="3clF47" />
+    </node>
     <node concept="13hLZK" id="6W$F1JuZoAt" role="13h7CW">
       <node concept="3clFbS" id="6W$F1JuZoAu" role="2VODD2" />
     </node>
@@ -2812,6 +2830,14 @@
       </node>
       <node concept="3clFbS" id="3G8rFPcPscI" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="6HJBXF$d3OM" role="13h7CS">
+      <property role="TrG5h" value="tutorialFilePath" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6HJBXF$d3ON" role="1B3o_S" />
+      <node concept="17QB3L" id="6HJBXF$d3Pa" role="3clF45" />
+      <node concept="3clFbS" id="6HJBXF$d3OP" role="3clF47" />
+    </node>
     <node concept="13hLZK" id="3G8rFPcPsct" role="13h7CW">
       <node concept="3clFbS" id="3G8rFPcPscu" role="2VODD2" />
     </node>
@@ -3046,6 +3072,37 @@
     </node>
     <node concept="13hLZK" id="3G8rFPcPwNZ" role="13h7CW">
       <node concept="3clFbS" id="3G8rFPcPwO0" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6HJBXF$enDB" role="13h7CS">
+      <property role="TrG5h" value="config" />
+      <ref role="13i0hy" node="6HJBXF$en9I" resolve="config" />
+      <node concept="3Tm1VV" id="6HJBXF$enDC" role="1B3o_S" />
+      <node concept="3clFbS" id="6HJBXF$enDF" role="3clF47">
+        <node concept="3clFbF" id="6HJBXF$eoPG" role="3cqZAp">
+          <node concept="2OqwBi" id="6HJBXF$ep0n" role="3clFbG">
+            <node concept="13iPFW" id="6HJBXF$eoPF" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6HJBXF$ep9B" role="2OqNvi">
+              <ref role="3Tt5mk" to="capj:3G8rFPcPsda" resolve="config" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6HJBXF$enDG" role="3clF45">
+        <ref role="ehGHo" to="capj:3G8rFPcPsb7" resolve="ChatGPTConfig" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6HJBXF$me6X" role="13h7CS">
+      <property role="TrG5h" value="apiKey" />
+      <ref role="13i0hy" node="6HJBXF$enb$" resolve="apiKey" />
+      <node concept="3Tm1VV" id="6HJBXF$me6Y" role="1B3o_S" />
+      <node concept="3clFbS" id="6HJBXF$me71" role="3clF47">
+        <node concept="3clFbF" id="47bF0SmkgqW" role="3cqZAp">
+          <node concept="Xl_RD" id="47bF0SmjYvZ" role="3clFbG">
+            <property role="Xl_RC" value="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" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6HJBXF$me72" role="3clF45" />
     </node>
   </node>
 </model>
