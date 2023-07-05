@@ -185,6 +185,7 @@
       <concept id="4682418030828725523" name="de.itemis.mps.editor.celllayout.structure.HorizontalLineCell" flags="ng" index="2T_mXK" />
       <concept id="2728748097294736650" name="de.itemis.mps.editor.celllayout.structure.BorderColorStyle" flags="lg" index="3T6ez_" />
       <concept id="2728748097294695721" name="de.itemis.mps.editor.celllayout.structure.BorderSizeStyle" flags="lg" index="3T6Sz6" />
+      <concept id="2728748097294412051" name="de.itemis.mps.editor.celllayout.structure.PushXStyle" flags="lg" index="3T7XNW" />
       <concept id="2728748097294192922" name="de.itemis.mps.editor.celllayout.structure.IntegerStyle" flags="lg" index="3To2jP">
         <property id="1221209241505" name="value" index="1lJzqX" />
       </concept>
@@ -280,6 +281,9 @@
         <node concept="Veino" id="6W$F1JuKCgy" role="3F10Kt">
           <property role="Vb096" value="6cZGtrcKCoS/black" />
         </node>
+        <node concept="3T7XNW" id="2Fbvgl_cZKe" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="3F0ifn" id="1aFpx86_gJ5" role="3EZMnx">
           <property role="3F0ifm" value=" " />
           <node concept="11L4FC" id="1aFpx86_zz9" role="3F10Kt">
@@ -296,6 +300,9 @@
         </node>
         <node concept="3T6Sz6" id="1aFpx86As1B" role="3F10Kt">
           <property role="1lJzqX" value="2" />
+        </node>
+        <node concept="3T7XNW" id="2Fbvgl_dQRl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
         <node concept="2iRkQZ" id="1aFpx86Bq$s" role="2iSdaV" />
         <node concept="3F0ifn" id="1aFpx86B1$H" role="3EZMnx">
