@@ -196,10 +196,10 @@
           <property role="30bXRw" value="10" />
         </node>
       </node>
-      <node concept="2fobrI" id="6W$F1JwiNlJ" role="2fobqq">
-        <ref role="2fobrz" node="6W$F1JwiNf3" resolve="twiceTheAge" />
-        <node concept="30bXRB" id="6W$F1JwiNm5" role="2fobrx">
-          <property role="30bXRw" value="20" />
+      <node concept="2fobrI" id="3G8rFPcNpVR" role="2fobqq">
+        <ref role="2fobrz" node="6W$F1Jwi3aN" resolve="ageCategory" />
+        <node concept="30bdrP" id="3G8rFPcNt3D" role="2fobrx">
+          <property role="30bdrQ" value="Child" />
         </node>
       </node>
     </node>

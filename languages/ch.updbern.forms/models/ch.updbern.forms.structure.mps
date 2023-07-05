@@ -10,6 +10,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
     <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
+    <import index="av4b" ref="r:ba7faab6-2b80-43d5-8b95-0c440665312c(org.iets3.core.expr.tests.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -201,7 +202,7 @@
     <property role="TrG5h" value="FormTest" />
     <property role="34LRSv" value="test" />
     <property role="3GE5qa" value="test" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="av4b:78hTg1$THIw" resolve="AbstractTestItem" />
     <node concept="1TJgyj" id="6W$F1Jwh1C$" role="1TKVEi">
       <property role="IQ2ns" value="8008715273098238500" />
       <property role="20kJfa" value="form" />
@@ -214,6 +215,9 @@
       <property role="20kJfa" value="contents" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6W$F1Jwh1E0" resolve="ITestContent" />
+    </node>
+    <node concept="PrWs8" id="3G8rFPcKb5V" role="PzmwI">
+      <ref role="PrY4T" to="4kwy:3R3AIvuMXwK" resolve="ICanStoreCheckResult" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W$F1Jwh1DZ">
@@ -247,7 +251,6 @@
     <property role="EcuMT" value="8008715273098238709" />
     <property role="3GE5qa" value="test" />
     <property role="TrG5h" value="CalcAssert" />
-    <property role="34LRSv" value="calc" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
     <node concept="PrWs8" id="6W$F1Jwh1FQ" role="PzmwI">
       <ref role="PrY4T" node="6W$F1Jwh1E0" resolve="ITestContent" />
