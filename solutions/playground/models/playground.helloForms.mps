@@ -2,33 +2,32 @@
 <model ref="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms)">
   <persistence version="9" />
   <languages>
-    <use id="c83bec13-da66-49d6-8783-522e7fada865" name="de.voelter.chatgpt.util" version="0" />
-    <devkit ref="31ca19ef-56b9-4aa0-83cd-e8a4ead47643(ch.updbern.devkit)" />
+    <devkit ref="f5033491-c843-46f7-a472-14eca43edcdf(de.voelter.chatgptdemo)" />
   </languages>
   <imports />
   <registry>
-    <language id="8387094c-8d3d-4bd0-8f06-6fc8065096d2" name="ch.updbern.forms">
-      <concept id="8008715273098238499" name="ch.updbern.forms.structure.FormTest" flags="ng" index="2foboS">
+    <language id="8387094c-8d3d-4bd0-8f06-6fc8065096d2" name="de.voelter.forms">
+      <concept id="8008715273098238499" name="de.voelter.forms.structure.FormTest" flags="ng" index="2foboS">
         <reference id="8008715273098238500" name="form" index="2foboZ" />
       </concept>
-      <concept id="8008715273098373287" name="ch.updbern.forms.structure.FormTestRoot" flags="ng" index="2foCiW">
+      <concept id="8008715273098373287" name="de.voelter.forms.structure.FormTestRoot" flags="ng" index="2foCiW">
         <child id="8008715273098373358" name="tests" index="2foCjP" />
       </concept>
-      <concept id="8008715273067179402" name="ch.updbern.forms.structure.InlineEnumTypeDecl" flags="ng" index="2LjC6h">
+      <concept id="8008715273067179402" name="de.voelter.forms.structure.InlineEnumTypeDecl" flags="ng" index="2LjC6h">
         <child id="8008715273067179403" name="literals" index="2LjC6g" />
       </concept>
-      <concept id="8008715273067179405" name="ch.updbern.forms.structure.InlineEnumLit" flags="ng" index="2LjC6m" />
-      <concept id="4253771607368430228" name="ch.updbern.forms.structure.FormsChatGPTConfig" flags="ng" index="1RRxKD" />
-      <concept id="1158360936468903663" name="ch.updbern.forms.structure.DataRefExpr" flags="ng" index="1VYqnd">
+      <concept id="8008715273067179405" name="de.voelter.forms.structure.InlineEnumLit" flags="ng" index="2LjC6m" />
+      <concept id="4253771607368430228" name="de.voelter.forms.structure.FormsChatGPTConfig" flags="ng" index="1RRxKD" />
+      <concept id="1158360936468903663" name="de.voelter.forms.structure.DataRefExpr" flags="ng" index="1VYqnd">
         <reference id="1158360936468903664" name="data" index="1VYqni" />
       </concept>
-      <concept id="1158360936468880035" name="ch.updbern.forms.structure.Calculated" flags="ng" index="1VYsA1">
+      <concept id="1158360936468880035" name="de.voelter.forms.structure.Calculated" flags="ng" index="1VYsA1">
         <child id="1158360936468880036" name="expr" index="1VYsA6" />
       </concept>
-      <concept id="1158360936468880027" name="ch.updbern.forms.structure.Field" flags="ng" index="1VYsAT">
+      <concept id="1158360936468880027" name="de.voelter.forms.structure.Field" flags="ng" index="1VYsAT">
         <child id="1158360936468880030" name="type" index="1VYsAW" />
       </concept>
-      <concept id="1158360936468800959" name="ch.updbern.forms.structure.Form" flags="ng" index="1VYzqt">
+      <concept id="1158360936468800959" name="de.voelter.forms.structure.Form" flags="ng" index="1VYzqt">
         <child id="1158360936468880038" name="data" index="1VYsA4" />
       </concept>
     </language>

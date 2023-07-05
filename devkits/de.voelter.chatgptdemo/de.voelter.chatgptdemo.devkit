@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="de.voelter.chatgptdemo" uuid="f5033491-c843-46f7-a472-14eca43edcdf">
+  <exported-language name="8387094c-8d3d-4bd0-8f06-6fc8065096d2(de.voelter.forms)" />
+  <exported-language name="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)" />
+  <exported-language name="cfaa4966-b7d5-4b69-b66a-309a6e1a7290(org.iets3.core.expr.base)" />
+  <exported-language name="6b277d9a-d52d-416f-a209-1919bd737f50(org.iets3.core.expr.simpleTypes)" />
+</dev-kit>
+

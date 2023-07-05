@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="more frameworking">
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="icons">
+      <change afterPath="$PROJECT_DIR$/devkits/de.voelter.chatgptdemo/de.voelter.chatgptdemo.devkit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/generator/templates/de.voelter.forms.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.constraints.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.editor.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.intentions.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.structure.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.typesystem.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/models/de.voelter.forms.interpreter.plugin.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" beforeDir="false" afterPath="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/generator/templates/ch.updbern.forms.templates@generator.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/icons/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.behavior.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.constraints.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.editor.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.intentions.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.structure.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/ch.updbern.forms/models/ch.updbern.forms.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/ch.updbern.forms.interpreter/ch.updbern.forms.interpreter.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/ch.updbern.forms.interpreter/models/ch.updbern.forms.interpreter.plugin.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/icons/chatgpt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/lib/json-20230227.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/models/de.voelter.chatgpt.plugin.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/examples.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt/tutorial/tutorial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/playground/playground.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/playground.msd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +56,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="867c8867-7411-4c40-a377-c0e12d386120/r:337c7b71-b725-4b54-970b-546e8c700137(TempModule867c8867-7411-4c40-a377-c0e12d386120/ConsoleModel_3119964655281750)">
+            <model ref="c168f260-91a1-4db3-95d7-8ee98760c14c/r:d9a8057c-fa5e-4ddc-9342-8c0f89922647(TempModulec168f260-91a1-4db3-95d7-8ee98760c14c/ConsoleModel_3120302602785958)">
               <persistence version="9" />
               <languages>
                 <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
@@ -129,48 +161,48 @@
                   </concept>
                 </language>
               </registry>
-              <node concept="aymSD" id="2ISIOq3E47V">
-                <node concept="3balQm" id="2ISIOq3E47W" role="aymYE">
-                  <node concept="2Clz$F" id="2ISIOq3E47X" role="18xWvz">
-                    <node concept="f80E0" id="2ISIOq3E47Y" role="2Clzx4">
-                      <node concept="24aHrZ" id="2ISIOq3E47Z" role="f80$r">
-                        <node concept="2OqwBi" id="2ISIOq3E480" role="iY1wd">
-                          <node concept="qVDSY" id="2ISIOq3E481" role="2Oq$k0">
-                            <node concept="chp4Y" id="2ISIOq3E482" role="qVDSX">
+              <node concept="aymSD" id="6HJBXF$9kDB">
+                <node concept="3balQm" id="6HJBXF$9kDC" role="aymYE">
+                  <node concept="2Clz$F" id="6HJBXF$9kDD" role="18xWvz">
+                    <node concept="f80E0" id="6HJBXF$9kDE" role="2Clzx4">
+                      <node concept="24aHrZ" id="6HJBXF$9kDF" role="f80$r">
+                        <node concept="2OqwBi" id="6HJBXF$9kDG" role="iY1wd">
+                          <node concept="qVDSY" id="6HJBXF$9kDH" role="2Oq$k0">
+                            <node concept="chp4Y" id="6HJBXF$9kDI" role="qVDSX">
                               <ref role="cht4Q" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                             </node>
-                            <node concept="1dO9Bo" id="2ISIOq3E483" role="1dOa5D">
-                              <node concept="psT0o" id="2ISIOq3E484" role="1dp2q7">
-                                <node concept="p4YG9" id="2ISIOq3E485" role="psT0v" />
+                            <node concept="1dO9Bo" id="6HJBXF$9kDJ" role="1dOa5D">
+                              <node concept="psT0o" id="6HJBXF$9kDK" role="1dp2q7">
+                                <node concept="p4YG9" id="6HJBXF$9kDL" role="psT0v" />
                               </node>
                             </node>
                           </node>
-                          <node concept="3zZkjj" id="2ISIOq3E486" role="2OqNvi">
-                            <node concept="1bVj0M" id="2ISIOq3E487" role="23t8la">
+                          <node concept="3zZkjj" id="6HJBXF$9kDM" role="2OqNvi">
+                            <node concept="1bVj0M" id="6HJBXF$9kDN" role="23t8la">
                               <property role="3yWfEV" value="true" />
-                              <node concept="3clFbS" id="2ISIOq3E488" role="1bW5cS">
-                                <node concept="3clFbF" id="2ISIOq3E489" role="3cqZAp">
-                                  <node concept="2OqwBi" id="2ISIOq3E48a" role="3clFbG">
-                                    <node concept="2OqwBi" id="2ISIOq3E48b" role="2Oq$k0">
-                                      <node concept="37vLTw" id="2ISIOq3E48c" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="2ISIOq3E48g" resolve="node" />
+                              <node concept="3clFbS" id="6HJBXF$9kDO" role="1bW5cS">
+                                <node concept="3clFbF" id="6HJBXF$9kDP" role="3cqZAp">
+                                  <node concept="2OqwBi" id="6HJBXF$9kDQ" role="3clFbG">
+                                    <node concept="2OqwBi" id="6HJBXF$9kDR" role="2Oq$k0">
+                                      <node concept="37vLTw" id="6HJBXF$9kDS" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="6HJBXF$9kDW" resolve="node" />
                                       </node>
-                                      <node concept="3TrcHB" id="2ISIOq3E48d" role="2OqNvi">
+                                      <node concept="3TrcHB" id="6HJBXF$9kDT" role="2OqNvi">
                                         <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="2ISIOq3E48e" role="2OqNvi">
+                                    <node concept="liA8E" id="6HJBXF$9kDU" role="2OqNvi">
                                       <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                                      <node concept="Xl_RD" id="2ISIOq3E48f" role="37wK5m">
+                                      <node concept="Xl_RD" id="6HJBXF$9kDV" role="37wK5m">
                                         <property role="Xl_RC" value="questionnaire" />
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="Rh6nW" id="2ISIOq3E48g" role="1bW2Oz">
+                              <node concept="Rh6nW" id="6HJBXF$9kDW" role="1bW2Oz">
                                 <property role="TrG5h" value="node" />
-                                <node concept="2jxLKc" id="2ISIOq3E48h" role="1tU5fm" />
+                                <node concept="2jxLKc" id="6HJBXF$9kDX" role="1tU5fm" />
                               </node>
                             </node>
                           </node>
@@ -179,9 +211,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2Clz$F" id="2ISIOq3E48i" role="aymYO" />
-                <node concept="2_V_lH" id="2ISIOq3E48j" role="1PhJh3">
-                  <ref role="2_V_lI" node="2ISIOq3E48i" resolve="CommandHolder" />
+                <node concept="2Clz$F" id="6HJBXF$9nFZ" role="aymYO" />
+                <node concept="2_V_lH" id="6HJBXF$9nG0" role="1PhJh3">
+                  <ref role="2_V_lI" node="6HJBXF$9nFZ" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -384,131 +416,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemId" value="lang" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8387094c-8d3d-4bd0-8f06-6fc8065096d2(ch.updbern.forms)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6fd857ce-5f8f-4500-bc43-d06fd50534ca" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:305127cb-2d5d-4b3f-a7d0-b8557c44193d(ch.updbern.forms.interpreter.plugin) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/ch.updbern.forms.interpreter/models/ch.updbern.forms.interpreter.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upd" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,32 +432,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/UPDBern/upd/solutions/playground/models/playground.helloForms.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8008715273098441655" />
+              <option name="myItemId" value="f5033491-c843-46f7-a472-14eca43edcdf" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
         </subPane>
-      </pane>
-      <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
@@ -755,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688576495386</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="icons">
+      <created>1688576686639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688576686639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -1132,6 +1032,7 @@
     <MESSAGE value="interpreter runs" />
     <MESSAGE value="done for now" />
     <MESSAGE value="more frameworking" />
-    <option name="LAST_COMMIT_MESSAGE" value="more frameworking" />
+    <MESSAGE value="icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="icons" />
   </component>
 </project>

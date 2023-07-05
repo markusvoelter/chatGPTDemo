@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:305127cb-2d5d-4b3f-a7d0-b8557c44193d(ch.updbern.forms.interpreter.plugin)">
+<model ref="r:305127cb-2d5d-4b3f-a7d0-b8557c44193d(de.voelter.forms.interpreter.plugin)">
   <persistence version="9" />
   <languages>
     <use id="47f075a6-558e-4640-a606-7ce0236c8023" name="com.mbeddr.mpsutil.interpreter" version="1" />
-    <use id="8387094c-8d3d-4bd0-8f06-6fc8065096d2" name="ch.updbern.forms" version="0" />
+    <use id="8387094c-8d3d-4bd0-8f06-6fc8065096d2" name="de.voelter.forms" version="0" />
   </languages>
   <imports>
     <import index="pfdp" ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" />

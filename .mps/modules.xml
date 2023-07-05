@@ -2,11 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/devkits/ch.updbern.devkit/ch.updbern.devkit.devkit" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/ch.updbern.forms/ch.updbern.forms.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/ch.updbern.forms.interpreter/ch.updbern.forms.interpreter.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.voelter.chatgpt/de.voelter.chatgpt.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/de.voelter.chatgptdemo/de.voelter.chatgptdemo.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/languages/de.voelter.forms/de.voelter.forms.mpl" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/de.voelter.chatgpt.ide.msd" folder="lang" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/de.voelter.forms.interpreter.msd" folder="lang" />
       <modulePath path="$PROJECT_DIR$/solutions/playground/playground.msd" folder="" />
     </projectModules>
   </component>
