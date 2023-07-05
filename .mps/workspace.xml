@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="done for now">
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.forms/de.voelter.forms.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.forms/de.voelter.forms.mpl" afterDir="false" />
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="added logical not">
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.editor.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="d4953874-c0b3-4b27-b1a0-ee70cc1088e5/r:07290135-9869-46b5-9170-52badbe329c7(TempModuled4953874-c0b3-4b27-b1a0-ee70cc1088e5/ConsoleModel_3124101080256000)">
+            <model ref="39d20683-30d3-435c-8928-135dd769f993/r:70cbda9e-d475-4082-9bd6-cdc5829ba2e1(TempModule39d20683-30d3-435c-8928-135dd769f993/ConsoleModel_3124167055790916)">
               <persistence version="9" />
               <languages>
                 <use id="1a8554c4-eb84-43ba-8c34-6f0d90c6e75a" name="jetbrains.mps.lang.smodel.query" version="3" />
@@ -129,48 +129,48 @@
                   </concept>
                 </language>
               </registry>
-              <node concept="aymSD" id="2Fbvgl_9$cu">
-                <node concept="3balQm" id="2Fbvgl_9$cv" role="aymYE">
-                  <node concept="2Clz$F" id="2Fbvgl_9$cw" role="18xWvz">
-                    <node concept="f80E0" id="2Fbvgl_9$cx" role="2Clzx4">
-                      <node concept="24aHrZ" id="2Fbvgl_9$cy" role="f80$r">
-                        <node concept="2OqwBi" id="2Fbvgl_9$cz" role="iY1wd">
-                          <node concept="qVDSY" id="2Fbvgl_9$c$" role="2Oq$k0">
-                            <node concept="chp4Y" id="2Fbvgl_9$c_" role="qVDSX">
+              <node concept="aymSD" id="2Fbvgl_aINc">
+                <node concept="3balQm" id="2Fbvgl_aINd" role="aymYE">
+                  <node concept="2Clz$F" id="2Fbvgl_aINe" role="18xWvz">
+                    <node concept="f80E0" id="2Fbvgl_aINf" role="2Clzx4">
+                      <node concept="24aHrZ" id="2Fbvgl_aINg" role="f80$r">
+                        <node concept="2OqwBi" id="2Fbvgl_aINh" role="iY1wd">
+                          <node concept="qVDSY" id="2Fbvgl_aINi" role="2Oq$k0">
+                            <node concept="chp4Y" id="2Fbvgl_aINj" role="qVDSX">
                               <ref role="cht4Q" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                             </node>
-                            <node concept="1dO9Bo" id="2Fbvgl_9$cA" role="1dOa5D">
-                              <node concept="psT0o" id="2Fbvgl_9$cB" role="1dp2q7">
-                                <node concept="p4YG9" id="2Fbvgl_9$cC" role="psT0v" />
+                            <node concept="1dO9Bo" id="2Fbvgl_aINk" role="1dOa5D">
+                              <node concept="psT0o" id="2Fbvgl_aINl" role="1dp2q7">
+                                <node concept="p4YG9" id="2Fbvgl_aINm" role="psT0v" />
                               </node>
                             </node>
                           </node>
-                          <node concept="3zZkjj" id="2Fbvgl_9$cD" role="2OqNvi">
-                            <node concept="1bVj0M" id="2Fbvgl_9$cE" role="23t8la">
+                          <node concept="3zZkjj" id="2Fbvgl_aINn" role="2OqNvi">
+                            <node concept="1bVj0M" id="2Fbvgl_aINo" role="23t8la">
                               <property role="3yWfEV" value="true" />
-                              <node concept="3clFbS" id="2Fbvgl_9$cF" role="1bW5cS">
-                                <node concept="3clFbF" id="2Fbvgl_9$cG" role="3cqZAp">
-                                  <node concept="2OqwBi" id="2Fbvgl_9$cH" role="3clFbG">
-                                    <node concept="2OqwBi" id="2Fbvgl_9$cI" role="2Oq$k0">
-                                      <node concept="37vLTw" id="2Fbvgl_9$cJ" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="2Fbvgl_9$cN" resolve="node" />
+                              <node concept="3clFbS" id="2Fbvgl_aINp" role="1bW5cS">
+                                <node concept="3clFbF" id="2Fbvgl_aINq" role="3cqZAp">
+                                  <node concept="2OqwBi" id="2Fbvgl_aINr" role="3clFbG">
+                                    <node concept="2OqwBi" id="2Fbvgl_aINs" role="2Oq$k0">
+                                      <node concept="37vLTw" id="2Fbvgl_aINt" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2Fbvgl_aINx" resolve="node" />
                                       </node>
-                                      <node concept="3TrcHB" id="2Fbvgl_9$cK" role="2OqNvi">
+                                      <node concept="3TrcHB" id="2Fbvgl_aINu" role="2OqNvi">
                                         <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="2Fbvgl_9$cL" role="2OqNvi">
+                                    <node concept="liA8E" id="2Fbvgl_aINv" role="2OqNvi">
                                       <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
-                                      <node concept="Xl_RD" id="2Fbvgl_9$cM" role="37wK5m">
+                                      <node concept="Xl_RD" id="2Fbvgl_aINw" role="37wK5m">
                                         <property role="Xl_RC" value="questionnaire" />
                                       </node>
                                     </node>
                                   </node>
                                 </node>
                               </node>
-                              <node concept="Rh6nW" id="2Fbvgl_9$cN" role="1bW2Oz">
+                              <node concept="Rh6nW" id="2Fbvgl_aINx" role="1bW2Oz">
                                 <property role="TrG5h" value="node" />
-                                <node concept="2jxLKc" id="2Fbvgl_9$cO" role="1tU5fm" />
+                                <node concept="2jxLKc" id="2Fbvgl_aINy" role="1tU5fm" />
                               </node>
                             </node>
                           </node>
@@ -179,9 +179,9 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2Clz$F" id="2Fbvgl_9$cP" role="aymYO" />
-                <node concept="2_V_lH" id="2Fbvgl_9$cQ" role="1PhJh3">
-                  <ref role="2_V_lI" node="2Fbvgl_9$cP" resolve="CommandHolder" />
+                <node concept="2Clz$F" id="2Fbvgl_aINz" role="aymYO" />
+                <node concept="2_V_lH" id="2Fbvgl_aIN$" role="1PhJh3">
+                  <ref role="2_V_lI" node="2Fbvgl_aINz" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -375,8 +375,35 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
+        <subPane />
+      </pane>
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="chatgpt" />
@@ -404,18 +431,18 @@
               <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="chatgpt" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="chatgpt" />
               <option name="myItemType" value="" />
@@ -424,17 +451,22 @@
               <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/chatGPTDemp/chatgpt/solutions/playground/models/playground.helloForms.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4741072209241429267" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_org.iets3.core.expr.doc.plugin.plugin.BookmarkExplorer">
-        <subPane />
-      </pane>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
       <pane id="Scope" />
@@ -458,6 +490,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.mbeddr.mpsutil.multilingual.concept.runtime.plugin.MultilingualConceptProjectPlugin_ProjectPluginPart.showTranslations" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.projectLibraryManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -668,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688579672363</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added logical not">
+      <created>1688580722936</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688580722936</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -1218,6 +1258,7 @@
     <MESSAGE value="icons" />
     <MESSAGE value="bunch of renames" />
     <MESSAGE value="moved the tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved the tutorial" />
+    <MESSAGE value="added logical not" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logical not" />
   </component>
 </project>
