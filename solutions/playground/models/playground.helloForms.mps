@@ -27,8 +27,12 @@
       </concept>
     </language>
     <language id="cfaa4966-b7d5-4b69-b66a-309a6e1a7290" name="org.iets3.core.expr.base">
-      <concept id="606861080870797309" name="org.iets3.core.expr.base.structure.IfElseSection" flags="ng" index="pf3Wd">
-        <child id="606861080870797310" name="expr" index="pf3We" />
+      <concept id="7971844778466793051" name="org.iets3.core.expr.base.structure.AltOption" flags="ng" index="2fGnzd">
+        <child id="7971844778466793072" name="then" index="2fGnzA" />
+        <child id="7971844778466793070" name="when" index="2fGnzS" />
+      </concept>
+      <concept id="7971844778466793028" name="org.iets3.core.expr.base.structure.AlternativesExpression" flags="ng" index="2fGnzi">
+        <child id="7971844778466793162" name="alternatives" index="2fGnxs" />
       </concept>
       <concept id="5115872837156724025" name="org.iets3.core.expr.base.structure.LogicalAndExpression" flags="ng" index="30deo4" />
       <concept id="5115872837156652603" name="org.iets3.core.expr.base.structure.DivExpression" flags="ng" index="30dvO6" />
@@ -37,13 +41,9 @@
         <child id="5115872837156576280" name="right" index="30dEs_" />
         <child id="5115872837156576278" name="left" index="30dEsF" />
       </concept>
-      <concept id="7849560302565679722" name="org.iets3.core.expr.base.structure.IfExpression" flags="ng" index="39w5ZF">
-        <child id="606861080870797304" name="elseSection" index="pf3W8" />
-        <child id="7849560302565679723" name="condition" index="39w5ZE" />
-        <child id="7849560302565679725" name="thenPart" index="39w5ZG" />
-      </concept>
     </language>
     <language id="6b277d9a-d52d-416f-a209-1919bd737f50" name="org.iets3.core.expr.simpleTypes">
+      <concept id="7971844778467001950" name="org.iets3.core.expr.simpleTypes.structure.OtherwiseLiteral" flags="ng" index="2fHqz8" />
       <concept id="7425695345928349207" name="org.iets3.core.expr.simpleTypes.structure.BooleanType" flags="ng" index="2vmvy5" />
       <concept id="5115872837157054169" name="org.iets3.core.expr.simpleTypes.structure.IntegerType" flags="ng" index="30bXR$" />
       <concept id="5115872837157054170" name="org.iets3.core.expr.simpleTypes.structure.NumberLiteral" flags="ng" index="30bXRB">
@@ -66,75 +66,81 @@
     </language>
   </registry>
   <node concept="2Lq25G" id="6W$F1JujIkN">
-    <node concept="1VYzqt" id="6W$F1Jv8JuO" role="2Lqm1X">
+    <node concept="1VYzqt" id="6W$F1Jvd5Pz" role="2Lqm1X">
       <property role="TrG5h" value="SleepQualityQuestionnaire" />
-      <node concept="1VYsAT" id="6W$F1Jv8JuQ" role="1VYsA4">
+      <node concept="1VYsAT" id="6W$F1Jvd5P_" role="1VYsA4">
         <property role="TrG5h" value="hoursOfSleep" />
-        <node concept="30bXR$" id="6W$F1Jv8JuP" role="1VYsAW" />
+        <node concept="30bXR$" id="6W$F1Jvd5P$" role="1VYsAW" />
       </node>
-      <node concept="1VYsAT" id="6W$F1Jv8JuS" role="1VYsA4">
+      <node concept="1VYsAT" id="6W$F1Jvd5PB" role="1VYsA4">
         <property role="TrG5h" value="difficultyFallingAsleep" />
-        <node concept="2vmvy5" id="6W$F1Jv8JuR" role="1VYsAW" />
+        <node concept="2vmvy5" id="6W$F1Jvd5PA" role="1VYsAW" />
       </node>
-      <node concept="1VYsAT" id="6W$F1Jv8JuU" role="1VYsA4">
+      <node concept="1VYsAT" id="6W$F1Jvd5PD" role="1VYsA4">
         <property role="TrG5h" value="wakingUpDuringNight" />
-        <node concept="2vmvy5" id="6W$F1Jv8JuT" role="1VYsAW" />
+        <node concept="2vmvy5" id="6W$F1Jvd5PC" role="1VYsAW" />
       </node>
-      <node concept="1VYsAT" id="6W$F1Jv8JuW" role="1VYsA4">
+      <node concept="1VYsAT" id="6W$F1Jvd5PF" role="1VYsA4">
         <property role="TrG5h" value="feelingRefreshed" />
-        <node concept="2vmvy5" id="6W$F1Jv8JuV" role="1VYsAW" />
+        <node concept="2vmvy5" id="6W$F1Jvd5PE" role="1VYsAW" />
       </node>
-      <node concept="1VYsAT" id="6W$F1Jv8JuY" role="1VYsA4">
+      <node concept="1VYsAT" id="6W$F1Jvd5PH" role="1VYsA4">
         <property role="TrG5h" value="dreaming" />
-        <node concept="2vmvy5" id="6W$F1Jv8JuX" role="1VYsAW" />
+        <node concept="2vmvy5" id="6W$F1Jvd5PG" role="1VYsAW" />
       </node>
-      <node concept="1VYsA1" id="6W$F1Jv8JuZ" role="1VYsA4">
+      <node concept="1VYsA1" id="6W$F1Jvd5PI" role="1VYsA4">
         <property role="TrG5h" value="overallSleepQuality" />
-        <node concept="30dvO6" id="6W$F1Jv8Jv1" role="1VYsA6">
-          <node concept="30dDZf" id="6W$F1Jv8Jv2" role="30dEsF">
-            <node concept="1VYqnd" id="6W$F1Jv8Jv3" role="30dEsF">
-              <ref role="1VYqni" node="6W$F1Jv8JuQ" resolve="hoursOfSleep" />
+        <node concept="30dvO6" id="6W$F1Jvd5PK" role="1VYsA6">
+          <node concept="30dDZf" id="6W$F1Jvd5PL" role="30dEsF">
+            <node concept="1VYqnd" id="6W$F1Jvd5PM" role="30dEsF">
+              <ref role="1VYqni" node="6W$F1Jvd5P_" resolve="hoursOfSleep" />
             </node>
-            <node concept="39w5ZF" id="6W$F1Jv8Jv9" role="30dEs_">
-              <node concept="30deo4" id="6W$F1Jv8Jv4" role="39w5ZE">
-                <node concept="1VYqnd" id="6W$F1Jv8Jv5" role="30dEsF">
-                  <ref role="1VYqni" node="6W$F1Jv8JuS" resolve="difficultyFallingAsleep" />
+            <node concept="2fGnzi" id="6W$F1Jvd5PN" role="30dEs_">
+              <node concept="2fGnzd" id="6W$F1Jvd5PO" role="2fGnxs">
+                <node concept="30deo4" id="6W$F1Jvd5PP" role="2fGnzS">
+                  <node concept="1VYqnd" id="6W$F1Jvd5PQ" role="30dEsF">
+                    <ref role="1VYqni" node="6W$F1Jvd5PB" resolve="difficultyFallingAsleep" />
+                  </node>
+                  <node concept="1VYqnd" id="6W$F1Jvd5PR" role="30dEs_">
+                    <ref role="1VYqni" node="6W$F1Jvd5PD" resolve="wakingUpDuringNight" />
+                  </node>
                 </node>
-                <node concept="1VYqnd" id="6W$F1Jv8Jv6" role="30dEs_">
-                  <ref role="1VYqni" node="6W$F1Jv8JuU" resolve="wakingUpDuringNight" />
+                <node concept="30bXRB" id="6W$F1Jvd5PS" role="2fGnzA">
+                  <property role="30bXRw" value="1" />
                 </node>
               </node>
-              <node concept="30bXRB" id="6W$F1Jv8Jv7" role="39w5ZG">
-                <property role="30bXRw" value="1" />
-              </node>
-              <node concept="pf3Wd" id="6W$F1Jv8Jva" role="pf3W8">
-                <node concept="30bXRB" id="6W$F1Jv8Jv8" role="pf3We">
+              <node concept="2fGnzd" id="6W$F1Jvd5PT" role="2fGnxs">
+                <node concept="2fHqz8" id="6W$F1Jvd5PU" role="2fGnzS" />
+                <node concept="30bXRB" id="6W$F1Jvd5PV" role="2fGnzA">
                   <property role="30bXRw" value="0" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="39w5ZF" id="6W$F1Jv8Jvg" role="30dEs_">
-            <node concept="30deo4" id="6W$F1Jv8Jvb" role="39w5ZE">
-              <node concept="1VYqnd" id="6W$F1Jv8Jvc" role="30dEsF">
-                <ref role="1VYqni" node="6W$F1Jv8JuW" resolve="feelingRefreshed" />
+          <node concept="2fGnzi" id="6W$F1Jvd5PW" role="30dEs_">
+            <node concept="2fGnzd" id="6W$F1Jvd5PX" role="2fGnxs">
+              <node concept="30deo4" id="6W$F1Jvd5PY" role="2fGnzS">
+                <node concept="1VYqnd" id="6W$F1Jvd5PZ" role="30dEsF">
+                  <ref role="1VYqni" node="6W$F1Jvd5PF" resolve="feelingRefreshed" />
+                </node>
+                <node concept="1VYqnd" id="6W$F1Jvd5Q0" role="30dEs_">
+                  <ref role="1VYqni" node="6W$F1Jvd5PH" resolve="dreaming" />
+                </node>
               </node>
-              <node concept="1VYqnd" id="6W$F1Jv8Jvd" role="30dEs_">
-                <ref role="1VYqni" node="6W$F1Jv8JuY" resolve="dreaming" />
+              <node concept="30bXRB" id="6W$F1Jvd5Q1" role="2fGnzA">
+                <property role="30bXRw" value="1" />
               </node>
             </node>
-            <node concept="30bXRB" id="6W$F1Jv8Jve" role="39w5ZG">
-              <property role="30bXRw" value="1" />
-            </node>
-            <node concept="pf3Wd" id="6W$F1Jv8Jvh" role="pf3W8">
-              <node concept="30bXRB" id="6W$F1Jv8Jvf" role="pf3We">
+            <node concept="2fGnzd" id="6W$F1Jvd5Q2" role="2fGnxs">
+              <node concept="2fHqz8" id="6W$F1Jvd5Q3" role="2fGnzS" />
+              <node concept="30bXRB" id="6W$F1Jvd5Q4" role="2fGnzA">
                 <property role="30bXRw" value="0" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2L$Le_" id="6W$F1Jv8Jvi" role="lGtFl">
+      <node concept="2L$Le_" id="6W$F1Jvd5Q5" role="lGtFl">
         <property role="2L$Lfo" value="Generate a questionnaire that assesses someone's sleep quality." />
         <property role="2LWU1s" value="&lt;questionnaire name=&quot;SleepQualityQuestionnaire&quot;&gt;&#10;  &lt;field name=&quot;hoursOfSleep&quot; type=&quot;int&quot;/&gt;&#10;  &lt;field name=&quot;difficultyFallingAsleep&quot; type=&quot;boolean&quot;/&gt;&#10;  &lt;field name=&quot;wakingUpDuringNight&quot; type=&quot;boolean&quot;/&gt;&#10;  &lt;field name=&quot;feelingRefreshed&quot; type=&quot;boolean&quot;/&gt;&#10;  &lt;field name=&quot;dreaming&quot; type=&quot;boolean&quot;/&gt;&#10;  &lt;calc name=&quot;overallSleepQuality&quot;&gt;&#10;    &lt;div&gt;&#10;      &lt;plus&gt;&#10;        &lt;fieldref name=&quot;hoursOfSleep&quot;/&gt;&#10;        &lt;if&gt;&#10;          &lt;and&gt;&#10;            &lt;fieldref name=&quot;difficultyFallingAsleep&quot;/&gt;&#10;            &lt;fieldref name=&quot;wakingUpDuringNight&quot;/&gt;&#10;          &lt;/and&gt;&#10;          &lt;intLit value=&quot;1&quot;/&gt;&#10;          &lt;intLit value=&quot;0&quot;/&gt;&#10;        &lt;/if&gt;&#10;      &lt;/plus&gt;&#10;      &lt;if&gt;&#10;        &lt;and&gt;&#10;          &lt;fieldref name=&quot;feelingRefreshed&quot;/&gt;&#10;          &lt;fieldref name=&quot;dreaming&quot;/&gt;&#10;        &lt;/and&gt;&#10;        &lt;intLit value=&quot;1&quot;/&gt;&#10;        &lt;intLit value=&quot;0&quot;/&gt;&#10;      &lt;/if&gt;&#10;    &lt;/div&gt;&#10;  &lt;/calc&gt;&#10;&lt;/questionnaire&gt;&#10;" />
       </node>

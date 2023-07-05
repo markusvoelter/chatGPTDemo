@@ -15,6 +15,7 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
@@ -34,6 +35,14 @@
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
+      <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
+        <child id="1139535219969" name="item" index="1h_SK8" />
+      </concept>
+      <concept id="1139535280617" name="jetbrains.mps.lang.editor.structure.CellActionMapItem" flags="lg" index="1hA7zw">
+        <property id="1139535298778" name="actionId" index="1hAc7j" />
+        <child id="1139535280620" name="executeFunction" index="1hA7z_" />
+      </concept>
+      <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
       <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
         <property id="1225456424731" name="value" index="1iTho6" />
       </concept>
@@ -97,6 +106,12 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
@@ -262,6 +277,35 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="6W$F1JuUb1O" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="6W$F1JvaCgQ">
+    <property role="TrG5h" value="deleteCurrentNode" />
+    <node concept="1hA7zw" id="6W$F1JvaCgR" role="1h_SK8">
+      <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <node concept="1hAIg9" id="6W$F1JvaCgS" role="1hA7z_">
+        <node concept="3clFbS" id="6W$F1JvaCgT" role="2VODD2">
+          <node concept="3clFbF" id="6W$F1JvaCh7" role="3cqZAp">
+            <node concept="2OqwBi" id="6W$F1JvaCo9" role="3clFbG">
+              <node concept="0IXxy" id="6W$F1JvaCh6" role="2Oq$k0" />
+              <node concept="3YRAZt" id="6W$F1JvaCxp" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1hA7zw" id="6W$F1JvaCzs" role="1h_SK8">
+      <property role="1hAc7j" value="7P1WhNABvta/backspace_action_id" />
+      <node concept="1hAIg9" id="6W$F1JvaCzt" role="1hA7z_">
+        <node concept="3clFbS" id="6W$F1JvaCzu" role="2VODD2">
+          <node concept="3clFbF" id="6W$F1JvaCzv" role="3cqZAp">
+            <node concept="2OqwBi" id="6W$F1JvaCzw" role="3clFbG">
+              <node concept="0IXxy" id="6W$F1JvaCzx" role="2Oq$k0" />
+              <node concept="3YRAZt" id="6W$F1JvaCzy" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
