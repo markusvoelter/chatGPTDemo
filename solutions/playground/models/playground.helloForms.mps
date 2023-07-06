@@ -203,7 +203,7 @@
     <node concept="1VYzqt" id="2Fbvgl_e6vG" role="1RRqRP">
       <property role="TrG5h" value="FeverDiagnosisForm" />
       <node concept="1VYsAT" id="2Fbvgl_e6vI" role="1VYsA4">
-        <property role="TrG5h" value="temperatureThatHasBeenMeasured" />
+        <property role="TrG5h" value="mesaured" />
         <node concept="30bXR$" id="2Fbvgl_e6vH" role="1VYsAW" />
       </node>
       <node concept="1VYsAT" id="2Fbvgl_e6vK" role="1VYsA4">
@@ -216,7 +216,7 @@
       </node>
       <node concept="1VYsAT" id="2Fbvgl_e6vO" role="1VYsA4">
         <property role="TrG5h" value="soreThroat" />
-        <node concept="2vmvy5" id="2Fbvgl_e6vN" role="1VYsAW" />
+        <node concept="2vmvy5" id="2Fbvgl_rSv$" role="1VYsAW" />
       </node>
       <node concept="1VYsAT" id="2Fbvgl_e6vQ" role="1VYsA4">
         <property role="TrG5h" value="fatigue" />

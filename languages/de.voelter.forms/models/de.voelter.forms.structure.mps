@@ -125,7 +125,7 @@
   <node concept="1TIwiD" id="6W$F1JuqyQa">
     <property role="EcuMT" value="8008715273067179402" />
     <property role="TrG5h" value="InlineEnumTypeDecl" />
-    <property role="34LRSv" value="enum" />
+    <property role="34LRSv" value="choiceOf" />
     <property role="3GE5qa" value="form" />
     <ref role="1TJDcQ" to="hm2y:6sdnDbSlaok" resolve="Type" />
     <node concept="1TJgyj" id="6W$F1JuqyQb" role="1TKVEi">
