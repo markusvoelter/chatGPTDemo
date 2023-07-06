@@ -177,7 +177,7 @@
         <node concept="2vmvy5" id="2Fbvgl_e6vP" role="1VYsAW" />
       </node>
       <node concept="1VYsA1" id="2Fbvgl_e6vR" role="1VYsA4">
-        <property role="TrG5h" value="isFever" />
+        <property role="TrG5h" value="hasFever" />
         <node concept="30deu6" id="2Fbvgl_e6vT" role="1VYsA6">
           <node concept="30deu6" id="2Fbvgl_e6vU" role="30dEsF">
             <node concept="30d7iD" id="2Fbvgl_e6vV" role="30dEsF">
@@ -206,10 +206,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2L$Le_" id="2Fbvgl_e6w4" role="lGtFl">
-        <property role="2L$Lfo" value="add another two reasonable fields" />
-        <property role="2LWU1s" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;form name=&quot;FeverDiagnosisForm&quot;&gt;&#13;&#10;  &lt;field name=&quot;temperatureThatHasBeenMeasured&quot; type=&quot;int&quot; /&gt;&#13;&#10;  &lt;field name=&quot;chills&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;headache&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;soreThroat&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;fatigue&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;calc name=&quot;isFever&quot;&gt;&#13;&#10;    &lt;or&gt;&#13;&#10;      &lt;or&gt;&#13;&#10;        &lt;greaterThan&gt;&#13;&#10;          &lt;fieldref value=&quot;temperatureThatHasBeenMeasured&quot; /&gt;&#13;&#10;          &lt;intLit value=&quot;37&quot; /&gt;&#13;&#10;        &lt;/greaterThan&gt;&#13;&#10;        &lt;fieldref value=&quot;chills&quot; /&gt;&#13;&#10;      &lt;/or&gt;&#13;&#10;      &lt;or&gt;&#13;&#10;        &lt;fieldref value=&quot;headache&quot; /&gt;&#13;&#10;        &lt;and&gt;&#13;&#10;          &lt;fieldref value=&quot;soreThroat&quot; /&gt;&#13;&#10;          &lt;fieldref value=&quot;fatigue&quot; /&gt;&#13;&#10;        &lt;/and&gt;&#13;&#10;      &lt;/or&gt;&#13;&#10;    &lt;/or&gt;&#13;&#10;  &lt;/calc&gt;&#13;&#10;&lt;/form&gt;&#10;" />
       </node>
     </node>
   </node>

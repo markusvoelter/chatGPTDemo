@@ -71,6 +71,9 @@
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
+      <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <reference id="1139959269582" name="actionMap" index="1ERwB7" />
+      </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -296,9 +299,11 @@
       <property role="S$Qs1" value="true" />
       <node concept="2iRkQZ" id="6W$F1JuHXVz" role="2iSdaV" />
       <node concept="3EZMnI" id="6W$F1JuHVZ$" role="3EZMnx">
+        <ref role="1ERwB7" node="6W$F1JvaCgQ" resolve="deleteCurrentNode" />
         <node concept="2iRfu4" id="6W$F1JuHVZ_" role="2iSdaV" />
         <node concept="3F0ifn" id="6W$F1JuHVZx" role="3EZMnx">
           <property role="3F0ifm" value=" ChatGPT " />
+          <ref role="1ERwB7" node="6W$F1JvaCgQ" resolve="deleteCurrentNode" />
           <node concept="VechU" id="1aFpx86Ccfp" role="3F10Kt">
             <property role="Vb096" value="hEZAO13/white" />
           </node>
