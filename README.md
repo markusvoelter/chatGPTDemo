@@ -34,6 +34,8 @@ However, there has been a long standing dream by which these subject matter expe
 
 ## Brief technical overview
 
+The code is separated into a demo application for questionnaires that assess some aspect of a person's heath (in the `lang.demo` virtual folder) and a generic, reusable set of utilities (in the `lang.chatgpt virtual folder).
+
 
 ## License
 
