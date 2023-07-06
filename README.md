@@ -3,6 +3,10 @@
 This is a demonstrator of an integration of ChatGPT in MPS. The idea is that users specify their model in prose, and ChatGPT produces the source code. 
 
 
+## What this does
+
+Video yet to come.
+
 ## Installation
 
 * This is an MPS project that needs to be opened in [MPS](http://jetbrains.com/mps/) version 2021.3.2
