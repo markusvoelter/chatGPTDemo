@@ -36,7 +36,7 @@ The approach demonstrated here is of course technically specific to MPS. The con
 
 ## Brief technical overview
 
-The code is separated into a demo application for questionnaires that assess some aspect of a person's heath (in the `lang.demo` virtual folder) and a generic, reusable set of utilities (in the `lang.chatgpt` virtual folder).
+The code is separated into a demo application (in the `lang.demo` virtual folder) and a generic, reusable set of utilities (in the `lang.chatgpt` virtual folder). The demo application focuses on forms with fields and calculated values; such forms are used, for example, as assessments in healthcare.
 
 
 ## License
