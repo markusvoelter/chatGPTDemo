@@ -330,7 +330,7 @@
       <node concept="3Tm6S6" id="2Fbvgl_eeGs" role="1B3o_S" />
       <node concept="17QB3L" id="2Fbvgl_eeGt" role="1tU5fm" />
       <node concept="Xl_RD" id="2Fbvgl_eeGu" role="33vP2m">
-        <property role="Xl_RC" value="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" />
+        <property role="Xl_RC" value="&lt;no-key&gt;" />
       </node>
     </node>
     <node concept="2tJIrI" id="2Fbvgl_eawP" role="jymVt" />
