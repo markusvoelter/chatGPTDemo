@@ -3393,6 +3393,82 @@
       </node>
       <node concept="17QB3L" id="6HJBXF$d3Sq" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="2Fbvgl_KaWn" role="13h7CS">
+      <property role="TrG5h" value="preparedPrompts" />
+      <ref role="13i0hy" to="l0n8:2Fbvgl_HTSA" resolve="preparedPrompts" />
+      <node concept="3Tm1VV" id="2Fbvgl_KaWo" role="1B3o_S" />
+      <node concept="3clFbS" id="2Fbvgl_KaWs" role="3clF47">
+        <node concept="3cpWs8" id="2Fbvgl_Kdfc" role="3cqZAp">
+          <node concept="3cpWsn" id="2Fbvgl_Kdff" role="3cpWs9">
+            <property role="TrG5h" value="prompts" />
+            <node concept="_YKpA" id="2Fbvgl_Kdfa" role="1tU5fm">
+              <node concept="17QB3L" id="2Fbvgl_KfuV" role="_ZDj9" />
+            </node>
+            <node concept="2ShNRf" id="2Fbvgl_Kmfx" role="33vP2m">
+              <node concept="Tc6Ow" id="2Fbvgl_KjZC" role="2ShVmc">
+                <node concept="17QB3L" id="2Fbvgl_KjZD" role="HW$YZ" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_Kxyh" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_Kycr" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_Kxyf" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_Kdff" resolve="prompts" />
+            </node>
+            <node concept="TSZUe" id="2Fbvgl_K_5G" role="2OqNvi">
+              <node concept="Xl_RD" id="2Fbvgl_KBnb" role="25WWJ7">
+                <property role="Xl_RC" value="Create a questionnaire form about sleeplessness." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_KDJd" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_KDJe" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_KDJf" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_Kdff" resolve="prompts" />
+            </node>
+            <node concept="TSZUe" id="2Fbvgl_KDJg" role="2OqNvi">
+              <node concept="Xl_RD" id="2Fbvgl_KDJh" role="25WWJ7">
+                <property role="Xl_RC" value="Add field about the expected sleep duration." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_KDJ_" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_KDJA" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_KDJB" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_Kdff" resolve="prompts" />
+            </node>
+            <node concept="TSZUe" id="2Fbvgl_KDJC" role="2OqNvi">
+              <node concept="Xl_RD" id="2Fbvgl_KDJD" role="25WWJ7">
+                <property role="Xl_RC" value="Add a calculation sleepRatio that divides the hoursOfSleep by the expectedSleepDuration, multiplied by 100 to get to percent. Add another calculation  that returns true if the sleepRatio is below 60" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_KDK2" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_KDK3" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_KDK4" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_Kdff" resolve="prompts" />
+            </node>
+            <node concept="TSZUe" id="2Fbvgl_KDK5" role="2OqNvi">
+              <node concept="Xl_RD" id="2Fbvgl_KDK6" role="25WWJ7">
+                <property role="Xl_RC" value="Use the below60 calculation in the overallSleepQuality calculation" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2Fbvgl_Kow6" role="3cqZAp">
+          <node concept="37vLTw" id="2Fbvgl_Kt1k" role="3cqZAk">
+            <ref role="3cqZAo" node="2Fbvgl_Kdff" resolve="prompts" />
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="2Fbvgl_KaWt" role="3clF45">
+        <node concept="17QB3L" id="2Fbvgl_KaWu" role="_ZDj9" />
+      </node>
+    </node>
   </node>
 </model>
 

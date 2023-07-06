@@ -250,6 +250,9 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
@@ -2884,6 +2887,16 @@
       <node concept="3Tm1VV" id="6HJBXF$d3ON" role="1B3o_S" />
       <node concept="17QB3L" id="6HJBXF$d3Pa" role="3clF45" />
       <node concept="3clFbS" id="6HJBXF$d3OP" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="2Fbvgl_HTSA" role="13h7CS">
+      <property role="TrG5h" value="preparedPrompts" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="2Fbvgl_HTSB" role="1B3o_S" />
+      <node concept="_YKpA" id="2Fbvgl_HW9x" role="3clF45">
+        <node concept="17QB3L" id="2Fbvgl_HW9H" role="_ZDj9" />
+      </node>
+      <node concept="3clFbS" id="2Fbvgl_HTSD" role="3clF47" />
     </node>
     <node concept="13hLZK" id="3G8rFPcPsct" role="13h7CW">
       <node concept="3clFbS" id="3G8rFPcPscu" role="2VODD2" />

@@ -43,6 +43,12 @@ tree. This example here subtracts 38 from the value of the measuredTemperature f
 The fieldref tag refers to other fields or calculations by name. 
 Only fields or calculations in the current form can be referenced with the fieldref tag.
 
+---------------
+
+Note that right under <calc> there can only be one expression tag. The expressions
+themselves can be nested according to the rules I give below. But there must be
+only one XML tag directly under the <calc> tag.
+
 In addition to <minus>, there is also <plus>, <mul> and <div>. They have
 the same structure in which the two arguments are listed as child elements.
 
@@ -90,6 +96,8 @@ Here is an example:
       </if>
     </div>
   </calc>
+  
+----------------------------
 
 There is also "greaterThan", "lessThan", "equals" and "notEquals". And finally,
 there's a <booleanLit> with attribute "value" that can be "true" or "false".
@@ -112,6 +120,12 @@ Finally, you can also refer to enum literals using
 
 Do not use any other expression structures, don't make up ones that feel similar.
 Only use the ones introduced explicitly.
+
+---------------
+
+<plus>, <minus>, <mul>, <div>, <greaterThan>, <lessThan>, <equals> and <notEquals>
+are binary expressions. They can only have two arguments. So in this XML format,
+they can and must each have to child tags.
 
 ----------------
 

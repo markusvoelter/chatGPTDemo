@@ -2482,7 +2482,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
                 <node concept="Xl_RD" id="6W$F1JvICMF" role="37wK5m">
-                  <property role="Xl_RC" value="Reset Conversation" />
+                  <property role="Xl_RC" value="Reset" />
                 </node>
               </node>
             </node>
@@ -2586,7 +2586,7 @@
                 <property role="373rjd" value="true" />
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
                 <node concept="Xl_RD" id="6W$F1JvICNo" role="37wK5m">
-                  <property role="Xl_RC" value="Undo Last Step in History" />
+                  <property role="Xl_RC" value="Undo" />
                 </node>
               </node>
             </node>
@@ -2772,12 +2772,182 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2Fbvgl_Dpiq" role="3cqZAp" />
+        <node concept="3cpWs8" id="2Fbvgl_Jmn4" role="3cqZAp">
+          <node concept="3cpWsn" id="2Fbvgl_Jmn7" role="3cpWs9">
+            <property role="TrG5h" value="c" />
+            <node concept="10Oyi0" id="2Fbvgl_Jmn2" role="1tU5fm" />
+            <node concept="3cmrfG" id="2Fbvgl_Jq3v" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="2Fbvgl_IQae" role="3cqZAp">
+          <node concept="2GrKxI" id="2Fbvgl_IQag" role="2Gsz3X">
+            <property role="TrG5h" value="pp" />
+          </node>
+          <node concept="2OqwBi" id="2Fbvgl_J82i" role="2GsD0m">
+            <node concept="2OqwBi" id="2Fbvgl_J3V6" role="2Oq$k0">
+              <node concept="37vLTw" id="2Fbvgl_IW9Y" role="2Oq$k0">
+                <ref role="3cqZAo" node="6W$F1JvII3X" resolve="chatGPTRoot" />
+              </node>
+              <node concept="2qgKlT" id="2Fbvgl_J6GY" role="2OqNvi">
+                <ref role="37wK5l" to="l0n8:6HJBXF$en9I" resolve="config" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="2Fbvgl_JaO3" role="2OqNvi">
+              <ref role="37wK5l" to="l0n8:2Fbvgl_HTSA" resolve="preparedPrompts" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Fbvgl_IQak" role="2LFqv$">
+            <node concept="3clFbF" id="2Fbvgl_Ju$9" role="3cqZAp">
+              <node concept="3uNrnE" id="2Fbvgl_JvY8" role="3clFbG">
+                <node concept="37vLTw" id="2Fbvgl_JvYa" role="2$L3a6">
+                  <ref role="3cqZAo" node="2Fbvgl_Jmn7" resolve="c" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2Fbvgl_JC2o" role="3cqZAp">
+              <node concept="1rXfSq" id="2Fbvgl_JC2m" role="3clFbG">
+                <ref role="37wK5l" node="2Fbvgl_EyjL" resolve="addPreparedTextButton" />
+                <node concept="37vLTw" id="2Fbvgl_JEUg" role="37wK5m">
+                  <ref role="3cqZAo" node="6W$F1JvICI_" resolve="buttonPanel" />
+                </node>
+                <node concept="37vLTw" id="2Fbvgl_JKKl" role="37wK5m">
+                  <ref role="3cqZAo" node="6W$F1JvICIg" resolve="area" />
+                </node>
+                <node concept="3cpWs3" id="2Fbvgl_JZHc" role="37wK5m">
+                  <node concept="Xl_RD" id="2Fbvgl_JZKK" role="3uHU7w">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                  <node concept="37vLTw" id="2Fbvgl_JUod" role="3uHU7B">
+                    <ref role="3cqZAo" node="2Fbvgl_Jmn7" resolve="c" />
+                  </node>
+                </node>
+                <node concept="2GrUjf" id="2Fbvgl_K3su" role="37wK5m">
+                  <ref role="2Gs0qQ" node="2Fbvgl_IQag" resolve="pp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6W$F1JvICO$" role="3cqZAp" />
         <node concept="3clFbF" id="6W$F1JvICO_" role="3cqZAp">
           <node concept="37vLTw" id="6W$F1JvICOA" role="3clFbG">
             <ref role="3cqZAo" node="6W$F1JvICHQ" resolve="root" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2Fbvgl_ErFG" role="jymVt" />
+    <node concept="3clFb_" id="2Fbvgl_EyjL" role="jymVt">
+      <property role="TrG5h" value="addPreparedTextButton" />
+      <node concept="3cqZAl" id="2Fbvgl_EyjN" role="3clF45" />
+      <node concept="3Tm1VV" id="2Fbvgl_EyjO" role="1B3o_S" />
+      <node concept="3clFbS" id="2Fbvgl_EyjP" role="3clF47">
+        <node concept="3cpWs8" id="2Fbvgl_FiK1" role="3cqZAp">
+          <node concept="3cpWsn" id="2Fbvgl_FiK2" role="3cpWs9">
+            <property role="TrG5h" value="button" />
+            <node concept="3uibUv" id="2Fbvgl_FfCX" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JButton" resolve="JButton" />
+            </node>
+            <node concept="2ShNRf" id="2Fbvgl_FiK3" role="33vP2m">
+              <node concept="1pGfFk" id="2Fbvgl_FiK4" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
+                <node concept="37vLTw" id="2Fbvgl_FiK5" role="37wK5m">
+                  <ref role="3cqZAo" node="2Fbvgl_ELgg" resolve="label" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_F8vA" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_FwiO" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_FiK6" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_EXa8" resolve="buttonPanel" />
+            </node>
+            <node concept="liA8E" id="2Fbvgl_Fz43" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+              <node concept="37vLTw" id="2Fbvgl_FGOD" role="37wK5m">
+                <ref role="3cqZAo" node="2Fbvgl_FiK2" resolve="button" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Fbvgl_FT4L" role="3cqZAp">
+          <node concept="2OqwBi" id="2Fbvgl_FUbc" role="3clFbG">
+            <node concept="37vLTw" id="2Fbvgl_FT4J" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Fbvgl_FiK2" resolve="button" />
+            </node>
+            <node concept="liA8E" id="2Fbvgl_FZi1" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.addActionListener(java.awt.event.ActionListener)" resolve="addActionListener" />
+              <node concept="2ShNRf" id="2Fbvgl_G0$S" role="37wK5m">
+                <node concept="YeOm9" id="2Fbvgl_G4St" role="2ShVmc">
+                  <node concept="1Y3b0j" id="2Fbvgl_G4Sw" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <property role="373rjd" value="true" />
+                    <ref role="1Y3XeK" to="hyam:~ActionListener" resolve="ActionListener" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <node concept="3Tm1VV" id="2Fbvgl_G4Sx" role="1B3o_S" />
+                    <node concept="3clFb_" id="2Fbvgl_G4SJ" role="jymVt">
+                      <property role="TrG5h" value="actionPerformed" />
+                      <node concept="3Tm1VV" id="2Fbvgl_G4SK" role="1B3o_S" />
+                      <node concept="3cqZAl" id="2Fbvgl_G4SM" role="3clF45" />
+                      <node concept="37vLTG" id="2Fbvgl_G4SN" role="3clF46">
+                        <property role="TrG5h" value="p1" />
+                        <node concept="3uibUv" id="2Fbvgl_G4SO" role="1tU5fm">
+                          <ref role="3uigEE" to="hyam:~ActionEvent" resolve="ActionEvent" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="2Fbvgl_G4SP" role="3clF47">
+                        <node concept="3clFbF" id="2Fbvgl_GknI" role="3cqZAp">
+                          <node concept="2OqwBi" id="2Fbvgl_Gmb1" role="3clFbG">
+                            <node concept="37vLTw" id="2Fbvgl_GknH" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2Fbvgl_G7zT" resolve="area" />
+                            </node>
+                            <node concept="liA8E" id="2Fbvgl_Gqq0" role="2OqNvi">
+                              <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String)" resolve="setText" />
+                              <node concept="37vLTw" id="2Fbvgl_GrVh" role="37wK5m">
+                                <ref role="3cqZAo" node="2Fbvgl_EQX3" resolve="text" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2AHcQZ" id="2Fbvgl_G4SR" role="2AJF6D">
+                        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2Fbvgl_FLGp" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="2Fbvgl_EXa8" role="3clF46">
+        <property role="TrG5h" value="buttonPanel" />
+        <node concept="3uibUv" id="2Fbvgl_F1d$" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Fbvgl_G7zT" role="3clF46">
+        <property role="TrG5h" value="area" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="2Fbvgl_Gdcz" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JTextArea" resolve="JTextArea" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Fbvgl_ELgg" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="2Fbvgl_ELgf" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2Fbvgl_EQX3" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <property role="3TUv4t" value="true" />
+        <node concept="17QB3L" id="2Fbvgl_ERA$" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="6W$F1JvIBAe" role="jymVt" />
