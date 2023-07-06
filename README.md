@@ -36,3 +36,5 @@ However, there has been a long standing dream by which these subject matter expe
 
 
 ## License
+
+This code is licensed under Apache 2.0. See [LICENSE](LICENSE) file.
