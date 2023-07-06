@@ -14,8 +14,6 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" />
     <import index="5qo5" ref="r:6d93ddb1-b0b0-4eee-8079-51303666672a(org.iets3.core.expr.simpleTypes.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="hba4" ref="63e0e566-5131-447e-90e3-12ea330e1a00/r:f5bd2ad9-cd54-4408-b815-07f9f306f074(com.mbeddr.mpsutil.blutil/com.mbeddr.mpsutil.blutil.structure)" />
     <import index="r9z2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:org.jdom.input(MPS.IDEA/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -344,14 +342,6 @@
         <ref role="ehGHo" to="capj:3G8rFPcPsb7" resolve="ChatGPTConfig" />
       </node>
       <node concept="3clFbS" id="6HJBXF$en9L" role="3clF47" />
-    </node>
-    <node concept="13i0hz" id="6HJBXF$enb$" role="13h7CS">
-      <property role="13i0iv" value="true" />
-      <property role="13i0it" value="true" />
-      <property role="TrG5h" value="apiKey" />
-      <node concept="3Tm1VV" id="6HJBXF$enb_" role="1B3o_S" />
-      <node concept="17QB3L" id="6HJBXF$encP" role="3clF45" />
-      <node concept="3clFbS" id="6HJBXF$enbB" role="3clF47" />
     </node>
     <node concept="13hLZK" id="6W$F1JuZoAt" role="13h7CW">
       <node concept="3clFbS" id="6W$F1JuZoAu" role="2VODD2" />
@@ -3146,19 +3136,6 @@
       <node concept="3Tqbb2" id="6HJBXF$enDG" role="3clF45">
         <ref role="ehGHo" to="capj:3G8rFPcPsb7" resolve="ChatGPTConfig" />
       </node>
-    </node>
-    <node concept="13i0hz" id="6HJBXF$me6X" role="13h7CS">
-      <property role="TrG5h" value="apiKey" />
-      <ref role="13i0hy" node="6HJBXF$enb$" resolve="apiKey" />
-      <node concept="3Tm1VV" id="6HJBXF$me6Y" role="1B3o_S" />
-      <node concept="3clFbS" id="6HJBXF$me71" role="3clF47">
-        <node concept="3clFbF" id="47bF0SmkgqW" role="3cqZAp">
-          <node concept="Xl_RD" id="47bF0SmjYvZ" role="3clFbG">
-            <property role="Xl_RC" value="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" />
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="6HJBXF$me72" role="3clF45" />
     </node>
   </node>
 </model>

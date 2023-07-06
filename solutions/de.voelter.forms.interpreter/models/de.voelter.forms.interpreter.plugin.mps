@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="47f075a6-558e-4640-a606-7ce0236c8023" name="com.mbeddr.mpsutil.interpreter" version="1" />
-    <use id="8387094c-8d3d-4bd0-8f06-6fc8065096d2" name="de.voelter.forms" version="0" />
   </languages>
   <imports>
     <import index="pfdp" ref="r:23c80d5c-ce08-4524-8f3c-b2b1fdbe09d4(ch.updbern.forms.structure)" />

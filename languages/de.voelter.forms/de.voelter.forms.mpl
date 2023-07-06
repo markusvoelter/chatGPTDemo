@@ -114,7 +114,6 @@
     <dependency reexport="false">6b277d9a-d52d-416f-a209-1919bd737f50(org.iets3.core.expr.simpleTypes)</dependency>
     <dependency reexport="false">c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
-    <dependency reexport="false">60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)</dependency>
     <dependency reexport="false">dbe08fb5-334d-4b64-86a0-622406fa0e87(org.iets3.core.expr.base.runtime)</dependency>
     <dependency reexport="false">7b68d745-a7b8-48b9-bd9c-05c0f8725a35(org.iets3.core.base)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
@@ -123,7 +122,6 @@
   <languageVersions>
     <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="2" />
     <language slang="l:b4f35ed8-45af-4efa-abe4-00ac26956e69:com.mbeddr.mpsutil.grammarcells.runtimelang" version="0" />
-    <language slang="l:f89904fb-9486-43a1-865e-5ad0375a8a88:de.itemis.mps.editor.bool" version="0" />
     <language slang="l:1919c723-b60b-4592-9318-9ce96d91da44:de.itemis.mps.editor.celllayout" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -181,7 +179,6 @@
     <module reference="dc038ceb-b7ea-4fea-ac12-55f7400e97ba(de.slisson.mps.editor.multiline.runtime)" version="0" />
     <module reference="f0fff802-6d26-4d2e-b89d-391357265626(de.slisson.mps.hacks.editor)" version="0" />
     <module reference="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" version="0" />
-    <module reference="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0(de.voelter.chatgpt.ide)" version="0" />
     <module reference="c83bec13-da66-49d6-8783-522e7fada865(de.voelter.chatgpt.util)" version="0" />
     <module reference="8387094c-8d3d-4bd0-8f06-6fc8065096d2(de.voelter.forms)" version="0" />
     <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />

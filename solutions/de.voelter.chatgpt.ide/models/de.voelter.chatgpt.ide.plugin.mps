@@ -6,11 +6,9 @@
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="1" />
-    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
   </languages>
   <imports>
@@ -18,8 +16,6 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="hyam" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.event(JDK/)" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
-    <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" />
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="mxf6" ref="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0/java:org.json(de.voelter.chatgpt/)" />
@@ -33,7 +29,6 @@
     <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" />
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
-    <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
     <import index="kt01" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.datatransfer(JDK/)" />
     <import index="l0n8" ref="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)" />
     <import index="9z78" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.border(JDK/)" />
@@ -315,13 +310,30 @@
     <property role="TrG5h" value="ChatGPTInterface" />
     <node concept="2tJIrI" id="6oUB38Nh0Qh" role="jymVt" />
     <node concept="312cEg" id="6oUB38Nkvr3" role="jymVt">
-      <property role="TrG5h" value="ENDPOINT" />
+      <property role="TrG5h" value="CHATGPT_ENDPOINT" />
       <node concept="3Tm6S6" id="6oUB38Nkvr4" role="1B3o_S" />
       <node concept="17QB3L" id="6oUB38Nkvr5" role="1tU5fm" />
       <node concept="Xl_RD" id="6oUB38Nkvr6" role="33vP2m">
         <property role="Xl_RC" value="https://api.openai.com/v1/chat/completions" />
       </node>
     </node>
+    <node concept="312cEg" id="2Fbvgl_eMWG" role="jymVt">
+      <property role="TrG5h" value="CHATGPT_MODEL" />
+      <node concept="3Tm6S6" id="2Fbvgl_eMWH" role="1B3o_S" />
+      <node concept="17QB3L" id="2Fbvgl_eQbs" role="1tU5fm" />
+      <node concept="Xl_RD" id="6oUB38Nkhar" role="33vP2m">
+        <property role="Xl_RC" value="gpt-3.5-turbo" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2Fbvgl_eeGr" role="jymVt">
+      <property role="TrG5h" value="CHATGPT_API_KEY" />
+      <node concept="3Tm6S6" id="2Fbvgl_eeGs" role="1B3o_S" />
+      <node concept="17QB3L" id="2Fbvgl_eeGt" role="1tU5fm" />
+      <node concept="Xl_RD" id="2Fbvgl_eeGu" role="33vP2m">
+        <property role="Xl_RC" value="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" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2Fbvgl_eawP" role="jymVt" />
     <node concept="312cEg" id="6W$F1JuDDES" role="jymVt">
       <property role="TrG5h" value="latestReply" />
       <node concept="3Tm6S6" id="6W$F1JuD_Gb" role="1B3o_S" />
@@ -347,7 +359,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6W$F1Juchon" role="jymVt" />
-    <node concept="2tJIrI" id="6oUB38Nh0Qw" role="jymVt" />
     <node concept="3clFbW" id="6oUB38Nh1u3" role="jymVt">
       <node concept="3cqZAl" id="6oUB38Nh1u5" role="3clF45" />
       <node concept="3Tm1VV" id="6oUB38Nh1u6" role="1B3o_S" />
@@ -393,7 +404,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6oUB38Nh1u$" role="jymVt" />
-    <node concept="2tJIrI" id="6W$F1Jue0UQ" role="jymVt" />
     <node concept="3clFb_" id="6oUB38Nh1C_" role="jymVt">
       <property role="TrG5h" value="systemMessages" />
       <node concept="3Tm6S6" id="6W$F1Ju74ob" role="1B3o_S" />
@@ -1172,8 +1182,8 @@
                   <node concept="Xl_RD" id="6oUB38Nkhaq" role="37wK5m">
                     <property role="Xl_RC" value="model" />
                   </node>
-                  <node concept="Xl_RD" id="6oUB38Nkhar" role="37wK5m">
-                    <property role="Xl_RC" value="gpt-3.5-turbo" />
+                  <node concept="37vLTw" id="2Fbvgl_eWDv" role="37wK5m">
+                    <ref role="3cqZAo" node="2Fbvgl_eMWG" resolve="CHATGPT_MODEL" />
                   </node>
                 </node>
               </node>
@@ -1266,34 +1276,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="6HJBXF$lhOi" role="3cqZAp">
-              <node concept="3cpWsn" id="6HJBXF$lhOj" role="3cpWs9">
-                <property role="TrG5h" value="apiKey" />
-                <node concept="17QB3L" id="6HJBXF$lfov" role="1tU5fm" />
-                <node concept="2OqwBi" id="6HJBXF$lhOk" role="33vP2m">
-                  <node concept="37vLTw" id="6HJBXF$lhOl" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6W$F1Jv3_kQ" resolve="chatGPTRoot" />
-                  </node>
-                  <node concept="2qgKlT" id="6HJBXF$lhOm" role="2OqNvi">
-                    <ref role="37wK5l" to="l0n8:6HJBXF$enb$" resolve="apiKey" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6HJBXF$lksH" role="3cqZAp">
-              <node concept="2OqwBi" id="6HJBXF$lksE" role="3clFbG">
-                <node concept="10M0yZ" id="6HJBXF$lksF" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" />
-                </node>
-                <node concept="liA8E" id="6HJBXF$lksG" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="37vLTw" id="6HJBXF$lnEF" role="37wK5m">
-                    <ref role="3cqZAo" node="6HJBXF$lhOj" resolve="apiKey" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="6oUB38Nke0g" role="3cqZAp">
               <node concept="2OqwBi" id="6oUB38NkqlD" role="3clFbG">
                 <node concept="37vLTw" id="6oUB38NkeTm" role="2Oq$k0">
@@ -1309,7 +1291,7 @@
                       <property role="Xl_RC" value="Bearer " />
                     </node>
                     <node concept="37vLTw" id="6HJBXF$lhOn" role="3uHU7w">
-                      <ref role="3cqZAo" node="6HJBXF$lhOj" resolve="apiKey" />
+                      <ref role="3cqZAo" node="2Fbvgl_eeGr" resolve="API_KEY" />
                     </node>
                   </node>
                 </node>

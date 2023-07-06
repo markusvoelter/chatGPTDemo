@@ -7,7 +7,7 @@
           <value>
             <Library>
               <option name="name" value="iets3.os" />
-              <option name="path" value="${ch.updbern.root}/lib/org.iets3.opensource" />
+              <option name="path" value="$PROJECT_DIR$/../../UPDBern/lib/org.iets3.opensource" />
             </Library>
           </value>
         </entry>
@@ -15,7 +15,7 @@
           <value>
             <Library>
               <option name="name" value="mbeddr.platform" />
-              <option name="path" value="${ch.updbern.root}/lib/com.mbeddr.platform" />
+              <option name="path" value="$PROJECT_DIR$/../../UPDBern/lib/com.mbeddr.platform" />
             </Library>
           </value>
         </entry>
