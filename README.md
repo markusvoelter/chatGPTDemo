@@ -12,7 +12,7 @@ Video yet to come.
 * This is an MPS project that needs to be opened in [MPS](http://jetbrains.com/mps/) version 2021.3.2
 * Create a directory on your drive; say it's called `demo`
 * Clone the reposistory into the `chatgptdemo` directory inside `demo`
-* Make sure you have the mbeddr.platform and IETS3 libraries installed in your MPS installation; alternatively, put these into a `lib`
+* Make sure you have the [mbeddr.platform](https://github.com/mbeddr/mbeddr.core) and [IETS3.opensource](https://github.com/orgs/IETS3/packages?repo_name=iets3.opensource) libraries installed in your MPS installation; alternatively, put these into a `lib`
  folder under `demo` and make the `chatgptdemo` path variable in MPS point to `demo`
 * Open the chatgptdemo project in MPS and rebuild everything for validation of the setup.
 
