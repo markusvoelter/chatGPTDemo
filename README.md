@@ -32,6 +32,8 @@ I have been working for years and years with subject matter experts, people who 
 
 However, there has been a long standing dream by which these subject matter experts aren't required to express themselves in any formal language, domain-specific or not. Instead, why not just express what the system should do in prose. There are lots of tradeoffs here, which I describe in detail in an article that I will publish soon. The bottom line is that for the subject matter experts use case, I think letting the AI translate the prose into a DSL is better than having it translate directly into programming language source code. The code in this repository demos this approach. 
 
+The approach demonstrated here is of course technically specific to MPS. The conceptual approach is not. In fact, if a real textual DSL was used (instead of the projection technology provided by MPS) then the translation between nodes and XML (see below) would not be needed.
+
 ## Brief technical overview
 
 The code is separated into a demo application for questionnaires that assess some aspect of a person's heath (in the `lang.demo` virtual folder) and a generic, reusable set of utilities (in the `lang.chatgpt virtual folder).
