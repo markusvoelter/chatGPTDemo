@@ -5,7 +5,7 @@ This is a demonstrator of an integration of ChatGPT in MPS. The idea is that use
 
 ## What this does
 
-Video yet to come.
+[![Video](http://img.youtube.com/vi/R6uoaxVV_2s/0.jpg)](http://www.youtube.com/watch?v=R6uoaxVV_2s "ChatGPT in MPS")
 
 ## Installation
 
