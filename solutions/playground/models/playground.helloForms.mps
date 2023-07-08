@@ -86,13 +86,13 @@
   </registry>
   <node concept="2foCiW" id="6W$F1JwhNeR">
     <node concept="2foboS" id="2Fbvgl_N$Eq" role="2foCjP">
-      <ref role="2foboZ" node="2Fbvgl_O_cG" resolve="SleeplessnessForm" />
+      <ref role="2foboZ" node="2FbvglAyImQ" resolve="SleeplessnessForm" />
       <node concept="2fobp$" id="2Fbvgl_OG79" role="2fobqq">
-        <ref role="2fobq4" node="2Fbvgl_O_cI" resolve="difficultyFallingAsleep" />
+        <ref role="2fobq4" node="2FbvglAyImU" resolve="difficultyFallingAsleep" />
         <node concept="2vmvVl" id="2Fbvgl_OG7a" role="2fobri" />
       </node>
       <node concept="2fobp$" id="2Fbvgl_OG7b" role="2fobqq">
-        <ref role="2fobq4" node="2Fbvgl_O_cK" resolve="wakingUpDuringNight" />
+        <ref role="2fobq4" node="2FbvglAyImW" resolve="wakingUpDuringNight" />
         <node concept="2vmvVl" id="2Fbvgl_OG7c" role="2fobri" />
       </node>
       <node concept="2fobp$" id="2Fbvgl_OG7d" role="2fobqq">
@@ -100,15 +100,15 @@
         <node concept="2vmvVl" id="2Fbvgl_OG7e" role="2fobri" />
       </node>
       <node concept="2fobp$" id="2Fbvgl_OG7f" role="2fobqq">
-        <ref role="2fobq4" node="2Fbvgl_O_cO" resolve="hoursOfSleep" />
+        <ref role="2fobq4" node="2FbvglAyImS" resolve="hoursOfSleep" />
         <node concept="2vmvVl" id="2Fbvgl_OG7g" role="2fobri" />
       </node>
       <node concept="2fobp$" id="2Fbvgl_OG7h" role="2fobqq">
-        <ref role="2fobq4" node="2Fbvgl_O_cQ" resolve="expectedSleepDuration" />
+        <ref role="2fobq4" node="2FbvglAyIn2" resolve="expectedSleepDuration" />
         <node concept="2vmvVl" id="2Fbvgl_OG7i" role="2fobri" />
       </node>
       <node concept="2fobrI" id="2Fbvgl_OG7j" role="2fobqq">
-        <ref role="2fobrz" node="2Fbvgl_O_cR" resolve="sleepRatio" />
+        <ref role="2fobrz" node="2FbvglAyIn5" resolve="sleepRatio" />
         <node concept="2vmvVl" id="2Fbvgl_OG7k" role="2fobrx" />
       </node>
       <node concept="2fobrI" id="2Fbvgl_OG7l" role="2fobqq">
@@ -116,7 +116,7 @@
         <node concept="2vmvVl" id="2Fbvgl_OG7m" role="2fobrx" />
       </node>
       <node concept="2fobrI" id="2Fbvgl_OG7n" role="2fobqq">
-        <ref role="2fobrz" node="2Fbvgl_O_cV" resolve="overallSleepQuality" />
+        <ref role="2fobrz" node="2FbvglAyIn3" resolve="overallSleepQuality" />
         <node concept="2vmvVl" id="2Fbvgl_OG7o" role="2fobrx" />
       </node>
       <node concept="2fobrI" id="2Fbvgl_OG7p" role="2fobqq">
@@ -399,7 +399,7 @@
       <node concept="2L$Le_" id="2FbvglAyInA" role="lGtFl">
         <property role="2L$Lfo" value="Add a calculation sleepRatio that divides the hoursOfSleep by the expectedSleepDuration, multiplied by 100 to get to percent. Add another calculation  that returns true if the sleepRatio is below 60" />
         <property role="2LWU1s" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;form name=&quot;SleeplessnessForm&quot;&gt;&#13;&#10;  &lt;field name=&quot;hoursOfSleep&quot; type=&quot;int&quot; /&gt;&#13;&#10;  &lt;field name=&quot;difficultyFallingAsleep&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;wakingUpDuringNight&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;feelingRefreshed&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;dreaming&quot; type=&quot;boolean&quot; /&gt;&#13;&#10;  &lt;field name=&quot;expectedSleepDuration&quot; type=&quot;int&quot; /&gt;&#13;&#10;  &lt;calc name=&quot;overallSleepQuality&quot;&gt;&#13;&#10;    &lt;div&gt;&#13;&#10;      &lt;plus&gt;&#13;&#10;        &lt;fieldref value=&quot;hoursOfSleep&quot; /&gt;&#13;&#10;        &lt;if&gt;&#13;&#10;          &lt;and&gt;&#13;&#10;            &lt;fieldref value=&quot;difficultyFallingAsleep&quot; /&gt;&#13;&#10;            &lt;fieldref value=&quot;wakingUpDuringNight&quot; /&gt;&#13;&#10;          &lt;/and&gt;&#13;&#10;          &lt;intLit value=&quot;1&quot; /&gt;&#13;&#10;          &lt;intLit value=&quot;0&quot; /&gt;&#13;&#10;        &lt;/if&gt;&#13;&#10;      &lt;/plus&gt;&#13;&#10;      &lt;if&gt;&#13;&#10;        &lt;and&gt;&#13;&#10;          &lt;fieldref value=&quot;feelingRefreshed&quot; /&gt;&#13;&#10;          &lt;fieldref value=&quot;dreaming&quot; /&gt;&#13;&#10;        &lt;/and&gt;&#13;&#10;        &lt;intLit value=&quot;1&quot; /&gt;&#13;&#10;        &lt;intLit value=&quot;0&quot; /&gt;&#13;&#10;      &lt;/if&gt;&#13;&#10;    &lt;/div&gt;&#13;&#10;  &lt;/calc&gt;&#13;&#10;  &lt;calc name=&quot;sleepRatio&quot;&gt;&#13;&#10;    &lt;mul&gt;&#13;&#10;      &lt;div&gt;&#13;&#10;        &lt;fieldref value=&quot;hoursOfSleep&quot; /&gt;&#13;&#10;        &lt;fieldref value=&quot;expectedSleepDuration&quot; /&gt;&#13;&#10;      &lt;/div&gt;&#13;&#10;      &lt;intLit value=&quot;100&quot; /&gt;&#13;&#10;    &lt;/mul&gt;&#13;&#10;  &lt;/calc&gt;&#13;&#10;  &lt;calc name=&quot;below60&quot;&gt;&#13;&#10;    &lt;lessThan&gt;&#13;&#10;      &lt;fieldref value=&quot;sleepRatio&quot; /&gt;&#13;&#10;      &lt;intLit value=&quot;60&quot; /&gt;&#13;&#10;    &lt;/lessThan&gt;&#13;&#10;  &lt;/calc&gt;&#13;&#10;&lt;/form&gt;&#10;" />
-        <property role="1cjMG9" value="This XML describes a form for collecting information about sleeplessness. The form has&#10;several fields including &quot;hoursOfSleep&quot; (the number of hours of sleep),&#10;&quot;difficultyFallingAsleep&quot; (whether the person has difficulty falling asleep),&#10;&quot;wakingUpDuringNight&quot; (whether the person wakes up during the night), &quot;feelingRefreshed&quot;&#10;(whether the person feels refreshed after sleep), &quot;dreaming&quot; (whether the person dreams&#10;during sleep), and &quot;expectedSleepDuration&quot; (the expected duration of sleep).&#10;&#10;The form&#10;also includes three calculations. The first calculation, &quot;overallSleepQuality&quot;, calculates&#10;the overall sleep quality based on the number of hours of sleep and whether the person has&#10;difficulty falling asleep and wakes up during the night. If both of these conditions are&#10;true, 1 is added to the number of hours of sleep. If the person feels refreshed and dreams&#10;during sleep, 1 is also added to the overall sleep quality.&#10;&#10;The second calculation,&#10;&quot;sleepRatio&quot;, calculates the sleep ratio by dividing the number of hours of sleep by the&#10;expected sleep duration and multiplying by 100.&#10;&#10;The third calculation, &quot;below60&quot;, checks&#10;if the sleep ratio is below 60.&#10;&#10;Overall, this form collects information about sleep&#10;patterns and calculates the overall sleep quality and sleep ratio for the individual.&#10;" />
+        <property role="1cjMG9" value="Dieses XML beschreibt ein Formular zum Thema Schlaflosigkeit. Das Formular enthält&#10;verschiedene Felder, in denen der Benutzer Informationen zu seinem Schlafverhalten&#10;eingeben kann. &#10;&#10;Die Felder sind: - hoursOfSleep: Hier kann der Benutzer die Anzahl der&#10;Stunden angeben, die er pro Nacht schläft. - difficultyFallingAsleep: Hier kann der&#10;Benutzer angeben, ob er Schwierigkeiten hat, einzuschlafen. - wakingUpDuringNight: Hier&#10;kann der Benutzer angeben, ob er während der Nacht aufwacht. - feelingRefreshed: Hier kann&#10;der Benutzer angeben, ob er sich am nächsten Morgen erfrischt fühlt. - dreaming: Hier kann&#10;der Benutzer angeben, ob er im Schlaf träumt. - expectedSleepDuration: Hier kann der&#10;Benutzer die erwartete Schlafdauer angeben.&#10;&#10;Das Formular enthält auch Berechnungen, um&#10;die Gesamtqualität des Schlafes und das Schlafverhältnis zu ermitteln. Die Gesamtqualität&#10;des Schlafes wird berechnet, indem die Anzahl der Stunden Schlaf addiert wird und dann&#10;geprüft wird, ob der Benutzer Schwierigkeiten hat, einzuschlafen und während der Nacht&#10;aufwacht. Das Schlafverhältnis wird berechnet, indem die tatsächliche Schlafdauer durch&#10;die erwartete Schlafdauer geteilt und mit 100 multipliziert wird.&#10;&#10;Das Formular kann&#10;verwendet werden, um Informationen über den Schlaf des Benutzers zu sammeln und&#10;möglicherweise Schlafprobleme zu identifizieren.&#10;" />
       </node>
     </node>
   </node>
