@@ -19,7 +19,8 @@ Video yet to come.
 
 ## ChatGPT Setup
 
-ChatGPT has a bunch of configuration parameters that you'll have to set; they can all be configured at the top of the [ChatGPTInterface](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879940263257) class.
+ChatGPT has a bunch of configuration parameters that you'll have to set; they can all be configured 
+in the [ChatGPTSetup_DO_NOT_PUSH](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F3083695832013942945) class.
 
 * `CHATGPT_ENDPOINT`: the service endpoint. As of this writing, this can be left unchanged.
 * `CHATGPT_MODEL`: the model used by ChatGPT. Currently this is set to `gpt-3.5-turbo`. If you have access to more recent models, you might want to try changing this to get better results.
@@ -100,6 +101,9 @@ example [here](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d7431
   we make it appear as if ChatGPT suggested this change, which allows ChatGPT to make subsequent changes on 
   the basis for the model changed by the user.
 
+### New as of July 9, 2023
+
+You can use a context menu action on the ChatGPT annotation to let ChatGPT explain the form.
 
 
 ## License
