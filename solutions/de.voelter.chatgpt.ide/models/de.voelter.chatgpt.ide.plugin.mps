@@ -35,6 +35,11 @@
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1204908117386" name="jetbrains.mps.lang.plugin.structure.Separator" flags="ng" index="2a7GMi" />
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
@@ -44,6 +49,7 @@
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
+        <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
@@ -2334,6 +2340,9 @@
         <ref role="ehGHo" to="capj:6W$F1JuHVYY" resolve="ChatGPTInfo" />
       </node>
     </node>
+    <node concept="1QGGSu" id="2FbvglAz2ZU" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/chatgpt.png" />
+    </node>
   </node>
   <node concept="sE7Ow" id="6W$F1JweFnF">
     <property role="TrG5h" value="copyChatGPTReply" />
@@ -2407,6 +2416,9 @@
       <node concept="3Tqbb2" id="6W$F1JweFo7" role="1tU5fm">
         <ref role="ehGHo" to="capj:6W$F1JuHVYY" resolve="ChatGPTInfo" />
       </node>
+    </node>
+    <node concept="1QGGSu" id="2FbvglAz3bK" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/chatgpt.png" />
     </node>
   </node>
   <node concept="tC5Ba" id="6W$F1JweFSv">
@@ -3726,6 +3738,9 @@
       <property role="TrG5h" value="project" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.MPS_PROJECT" resolve="MPS_PROJECT" />
       <node concept="1oajcY" id="2FbvglAwKfl" role="1oa70y" />
+    </node>
+    <node concept="1QGGSu" id="2FbvglAz2CM" role="3Uehp1">
+      <property role="1iqoE4" value="${module}/icons/chatgpt.png" />
     </node>
   </node>
   <node concept="312cEu" id="2FbvglAxWkZ">
