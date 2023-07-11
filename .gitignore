@@ -24,3 +24,5 @@ git_toolbox_prj.xml
 # Maven release plugin files
 pom.xml.releaseBackup
 release.properties
+
+API_KEY
