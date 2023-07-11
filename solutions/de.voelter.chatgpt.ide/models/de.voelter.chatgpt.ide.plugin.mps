@@ -3589,7 +3589,7 @@
                     <ref role="37wK5l" node="2FbvglAtVLM" resolve="userMessage" />
                     <ref role="1Pybhc" node="2FbvglAtOHV" resolve="JsonHelper" />
                     <node concept="Xl_RD" id="2FbvglAwQU3" role="37wK5m">
-                      <property role="Xl_RC" value="Can you explain what this XML describes? Assume that the reader knows about forms, so emphasize the contents of the form in your explanation." />
+                      <property role="Xl_RC" value="Can you explain what this XML describes? Assume that the reader knows about forms, so emphasize the contents of the form in your explanation. Do not use the word XML in your explanation, just explain what the form is about." />
                     </node>
                   </node>
                 </node>
@@ -4081,7 +4081,7 @@
       <node concept="17QB3L" id="2FbvglApBOm" role="1tU5fm" />
       <node concept="3Tm1VV" id="2FbvglAyQag" role="1B3o_S" />
       <node concept="Xl_RD" id="2FbvglApBOn" role="33vP2m">
-        <property role="Xl_RC" value="&lt;your key&gt;" />
+        <property role="Xl_RC" value="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" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglAyQ8A" role="jymVt" />
