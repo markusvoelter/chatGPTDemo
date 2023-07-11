@@ -26,7 +26,11 @@ in the [ChatGPTSetup_DO_NOT_PUSH](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4
 
 * `CHATGPT_ENDPOINT`: the service endpoint. As of this writing, this can be left unchanged.
 * `CHATGPT_MODEL`: the model used by ChatGPT. Currently this is set to `gpt-3.5-turbo`. If you have access to more recent models, you might want to try changing this to get better results.
-* `CHATGPT_API_KEY`: your personal API key. You *have* to change this one. [Get an API key here](https://platform.openai.com/account/api-keys).
+
+The API key is read from a file that is not committed (via gitignore):
+* create a file named `API_KEY` (no extension) [in this directory](https://github.com/markusvoelter/chatGPTDemo/tree/main/solutions/de.voelter.chatgpt.ide).
+* You have to enter your own API key
+into that file. [Get an API key here](https://platform.openai.com/account/api-keys).
 
 
 ## Background
@@ -103,9 +107,10 @@ example [here](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d7431
   we make it appear as if ChatGPT suggested this change, which allows ChatGPT to make subsequent changes on 
   the basis for the model changed by the user.
 
-### New as of July 9, 2023
+### News and Updates
 
-You can use a context menu action on the ChatGPT annotation to let ChatGPT explain the form.
+* 11 July: After pusing my API key to github *again*, I have moved it to a file that is never committed. See Setup section above.
+* 9 July: You can use a context menu action on the ChatGPT annotation to let ChatGPT explain the form.
 
 
 ## License
