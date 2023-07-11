@@ -112,9 +112,14 @@ example [here](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d7431
 
 ### News and Updates
 
-* 11 July: After pusing my API key to github *again*, I have moved it to a file that is never committed. See Setup section above.
-* 11 July: A few internal refactorings to make it easier to replace ChatGPT with other LLMs.
-* 9 July: You can use a context menu action on the ChatGPT annotation to let ChatGPT explain the form.
+* 11 July: I have extended the system to also **generate tests**. [See this screenshot](doc/img/generatingtests.png)
+  As I was suspecting, the tests are often wrong because ChatGPT can't
+  "execute" the expressions it had generated earlier. It can syntactically
+  predict expression structure, but not "understand" their semantics.
+  At least not when the semantics involve numeric calculations.
+* 11 July: After pusing my API key to github *again*, I have moved it to **a file that is never committed**. See Setup section above.
+* 11 July: A few internal **refactorings** to make it easier to replace ChatGPT with other LLMs.
+* 9 July: You can use a context menu action on the ChatGPT annotation to let ChatGPT **explain** the form.
 
 
 ## License
