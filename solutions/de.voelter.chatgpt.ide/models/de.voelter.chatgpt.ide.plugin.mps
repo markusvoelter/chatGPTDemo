@@ -178,6 +178,7 @@
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -4348,8 +4349,11 @@
           </node>
         </node>
         <node concept="3cpWs6" id="2FbvglADGvM" role="3cqZAp">
-          <node concept="37vLTw" id="2FbvglADGP9" role="3cqZAk">
-            <ref role="3cqZAo" node="2FbvglADDBy" resolve="key" />
+          <node concept="2OqwBi" id="2FbvglAE9yG" role="3cqZAk">
+            <node concept="37vLTw" id="2FbvglADGP9" role="2Oq$k0">
+              <ref role="3cqZAo" node="2FbvglADDBy" resolve="key" />
+            </node>
+            <node concept="17S1cR" id="2FbvglAEaur" role="2OqNvi" />
           </node>
         </node>
       </node>
