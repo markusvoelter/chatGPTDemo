@@ -4081,7 +4081,7 @@
       <node concept="17QB3L" id="2FbvglApBOm" role="1tU5fm" />
       <node concept="3Tm1VV" id="2FbvglAyQag" role="1B3o_S" />
       <node concept="Xl_RD" id="2FbvglApBOn" role="33vP2m">
-        <property role="Xl_RC" value="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" />
+        <property role="Xl_RC" value="&lt;your key&gt;" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglAyQ8A" role="jymVt" />
