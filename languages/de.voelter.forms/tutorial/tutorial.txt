@@ -156,6 +156,7 @@ Finally, there is a simple test language for the forms. The syntax is straightfo
 </test>
 
 A test should have a setter for each of the fields, and a check for each 
-of the calculations.
+of the calculations. The value used in the check should be correct
+relative to the logic in the form itself.
 
 
