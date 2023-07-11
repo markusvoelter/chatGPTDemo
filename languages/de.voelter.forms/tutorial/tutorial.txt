@@ -145,3 +145,17 @@ way to express conditionals, similar to a switch in C or Java.
 You can use as many <case> tags as you need. A Case has two child expressions.
 The first one is the condition, and the second one is the value. The semantics
 is that if the condition is true, the value is returned.
+
+--------------------
+
+Finally, there is a simple test language for the forms. The syntax is straightforward:
+
+<test form="TheFormYouWantToTest">
+  <set field="fieldname" value="42"/>
+  <check calc="calculation name" value="99"/>
+</test>
+
+A test should have a setter for each of the fields, and a check for each 
+of the calculations.
+
+

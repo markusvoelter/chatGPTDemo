@@ -828,5 +828,46 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2FbvglAIxLD">
+    <ref role="1XX52x" to="capj:2FbvglAIxLc" resolve="PlainXMLNode" />
+    <node concept="3EZMnI" id="2FbvglAIxLI" role="2wV5jI">
+      <node concept="2iRfu4" id="2FbvglAIxLJ" role="2iSdaV" />
+      <node concept="3F0ifn" id="2FbvglAIxLF" role="3EZMnx">
+        <property role="3F0ifm" value="XML" />
+      </node>
+      <node concept="gc7cB" id="2FbvglAIxLR" role="3EZMnx">
+        <node concept="3VJUX4" id="2FbvglAIxLT" role="3YsKMw">
+          <node concept="3clFbS" id="2FbvglAIxLV" role="2VODD2">
+            <node concept="3clFbF" id="2FbvglAIxNO" role="3cqZAp">
+              <node concept="2OqwBi" id="2FbvglAI_kW" role="3clFbG">
+                <node concept="2ShNRf" id="2FbvglAIxNM" role="2Oq$k0">
+                  <node concept="1pGfFk" id="2FbvglAI$_d" role="2ShVmc">
+                    <property role="373rjd" value="true" />
+                    <ref role="37wK5l" to="oq0c:4nY0kF8dL3B" resolve="MultiLineEditorCell" />
+                    <node concept="pncrf" id="2FbvglAI$Bb" role="37wK5m" />
+                    <node concept="2OqwBi" id="2FbvglAI$Mt" role="37wK5m">
+                      <node concept="pncrf" id="2FbvglAI$LR" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="2FbvglAI$XM" role="2OqNvi">
+                        <ref role="3TsBF5" to="capj:2FbvglAIxLd" resolve="xml" />
+                      </node>
+                    </node>
+                    <node concept="10M0yZ" id="2FbvglAI_bR" role="37wK5m">
+                      <ref role="3cqZAo" to="z60i:~Color.white" resolve="white" />
+                      <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="2FbvglAI_$u" role="2OqNvi">
+                  <ref role="37wK5l" to="oq0c:4nY0kF8hJxc" resolve="createCellProvider" />
+                  <node concept="1Q80Hx" id="2FbvglAI__Q" role="37wK5m" />
+                  <node concept="pncrf" id="2FbvglAI_DX" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

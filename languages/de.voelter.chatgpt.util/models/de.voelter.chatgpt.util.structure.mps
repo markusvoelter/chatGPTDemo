@@ -176,5 +176,15 @@
       <property role="1iqoE4" value="${module}/icons/chatgpt32.png" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2FbvglAIxLc">
+    <property role="EcuMT" value="3083695832017017932" />
+    <property role="TrG5h" value="PlainXMLNode" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="2FbvglAIxLd" role="1TKVEl">
+      <property role="IQ2nx" value="3083695832017017933" />
+      <property role="TrG5h" value="xml" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
