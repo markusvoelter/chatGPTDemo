@@ -19,7 +19,7 @@ Click on this picture to see a [demo video you Youtube](http://www.youtube.com/w
 * Open the chatgptdemo project in MPS and rebuild everything for validation of the setup.
 
 
-## ChatGPT Setup
+## Setup
 
 ChatGPT has a bunch of configuration parameters that you'll have to set; they can all be configured 
 in the [ChatGPTSetup_DO_NOT_PUSH](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F3083695832013942945) class.
@@ -32,6 +32,9 @@ The API key is read from a file that is not committed (via gitignore):
 * You have to enter your own API key
 into that file. [Get an API key here](https://platform.openai.com/account/api-keys).
 
+It is also a good idea to run MPS in a way where you can see the 
+system console (run `java` instead of `javaw` in the batch or sh file that
+starts MPS). Many error messages are printed to stderr.
 
 ## Background
 
