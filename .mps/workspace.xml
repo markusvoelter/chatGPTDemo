@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="small updates">
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="generic serialiser seems to work">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.forms/models/de.voelter.forms.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/de.voelter.forms.interpreter.msd" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/de.voelter.forms.interpreter.msd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/models/de.voelter.forms.interpreter.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.forms.interpreter/models/de.voelter.forms.interpreter.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,6 +393,104 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin) in IdeaFile[path: /Users/markusvoelter/Documents/projects/chatGPTDemp/chatgpt/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playground" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chatgpt" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -433,30 +524,8 @@
               <option name="myItemId" value="de" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:35c2f771-4c4b-42b3-94cb-a9782f45afc3(de.voelter.chatgpt.ide.plugin) in IdeaFile[path: /Users/markusvoelter/Documents/projects/chatGPTDemp/chatgpt/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="chatgpt" />
               <option name="myItemType" value="" />
@@ -469,76 +538,12 @@
               <option name="myItemId" value="playground" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
+              <option name="myItemId" value="r:f526ccc7-9718-4ad4-938e-5f5c338ff125(playground.helloForms) in IdeaFile[path: /Users/markusvoelter/Documents/projects/chatGPTDemp/chatgpt/solutions/playground/models/playground.helloForms.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fa762d5d-4844-4280-9546-d2b61ceafba8" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="60f92cfa-44b8-4ee5-b312-6f5cf9d6fdd0" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="de" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chatgpt" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
+              <option name="myItemId" value="4741072209241429267" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -608,13 +613,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687799520450</updated>
-    </task>
-    <task id="LOCAL-00005" summary="field generation works">
-      <created>1688488776508</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688488776508</updated>
     </task>
     <task id="LOCAL-00006" summary="progress">
       <created>1688491029408</created>
@@ -952,7 +950,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689084071014</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="generic serialiser seems to work">
+      <created>1689163429552</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1689163429552</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -2681,7 +2686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interpreter runs" />
     <MESSAGE value="done for now" />
     <MESSAGE value="more frameworking" />
     <MESSAGE value="icons" />
@@ -2706,6 +2710,7 @@
     <MESSAGE value="smaller updates" />
     <MESSAGE value="test case generation via AI" />
     <MESSAGE value="small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="small updates" />
+    <MESSAGE value="generic serialiser seems to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic serialiser seems to work" />
   </component>
 </project>
