@@ -89,7 +89,7 @@
     <property role="TrG5h" value="ChatGPTInfo" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="6W$F1JuHVYZ" role="lGtFl">
-      <property role="Hh88m" value="chatGPTInput" />
+      <property role="Hh88m" value="chatGPTInfo" />
       <node concept="trNpa" id="6W$F1JuHVZ1" role="EQaZv">
         <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
