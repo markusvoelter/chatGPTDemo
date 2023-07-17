@@ -76,6 +76,8 @@ assessments in healthcare. Here is an example:
 
 ![Form](doc/img/form.png)
 
+(By default it might look less fancy; push the editor hint [nicer](http://127.0.0.1:63320/node?ref=r%3A7867a220-2ae6-46e3-8a4e-805ace33a02c%28de.voelter.forms.editor%29%2F3083695831993283193) to make it nicer.
+
 The language also includes tests for forms that can be executed in
 MPS with the help of an interpreter:
 
