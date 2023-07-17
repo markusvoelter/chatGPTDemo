@@ -93,7 +93,7 @@ example [here](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d7431
 * The user enters a prompt into the [Swing UI](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273089219580) that is shown at the bottom of the [ChatGPTConsole](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F4253771607368385351).
 * The system [sends](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879940285014) the following to ChatGPT:
   - [system messages](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879940266533) that instruct GPT to only respond with XML code, no prose, no explanations
-  - a set of user messages that [http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273062137231) that we use to express the forms (we use XML as the common denominator between MPS and ChatGPT)
+  - a set of [user messages](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273062137231) explain to ChatGPT the XML format we use to express the forms (we use XML as the common denominator between MPS and ChatGPT)
     this "tutorial" is written as a [text file](languages/de.voelter.forms/tutorial/tutorial.txt). 
   - the history of the MPS-ChatGPT interactions so far as a means of emulating a stateful conversation (see below)
   - the prompt entered by the user
