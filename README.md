@@ -22,7 +22,7 @@ Click on this picture to see a [demo video you Youtube](http://www.youtube.com/w
 ## Setup
 
 ChatGPT has a bunch of configuration parameters that you'll have to set; they can all be configured 
-in the [ChatGPTSetup_DO_NOT_PUSH](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F3083695832013942945) class.
+in the [ChatGPTSetup](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F3083695832013942945) class.
 
 * `CHATGPT_ENDPOINT`: the service endpoint. As of this writing, this can be left unchanged.
 * `CHATGPT_MODEL`: the model used by ChatGPT. Currently this is set to `gpt-3.5-turbo`. If you have access to more recent models, you might want to try changing this to get better results.
@@ -91,15 +91,15 @@ example [here](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d7431
 (The previous link and many of those below are MPS node URLs; click on them while the project is open in MPS to jump directly to the code).
 
 * The user enters a prompt into the [Swing UI](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273089219580) that is shown at the bottom of the [ChatGPTConsole](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F4253771607368385351).
-* The system [sends](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879941258164) the following to ChatGPT:
-  - [system messages](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273062010493) that instruct GPT to only respond with XML code, no prose, no explanations
-  - a set of user messages that [explains the XML structures](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273062305834) that we use to express the forms (we use XML as the common denominator between MPS and ChatGPT)
+* The system [sends](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879940285014) the following to ChatGPT:
+  - [system messages](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879940266533) that instruct GPT to only respond with XML code, no prose, no explanations
+  - a set of user messages that [http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273062137231) that we use to express the forms (we use XML as the common denominator between MPS and ChatGPT)
     this "tutorial" is written as a [text file](languages/de.voelter.forms/tutorial/tutorial.txt). 
   - the history of the MPS-ChatGPT interactions so far as a means of emulating a stateful conversation (see below)
   - the prompt entered by the user
-* ChatGPT sends back a [new form expressed as XML](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F7366371879941258230)
-* We [parse the XML](http://127.0.0.1:63320/node?ref=r%3Ac7c9bfe3-9ccc-4f4b-8119-d743191d3321%28de.voelter.forms.behavior%29%2F8008715273065432720) and build the MPS model
-  The demo-language-specific config node [acts as a factory](http://127.0.0.1:63320/node?ref=r%3Ad481c127-603a-4645-9a8f-b02ec70fa5c8%28de.voelter.chatgpt.util.behavior%29%2F4253771607368385319) for the parser.
+* ChatGPT sends back a [new form expressed as XML](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F8008715273071171055)
+* We [parse the XML](http://127.0.0.1:63320/node?ref=r%3A35c2f771-4c4b-42b3-94cb-a9782f45afc3%28de.voelter.chatgpt.ide.plugin%29%2F3083695832017202660) and build the MPS model
+  The demo-language-specific config node [acts as a factory](http://127.0.0.1:63320/node?ref=r%3Ad481c127-603a-4645-9a8f-b02ec70fa5c8%28de.voelter.chatgpt.util.behavior%29%2F8008715273081300302) for the parser.
   If ChatGPT makes up syntax that was not defined in the tutorial, we cannot parse it. We capture these problems in
   the created model with [annotations](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F8008715273065551114) and error concepts for [expressions](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F8008715273068044372) and [types](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F8008715273083708576).
 * The ChatGPTConsole does not just store the latest form; instead it [stores the history](http://127.0.0.1:63320/node?ref=r%3A133a7418-d1e8-4856-8f06-72120ccfc56b%28de.voelter.chatgpt.util.structure%29%2F4253771607368385352) (see also the video).
