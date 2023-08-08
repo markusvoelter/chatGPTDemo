@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="l0n8" ref="r:d481c127-603a-4645-9a8f-b02ec70fa5c8(de.voelter.chatgpt.util.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="capj" ref="r:133a7418-d1e8-4856-8f06-72120ccfc56b(de.voelter.chatgpt.util.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -32,6 +33,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -72,6 +74,7 @@
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -94,11 +97,14 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143224066846" name="jetbrains.mps.lang.smodel.structure.Node_InsertNextSiblingOperation" flags="nn" index="HtI8k">
+        <child id="1143224066849" name="insertedNode" index="HtI8F" />
+      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -108,7 +114,7 @@
   </registry>
   <node concept="2S6QgY" id="7Yy1vgUja1c">
     <property role="TrG5h" value="serialiseAndPrint" />
-    <ref role="2ZfgGC" to="capj:6W$F1JuHVYY" resolve="ChatGPTInfo" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="2S6ZIM" id="7Yy1vgUja1d" role="2ZfVej">
       <node concept="3clFbS" id="7Yy1vgUja1e" role="2VODD2">
         <node concept="3clFbF" id="7Yy1vgUja6k" role="3cqZAp">
@@ -182,10 +188,7 @@
                   </node>
                   <node concept="liA8E" id="7Yy1vgUjdHb" role="2OqNvi">
                     <ref role="37wK5l" to="l0n8:7Yy1vgUcpCl" resolve="serialiseToString" />
-                    <node concept="2OqwBi" id="7Yy1vgUjdHc" role="37wK5m">
-                      <node concept="2Sf5sV" id="7Yy1vgUjdHd" role="2Oq$k0" />
-                      <node concept="1mfA1w" id="7Yy1vgUjdHe" role="2OqNvi" />
-                    </node>
+                    <node concept="2Sf5sV" id="7Yy1vgUjdHd" role="37wK5m" />
                   </node>
                 </node>
               </node>
@@ -210,6 +213,20 @@
     </node>
     <node concept="2SaL7w" id="7Yy1vgUjbIY" role="2ZfVeh">
       <node concept="3clFbS" id="7Yy1vgUjbIZ" role="2VODD2">
+        <node concept="3clFbF" id="Gmv9FZkGOH" role="3cqZAp">
+          <node concept="2OqwBi" id="Gmv9FZkGOE" role="3clFbG">
+            <node concept="10M0yZ" id="Gmv9FZkGOF" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" />
+            </node>
+            <node concept="liA8E" id="Gmv9FZkGOG" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="Xl_RD" id="Gmv9FZkH9b" role="37wK5m">
+                <property role="Xl_RC" value="X" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7Yy1vgUjbNH" role="3cqZAp">
           <node concept="3y3z36" id="7Yy1vgUjbW$" role="3clFbG">
             <node concept="10Nm6u" id="7Yy1vgUjccT" role="3uHU7w" />
@@ -232,6 +249,241 @@
               <node concept="2qgKlT" id="7Yy1vgUjbNR" role="2OqNvi">
                 <ref role="37wK5l" to="l0n8:3G8rFPcPscF" resolve="createSerialiserIfAvailable" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="Gmv9FZylnR">
+    <property role="TrG5h" value="serialiseAndDeserialise" />
+    <ref role="2ZfgGC" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="2S6ZIM" id="Gmv9FZylnS" role="2ZfVej">
+      <node concept="3clFbS" id="Gmv9FZylnT" role="2VODD2">
+        <node concept="3clFbF" id="Gmv9FZylnU" role="3cqZAp">
+          <node concept="Xl_RD" id="Gmv9FZylnV" role="3clFbG">
+            <property role="Xl_RC" value="serialise and then deserialise as sibling" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="Gmv9FZylnW" role="2ZfgGD">
+      <node concept="3clFbS" id="Gmv9FZylnX" role="2VODD2">
+        <node concept="3cpWs8" id="Gmv9FZylnY" role="3cqZAp">
+          <node concept="3cpWsn" id="Gmv9FZylnZ" role="3cpWs9">
+            <property role="TrG5h" value="ser" />
+            <node concept="3uibUv" id="Gmv9FZylo0" role="1tU5fm">
+              <ref role="3uigEE" to="l0n8:7Yy1vgU1m2R" resolve="NodeToXMLSerialiser" />
+            </node>
+            <node concept="2OqwBi" id="Gmv9FZylo1" role="33vP2m">
+              <node concept="2OqwBi" id="Gmv9FZylo2" role="2Oq$k0">
+                <node concept="2OqwBi" id="Gmv9FZylo3" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="Gmv9FZylo4" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="Gmv9FZylo5" role="2OqNvi">
+                    <node concept="1xMEDy" id="Gmv9FZylo6" role="1xVPHs">
+                      <node concept="chp4Y" id="Gmv9FZylo7" role="ri$Ld">
+                        <ref role="cht4Q" to="capj:3G8rFPcPsd7" resolve="ChatGPTConsole" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="Gmv9FZylo8" role="2OqNvi">
+                  <ref role="37wK5l" to="l0n8:6HJBXF$en9I" resolve="config" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="Gmv9FZylo9" role="2OqNvi">
+                <ref role="37wK5l" to="l0n8:3G8rFPcPscF" resolve="createSerialiserIfAvailable" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Gmv9FZypjM" role="3cqZAp">
+          <node concept="3cpWsn" id="Gmv9FZypjN" role="3cpWs9">
+            <property role="TrG5h" value="par" />
+            <node concept="3uibUv" id="Gmv9FZypaS" role="1tU5fm">
+              <ref role="3uigEE" to="l0n8:7Yy1vgU1m7r" resolve="XMLToNodeParser" />
+            </node>
+            <node concept="2OqwBi" id="Gmv9FZypjO" role="33vP2m">
+              <node concept="2OqwBi" id="Gmv9FZypjP" role="2Oq$k0">
+                <node concept="2OqwBi" id="Gmv9FZypjQ" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="Gmv9FZypjR" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="Gmv9FZypjS" role="2OqNvi">
+                    <node concept="1xMEDy" id="Gmv9FZypjT" role="1xVPHs">
+                      <node concept="chp4Y" id="Gmv9FZypjU" role="ri$Ld">
+                        <ref role="cht4Q" to="capj:3G8rFPcPsd7" resolve="ChatGPTConsole" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="Gmv9FZypjV" role="2OqNvi">
+                  <ref role="37wK5l" to="l0n8:6HJBXF$en9I" resolve="config" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="Gmv9FZypjW" role="2OqNvi">
+                <ref role="37wK5l" to="l0n8:3G8rFPcPscB" resolve="createParser" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3J1_TO" id="Gmv9FZyloa" role="3cqZAp">
+          <node concept="3uVAMA" id="Gmv9FZylob" role="1zxBo5">
+            <node concept="XOnhg" id="Gmv9FZyloc" role="1zc67B">
+              <property role="TrG5h" value="error" />
+              <node concept="nSUau" id="Gmv9FZylod" role="1tU5fm">
+                <node concept="3uibUv" id="Gmv9FZyloe" role="nSUat">
+                  <ref role="3uigEE" to="l0n8:7Yy1vgUby23" resolve="SerialisationError" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="Gmv9FZylof" role="1zc67A">
+              <node concept="3clFbF" id="Gmv9FZylog" role="3cqZAp">
+                <node concept="2OqwBi" id="Gmv9FZyloh" role="3clFbG">
+                  <node concept="37vLTw" id="Gmv9FZyloi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Gmv9FZyloc" resolve="error" />
+                  </node>
+                  <node concept="liA8E" id="Gmv9FZyloj" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3uVAMA" id="Gmv9FZyqHG" role="1zxBo5">
+            <node concept="XOnhg" id="Gmv9FZyqHH" role="1zc67B">
+              <property role="TrG5h" value="error" />
+              <node concept="nSUau" id="Gmv9FZyqHI" role="1tU5fm">
+                <node concept="3uibUv" id="Gmv9FZyqHJ" role="nSUat">
+                  <ref role="3uigEE" to="l0n8:2FbvglAIMWY" resolve="ParsingError" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="Gmv9FZyqHK" role="1zc67A">
+              <node concept="3clFbF" id="Gmv9FZyqHL" role="3cqZAp">
+                <node concept="2OqwBi" id="Gmv9FZyqHM" role="3clFbG">
+                  <node concept="37vLTw" id="Gmv9FZyqHN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Gmv9FZyqHH" resolve="error" />
+                  </node>
+                  <node concept="liA8E" id="Gmv9FZyqHO" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace()" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="Gmv9FZylok" role="1zxBo7">
+            <node concept="3cpWs8" id="Gmv9FZylol" role="3cqZAp">
+              <node concept="3cpWsn" id="Gmv9FZylom" role="3cpWs9">
+                <property role="TrG5h" value="s" />
+                <node concept="17QB3L" id="Gmv9FZylon" role="1tU5fm" />
+                <node concept="2OqwBi" id="Gmv9FZyloo" role="33vP2m">
+                  <node concept="37vLTw" id="Gmv9FZylop" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Gmv9FZylnZ" resolve="ser" />
+                  </node>
+                  <node concept="liA8E" id="Gmv9FZyloq" role="2OqNvi">
+                    <ref role="37wK5l" to="l0n8:7Yy1vgUcpCl" resolve="serialiseToString" />
+                    <node concept="2Sf5sV" id="Gmv9FZylor" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="Gmv9FZyq8W" role="3cqZAp">
+              <node concept="3cpWsn" id="Gmv9FZyq8X" role="3cpWs9">
+                <property role="TrG5h" value="parsed" />
+                <node concept="3Tqbb2" id="Gmv9FZyq1F" role="1tU5fm" />
+                <node concept="2OqwBi" id="Gmv9FZyq8Y" role="33vP2m">
+                  <node concept="37vLTw" id="Gmv9FZyq8Z" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Gmv9FZypjN" resolve="par" />
+                  </node>
+                  <node concept="liA8E" id="Gmv9FZyq90" role="2OqNvi">
+                    <ref role="37wK5l" to="l0n8:7Yy1vgU1m8$" resolve="parse" />
+                    <node concept="37vLTw" id="Gmv9FZyq91" role="37wK5m">
+                      <ref role="3cqZAo" node="Gmv9FZylom" resolve="s" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="Gmv9FZyrgL" role="3cqZAp">
+              <node concept="2OqwBi" id="Gmv9FZyrpM" role="3clFbG">
+                <node concept="2Sf5sV" id="Gmv9FZyrgK" role="2Oq$k0" />
+                <node concept="HtI8k" id="Gmv9FZyrEo" role="2OqNvi">
+                  <node concept="37vLTw" id="Gmv9FZyrHT" role="HtI8F">
+                    <ref role="3cqZAo" node="Gmv9FZyq8X" resolve="parsed" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="Gmv9FZylox" role="2ZfVeh">
+      <node concept="3clFbS" id="Gmv9FZyloy" role="2VODD2">
+        <node concept="3cpWs8" id="Gmv9FZyn1s" role="3cqZAp">
+          <node concept="3cpWsn" id="Gmv9FZyn1t" role="3cpWs9">
+            <property role="TrG5h" value="ser" />
+            <node concept="10P_77" id="Gmv9FZymJi" role="1tU5fm" />
+            <node concept="3y3z36" id="Gmv9FZyn1u" role="33vP2m">
+              <node concept="10Nm6u" id="Gmv9FZyn1v" role="3uHU7w" />
+              <node concept="2OqwBi" id="Gmv9FZyn1w" role="3uHU7B">
+                <node concept="2OqwBi" id="Gmv9FZyn1x" role="2Oq$k0">
+                  <node concept="2OqwBi" id="Gmv9FZyn1y" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="Gmv9FZyn1z" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="Gmv9FZyn1$" role="2OqNvi">
+                      <node concept="1xMEDy" id="Gmv9FZyn1_" role="1xVPHs">
+                        <node concept="chp4Y" id="Gmv9FZyn1A" role="ri$Ld">
+                          <ref role="cht4Q" to="capj:3G8rFPcPsd7" resolve="ChatGPTConsole" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="Gmv9FZyn1B" role="2OqNvi">
+                    <ref role="37wK5l" to="l0n8:6HJBXF$en9I" resolve="config" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="Gmv9FZyn1C" role="2OqNvi">
+                  <ref role="37wK5l" to="l0n8:3G8rFPcPscF" resolve="createSerialiserIfAvailable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Gmv9FZynxU" role="3cqZAp">
+          <node concept="3cpWsn" id="Gmv9FZynxV" role="3cpWs9">
+            <property role="TrG5h" value="par" />
+            <node concept="10P_77" id="Gmv9FZynxW" role="1tU5fm" />
+            <node concept="3y3z36" id="Gmv9FZynxX" role="33vP2m">
+              <node concept="10Nm6u" id="Gmv9FZynxY" role="3uHU7w" />
+              <node concept="2OqwBi" id="Gmv9FZynxZ" role="3uHU7B">
+                <node concept="2OqwBi" id="Gmv9FZyny0" role="2Oq$k0">
+                  <node concept="2OqwBi" id="Gmv9FZyny1" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="Gmv9FZyny2" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="Gmv9FZyny3" role="2OqNvi">
+                      <node concept="1xMEDy" id="Gmv9FZyny4" role="1xVPHs">
+                        <node concept="chp4Y" id="Gmv9FZyny5" role="ri$Ld">
+                          <ref role="cht4Q" to="capj:3G8rFPcPsd7" resolve="ChatGPTConsole" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="Gmv9FZyny6" role="2OqNvi">
+                    <ref role="37wK5l" to="l0n8:6HJBXF$en9I" resolve="config" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="Gmv9FZyny7" role="2OqNvi">
+                  <ref role="37wK5l" to="l0n8:3G8rFPcPscB" resolve="createParser" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Gmv9FZyloC" role="3cqZAp">
+          <node concept="1Wc70l" id="Gmv9FZyoqV" role="3clFbG">
+            <node concept="37vLTw" id="Gmv9FZyouh" role="3uHU7w">
+              <ref role="3cqZAo" node="Gmv9FZynxV" resolve="par" />
+            </node>
+            <node concept="37vLTw" id="Gmv9FZyn1D" role="3uHU7B">
+              <ref role="3cqZAo" node="Gmv9FZyn1t" resolve="ser" />
             </node>
           </node>
         </node>

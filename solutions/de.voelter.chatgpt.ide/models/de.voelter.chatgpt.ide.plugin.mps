@@ -354,6 +354,7 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -361,6 +362,10 @@
       <concept id="1153944193378" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" flags="nr" index="2GrKxI" />
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
+      </concept>
+      <concept id="1235573135402" name="jetbrains.mps.baseLanguage.collections.structure.SingletonSequenceCreator" flags="nn" index="2HTt$P">
+        <child id="1235573175711" name="elementType" index="2HTBi0" />
+        <child id="1235573187520" name="singletonValue" index="2HTEbv" />
       </concept>
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -2522,8 +2527,90 @@
   </node>
   <node concept="312cEu" id="2FbvglApBy4">
     <property role="TrG5h" value="ChatGPTConnection" />
+    <property role="3GE5qa" value="lowlevel" />
     <node concept="2tJIrI" id="2FbvglApBz2" role="jymVt" />
-    <node concept="2tJIrI" id="2FbvglApBPn" role="jymVt" />
+    <node concept="3clFb_" id="23NXkCaXptV" role="jymVt">
+      <property role="TrG5h" value="chatOneUserMessage" />
+      <node concept="17QB3L" id="23NXkCaYfTy" role="3clF45" />
+      <node concept="3Tm1VV" id="23NXkCaXptY" role="1B3o_S" />
+      <node concept="3clFbS" id="23NXkCaXptZ" role="3clF47">
+        <node concept="3cpWs8" id="23NXkCaXzLk" role="3cqZAp">
+          <node concept="3cpWsn" id="23NXkCaXzLl" role="3cpWs9">
+            <property role="TrG5h" value="m" />
+            <node concept="3uibUv" id="23NXkCaXzLm" role="1tU5fm">
+              <ref role="3uigEE" to="mxf6:~JSONObject" resolve="JSONObject" />
+            </node>
+            <node concept="2ShNRf" id="23NXkCaXzLn" role="33vP2m">
+              <node concept="1pGfFk" id="23NXkCaXzLo" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="mxf6:~JSONObject.&lt;init&gt;()" resolve="JSONObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="23NXkCaXzLp" role="3cqZAp">
+          <node concept="2OqwBi" id="23NXkCaXzLq" role="3clFbG">
+            <node concept="37vLTw" id="23NXkCaXzLr" role="2Oq$k0">
+              <ref role="3cqZAo" node="23NXkCaXzLl" resolve="m" />
+            </node>
+            <node concept="liA8E" id="23NXkCaXzLs" role="2OqNvi">
+              <ref role="37wK5l" to="mxf6:~JSONObject.put(java.lang.String,java.lang.Object)" resolve="put" />
+              <node concept="Xl_RD" id="23NXkCaXzLt" role="37wK5m">
+                <property role="Xl_RC" value="role" />
+              </node>
+              <node concept="Xl_RD" id="23NXkCaXD3G" role="37wK5m">
+                <property role="Xl_RC" value="user" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="23NXkCaXzLv" role="3cqZAp">
+          <node concept="2OqwBi" id="23NXkCaXzLw" role="3clFbG">
+            <node concept="37vLTw" id="23NXkCaXzLx" role="2Oq$k0">
+              <ref role="3cqZAo" node="23NXkCaXzLl" resolve="m" />
+            </node>
+            <node concept="liA8E" id="23NXkCaXzLy" role="2OqNvi">
+              <ref role="37wK5l" to="mxf6:~JSONObject.put(java.lang.String,java.lang.Object)" resolve="put" />
+              <node concept="Xl_RD" id="23NXkCaXzLz" role="37wK5m">
+                <property role="Xl_RC" value="content" />
+              </node>
+              <node concept="37vLTw" id="23NXkCaXI9G" role="37wK5m">
+                <ref role="3cqZAo" node="23NXkCaXvO4" resolve="s" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="23NXkCaY7Ow" role="3cqZAp">
+          <node concept="1rXfSq" id="23NXkCaY9Rz" role="3cqZAk">
+            <ref role="37wK5l" node="2FbvglApBS6" resolve="chat" />
+            <node concept="2OqwBi" id="23NXkCaYgBN" role="37wK5m">
+              <node concept="2ShNRf" id="23NXkCaXLRK" role="2Oq$k0">
+                <node concept="2HTt$P" id="23NXkCaXY$F" role="2ShVmc">
+                  <node concept="3uibUv" id="23NXkCaY2Q8" role="2HTBi0">
+                    <ref role="3uigEE" to="mxf6:~JSONObject" resolve="JSONObject" />
+                  </node>
+                  <node concept="37vLTw" id="23NXkCaY4P4" role="2HTEbv">
+                    <ref role="3cqZAo" node="23NXkCaXzLl" resolve="m" />
+                  </node>
+                </node>
+              </node>
+              <node concept="ANE8D" id="23NXkCaYiKF" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="23NXkCaYd4t" role="37wK5m">
+              <ref role="3cqZAo" node="23NXkCaXxk4" resolve="temperature" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="23NXkCaXvO4" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="23NXkCaXvO3" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="23NXkCaXxk4" role="3clF46">
+        <property role="TrG5h" value="temperature" />
+        <node concept="10OMs4" id="23NXkCaXxTW" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2FbvglApBS5" role="jymVt" />
     <node concept="3clFb_" id="2FbvglApBS6" role="jymVt">
       <property role="TrG5h" value="chat" />
@@ -4161,6 +4248,7 @@
   </node>
   <node concept="312cEu" id="2FbvglAyN2x">
     <property role="TrG5h" value="ChatGPTSetup" />
+    <property role="3GE5qa" value="lowlevel" />
     <node concept="2tJIrI" id="2FbvglAyQ8$" role="jymVt" />
     <node concept="Wx3nA" id="2FbvglAyQcz" role="jymVt">
       <property role="TrG5h" value="CHATGPT_ENDPOINT" />
