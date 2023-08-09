@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="The existing stuff works.">
-      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/de.voelter.chatgpt.util.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de.voelter.chatgpt.util/models/de.voelter.chatgpt.util.intentions.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/de.voelter.chatgpt.ide/models/de.voelter.chatgpt.ide.plugin.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/playground/models/playground.helloForms.mps" afterDir="false" />
-    </list>
+    <list default="true" id="19eb96b8-a76c-49bc-b86a-9355eedee8bb" name="Changes" comment="small fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -711,13 +704,6 @@
       <option name="presentableId" value="Default" />
       <updated>1687799520450</updated>
     </task>
-    <task id="LOCAL-00009" summary="WIP">
-      <created>1688496872166</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688496872166</updated>
-    </task>
     <task id="LOCAL-00010" summary="WIP">
       <created>1688548125027</created>
       <option name="number" value="00010" />
@@ -1054,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691571826359</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="small fixes">
+      <created>1691582744691</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1691582744691</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -2883,7 +2876,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="icons" />
     <MESSAGE value="bunch of renames" />
     <MESSAGE value="moved the tutorial" />
     <MESSAGE value="added logical not" />
@@ -2908,6 +2900,7 @@
     <MESSAGE value="generic serialiser seems to work" />
     <MESSAGE value="generic parser seems to work." />
     <MESSAGE value="The existing stuff works." />
-    <option name="LAST_COMMIT_MESSAGE" value="The existing stuff works." />
+    <MESSAGE value="small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fixes" />
   </component>
 </project>
