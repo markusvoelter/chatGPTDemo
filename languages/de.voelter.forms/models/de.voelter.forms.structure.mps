@@ -237,7 +237,7 @@
     <node concept="1TJgyj" id="6W$F1Jwh1FU" role="1TKVEi">
       <property role="IQ2ns" value="8008715273098238714" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expected" />
+      <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="hm2y:6sdnDbSla17" resolve="Expression" />
     </node>

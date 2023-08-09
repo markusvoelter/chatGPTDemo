@@ -150,10 +150,10 @@ is that if the condition is true, the value is returned.
 
 Finally, there is a simple test language for the forms. The syntax is straightforward:
 
-<test form="TheFormYouWantToTest">
+<formtest form="TheFormYouWantToTest">
   <set field="fieldname" value="42"/>
   <check calc="calculation name" value="99"/>
-</test>
+</formtest>
 
 A test should have a setter for each of the fields, and a check for each 
 of the calculations. The value used in the check should be correct

@@ -1335,8 +1335,19 @@
                             </node>
                             <node concept="liA8E" id="6W$F1JvICJE" role="2OqNvi">
                               <ref role="37wK5l" to="dxuu:~JLabel.setText(java.lang.String)" resolve="setText" />
-                              <node concept="Xl_RD" id="6W$F1JvICJF" role="37wK5m">
-                                <property role="Xl_RC" value="Communicating with the big I in the sky ..." />
+                              <node concept="3cpWs3" id="5_YWH8nQ9tn" role="37wK5m">
+                                <node concept="Xl_RD" id="5_YWH8nQ9YI" role="3uHU7w">
+                                  <property role="Xl_RC" value=")" />
+                                </node>
+                                <node concept="3cpWs3" id="5_YWH8nPWPx" role="3uHU7B">
+                                  <node concept="Xl_RD" id="6W$F1JvICJF" role="3uHU7B">
+                                    <property role="Xl_RC" value="Communicating with the big I in the sky ... (" />
+                                  </node>
+                                  <node concept="10M0yZ" id="5_YWH8nQ7PH" role="3uHU7w">
+                                    <ref role="3cqZAo" node="2FbvglAyQbA" resolve="CHATGPT_MODEL" />
+                                    <ref role="1PxDUh" node="2FbvglAyN2x" resolve="ChatGPTSetup" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>

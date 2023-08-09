@@ -494,7 +494,7 @@
         <property role="3F0ifm" value="?" />
       </node>
       <node concept="3F1sOY" id="6W$F1Jwh1GC" role="3EZMnx">
-        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1FU" resolve="expected" />
+        <ref role="1NtTu8" to="pfdp:6W$F1Jwh1FU" resolve="value" />
       </node>
       <node concept="3XFhqQ" id="3G8rFPcN3CO" role="3EZMnx" />
       <node concept="1HlG4h" id="3G8rFPcK0cW" role="3EZMnx">

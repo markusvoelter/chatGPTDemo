@@ -214,7 +214,7 @@
                             </node>
                           </node>
                           <node concept="2pIpSj" id="6W$F1Jwilzv" role="2pJxcM">
-                            <ref role="2pIpSl" to="pfdp:6W$F1Jwh1FU" resolve="expected" />
+                            <ref role="2pIpSl" to="pfdp:6W$F1Jwh1FU" resolve="value" />
                             <node concept="2pJPED" id="6W$F1Jwilzw" role="28nt2d">
                               <ref role="2pJxaS" to="hm2y:6sdnDbSla17" resolve="Expression" />
                             </node>
