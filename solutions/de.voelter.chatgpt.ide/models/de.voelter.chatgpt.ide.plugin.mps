@@ -155,6 +155,7 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -263,6 +264,11 @@
       <concept id="5351203823916750322" name="jetbrains.mps.baseLanguage.structure.TryUniversalStatement" flags="nn" index="3J1_TO">
         <child id="8276990574886367510" name="catchClause" index="1zxBo5" />
         <child id="8276990574886367508" name="body" index="1zxBo7" />
+      </concept>
+      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
+        <child id="1163668914799" name="condition" index="3K4Cdx" />
+        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
+        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -931,6 +937,9 @@
                     <node concept="37vLTw" id="2FbvglAtxJ5" role="37wK5m">
                       <ref role="3cqZAo" node="6W$F1Jv86YJ" resolve="temperature" />
                     </node>
+                    <node concept="37vLTw" id="5_YWH8ofqbl" role="37wK5m">
+                      <ref role="3cqZAo" node="5_YWH8ofbjW" resolve="useV4" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -952,6 +961,10 @@
       <node concept="37vLTG" id="6W$F1Jv86YJ" role="3clF46">
         <property role="TrG5h" value="temperature" />
         <node concept="10OMs4" id="6W$F1Jv882Z" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5_YWH8ofbjW" role="3clF46">
+        <property role="TrG5h" value="useV4" />
+        <node concept="10P_77" id="5_YWH8off4g" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="6W$F1JuUtgA" role="jymVt" />
@@ -1267,6 +1280,24 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="5_YWH8obkXd" role="3cqZAp">
+          <node concept="3cpWsn" id="5_YWH8obkXe" role="3cpWs9">
+            <property role="TrG5h" value="useChatGPT4" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="5_YWH8obkXf" role="1tU5fm">
+              <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+            </node>
+            <node concept="2ShNRf" id="5_YWH8obkXg" role="33vP2m">
+              <node concept="1pGfFk" id="5_YWH8obQBQ" role="2ShVmc">
+                <property role="373rjd" value="true" />
+                <ref role="37wK5l" to="dxuu:~JCheckBox.&lt;init&gt;(java.lang.String)" resolve="JCheckBox" />
+                <node concept="Xl_RD" id="5_YWH8obWd4" role="37wK5m">
+                  <property role="Xl_RC" value="v4" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6W$F1JvICJa" role="3cqZAp" />
         <node concept="3clFbF" id="6W$F1JvICJb" role="3cqZAp">
           <node concept="2OqwBi" id="6W$F1JvICJc" role="3clFbG">
@@ -1343,9 +1374,23 @@
                                   <node concept="Xl_RD" id="6W$F1JvICJF" role="3uHU7B">
                                     <property role="Xl_RC" value="Communicating with the big I in the sky ... (" />
                                   </node>
-                                  <node concept="10M0yZ" id="5_YWH8nQ7PH" role="3uHU7w">
-                                    <ref role="3cqZAo" node="2FbvglAyQbA" resolve="CHATGPT_MODEL" />
-                                    <ref role="1PxDUh" node="2FbvglAyN2x" resolve="ChatGPTSetup" />
+                                  <node concept="1eOMI4" id="5_YWH8odUx$" role="3uHU7w">
+                                    <node concept="3K4zz7" id="5_YWH8odrAu" role="1eOMHV">
+                                      <node concept="Xl_RD" id="5_YWH8od_TX" role="3K4E3e">
+                                        <property role="Xl_RC" value="v4" />
+                                      </node>
+                                      <node concept="Xl_RD" id="5_YWH8odFwd" role="3K4GZi">
+                                        <property role="Xl_RC" value="v3" />
+                                      </node>
+                                      <node concept="2OqwBi" id="5_YWH8oe9ut" role="3K4Cdx">
+                                        <node concept="37vLTw" id="5_YWH8odwFo" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="5_YWH8obkXe" resolve="useChatGPT4" />
+                                        </node>
+                                        <node concept="liA8E" id="5_YWH8oedMx" role="2OqNvi">
+                                          <ref role="37wK5l" to="dxuu:~AbstractButton.isSelected()" resolve="isSelected" />
+                                        </node>
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -1460,6 +1505,14 @@
                                                         <node concept="liA8E" id="6W$F1JvICKj" role="2OqNvi">
                                                           <ref role="37wK5l" to="r791:~JTextComponent.getText()" resolve="getText" />
                                                         </node>
+                                                      </node>
+                                                    </node>
+                                                    <node concept="2OqwBi" id="5_YWH8oip16" role="37wK5m">
+                                                      <node concept="37vLTw" id="5_YWH8oimJ0" role="2Oq$k0">
+                                                        <ref role="3cqZAo" node="5_YWH8obkXe" resolve="useChatGPT4" />
+                                                      </node>
+                                                      <node concept="liA8E" id="5_YWH8oit4u" role="2OqNvi">
+                                                        <ref role="37wK5l" to="dxuu:~AbstractButton.isSelected()" resolve="isSelected" />
                                                       </node>
                                                     </node>
                                                   </node>
@@ -1875,6 +1928,19 @@
               <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
               <node concept="37vLTw" id="6W$F1JvICM_" role="37wK5m">
                 <ref role="3cqZAo" node="6W$F1JvICJ5" resolve="temperatureField" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5_YWH8oc6ex" role="3cqZAp">
+          <node concept="2OqwBi" id="5_YWH8oc6ey" role="3clFbG">
+            <node concept="37vLTw" id="5_YWH8oc6ez" role="2Oq$k0">
+              <ref role="3cqZAo" node="6W$F1JvICI_" resolve="buttonPanel" />
+            </node>
+            <node concept="liA8E" id="5_YWH8oc6e$" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component)" resolve="add" />
+              <node concept="37vLTw" id="5_YWH8oc6e_" role="37wK5m">
+                <ref role="3cqZAo" node="5_YWH8obkXe" resolve="useChatGPT4" />
               </node>
             </node>
           </node>
@@ -2610,6 +2676,9 @@
             <node concept="37vLTw" id="23NXkCaYd4t" role="37wK5m">
               <ref role="3cqZAo" node="23NXkCaXxk4" resolve="temperature" />
             </node>
+            <node concept="37vLTw" id="5_YWH8ogwlu" role="37wK5m">
+              <ref role="3cqZAo" node="5_YWH8ogjsK" resolve="useV4" />
+            </node>
           </node>
         </node>
       </node>
@@ -2620,6 +2689,10 @@
       <node concept="37vLTG" id="23NXkCaXxk4" role="3clF46">
         <property role="TrG5h" value="temperature" />
         <node concept="10OMs4" id="23NXkCaXxTW" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5_YWH8ogjsK" role="3clF46">
+        <property role="TrG5h" value="useV4" />
+        <node concept="10P_77" id="5_YWH8ogn1I" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglApBS5" role="jymVt" />
@@ -2726,9 +2799,18 @@
                   <node concept="Xl_RD" id="2FbvglApBU4" role="37wK5m">
                     <property role="Xl_RC" value="model" />
                   </node>
-                  <node concept="10M0yZ" id="2FbvglAyTNf" role="37wK5m">
-                    <ref role="3cqZAo" node="2FbvglAyQbA" resolve="CHATGPT_MODEL" />
-                    <ref role="1PxDUh" node="2FbvglAyN2x" resolve="ChatGPTSetup_DO_NOT_PUSH" />
+                  <node concept="3K4zz7" id="5_YWH8od2lU" role="37wK5m">
+                    <node concept="37vLTw" id="5_YWH8ocN7k" role="3K4Cdx">
+                      <ref role="3cqZAo" node="5_YWH8oc$my" resolve="v4" />
+                    </node>
+                    <node concept="10M0yZ" id="5_YWH8odalK" role="3K4E3e">
+                      <ref role="3cqZAo" node="5_YWH8ocuvY" resolve="CHATGPT_MODEL_V4" />
+                      <ref role="1PxDUh" node="2FbvglAyN2x" resolve="ChatGPTSetup" />
+                    </node>
+                    <node concept="10M0yZ" id="5_YWH8od7MX" role="3K4GZi">
+                      <ref role="1PxDUh" node="2FbvglAyN2x" resolve="ChatGPTSetup" />
+                      <ref role="3cqZAo" node="2FbvglAyQbA" resolve="CHATGPT_MODEL_V3" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3125,6 +3207,10 @@
       <node concept="37vLTG" id="2FbvglApBWy" role="3clF46">
         <property role="TrG5h" value="temperature" />
         <node concept="10OMs4" id="2FbvglApBWz" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5_YWH8oc$my" role="3clF46">
+        <property role="TrG5h" value="useV4" />
+        <node concept="10P_77" id="5_YWH8ocC7y" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglApBW$" role="jymVt" />
@@ -3814,6 +3900,9 @@
                   <node concept="37vLTw" id="2FbvglAvwi1" role="37wK5m">
                     <ref role="3cqZAo" node="2FbvglAvwi8" resolve="temperature" />
                   </node>
+                  <node concept="37vLTw" id="5_YWH8ohryU" role="37wK5m">
+                    <ref role="3cqZAo" node="5_YWH8ohjsG" resolve="useV4" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -3829,6 +3918,10 @@
       <node concept="37vLTG" id="2FbvglAvwi8" role="3clF46">
         <property role="TrG5h" value="temperature" />
         <node concept="10OMs4" id="2FbvglAvwi9" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5_YWH8ohjsG" role="3clF46">
+        <property role="TrG5h" value="useV4" />
+        <node concept="10P_77" id="5_YWH8ohlz0" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglAvwia" role="jymVt" />
@@ -3898,6 +3991,7 @@
                 <node concept="2$xPTn" id="2FbvglAy33N" role="37wK5m">
                   <property role="2$xPTl" value="0.7f" />
                 </node>
+                <node concept="3clFbT" id="5_YWH8oiyo8" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -4271,12 +4365,21 @@
       </node>
     </node>
     <node concept="Wx3nA" id="2FbvglAyQbA" role="jymVt">
-      <property role="TrG5h" value="CHATGPT_MODEL" />
+      <property role="TrG5h" value="CHATGPT_MODEL_V3" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="2FbvglApBOi" role="1tU5fm" />
       <node concept="3Tm1VV" id="2FbvglAyQ9V" role="1B3o_S" />
       <node concept="Xl_RD" id="2FbvglApBOj" role="33vP2m">
         <property role="Xl_RC" value="gpt-3.5-turbo" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="5_YWH8ocuvY" role="jymVt">
+      <property role="TrG5h" value="CHATGPT_MODEL_V4" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="5_YWH8ocuvZ" role="1tU5fm" />
+      <node concept="3Tm1VV" id="5_YWH8ocuw0" role="1B3o_S" />
+      <node concept="Xl_RD" id="5_YWH8ocuw1" role="33vP2m">
+        <property role="Xl_RC" value="gpt-4" />
       </node>
     </node>
     <node concept="2tJIrI" id="2FbvglAyQ8A" role="jymVt" />
