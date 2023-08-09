@@ -232,16 +232,9 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
-      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
-        <child id="1199542457201" name="resultType" index="1ajl9A" />
-        <child id="1199542501692" name="parameterType" index="1ajw0F" />
-      </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
-      <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e">
-        <child id="1225797361612" name="parameter" index="1BdPVh" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -1940,51 +1933,8 @@
   </node>
   <node concept="312cEu" id="6W$F1JvtF5x">
     <property role="TrG5h" value="GenericExpressionSerialiser" />
-    <node concept="2tJIrI" id="6W$F1JvtF5R" role="jymVt" />
-    <node concept="312cEg" id="7Yy1vgUlB9p" role="jymVt">
-      <property role="TrG5h" value="customSerialiser" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="7Yy1vgUlB9q" role="1B3o_S" />
-      <node concept="1ajhzC" id="7Yy1vgUlB9s" role="1tU5fm">
-        <node concept="3uibUv" id="7Yy1vgUlB9t" role="1ajl9A">
-          <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
-        </node>
-        <node concept="3Tqbb2" id="7Yy1vgUlB9u" role="1ajw0F">
-          <ref role="ehGHo" to="hm2y:6sdnDbSla17" resolve="Expression" />
-        </node>
-      </node>
-    </node>
+    <property role="1sVAO0" value="true" />
     <node concept="2tJIrI" id="7Yy1vgUlE4g" role="jymVt" />
-    <node concept="3clFbW" id="7Yy1vgUlJ13" role="jymVt">
-      <node concept="37vLTG" id="7Yy1vgUlA49" role="3clF46">
-        <property role="TrG5h" value="custom" />
-        <node concept="1ajhzC" id="7Yy1vgUlAKI" role="1tU5fm">
-          <node concept="3uibUv" id="7Yy1vgUlAWs" role="1ajl9A">
-            <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
-          </node>
-          <node concept="3Tqbb2" id="7Yy1vgUlAOE" role="1ajw0F">
-            <ref role="ehGHo" to="hm2y:6sdnDbSla17" resolve="Expression" />
-          </node>
-        </node>
-      </node>
-      <node concept="3cqZAl" id="7Yy1vgUlJ15" role="3clF45" />
-      <node concept="3Tm1VV" id="7Yy1vgUlJ16" role="1B3o_S" />
-      <node concept="3clFbS" id="7Yy1vgUlJ17" role="3clF47">
-        <node concept="3clFbF" id="7Yy1vgUlB9v" role="3cqZAp">
-          <node concept="37vLTI" id="7Yy1vgUlB9x" role="3clFbG">
-            <node concept="2OqwBi" id="7Yy1vgUlD5z" role="37vLTJ">
-              <node concept="Xjq3P" id="7Yy1vgUlDlL" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7Yy1vgUlD5A" role="2OqNvi">
-                <ref role="2Oxat5" node="7Yy1vgUlB9p" resolve="customSerialiser" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="7Yy1vgUlB9_" role="37vLTx">
-              <ref role="3cqZAo" node="7Yy1vgUlA49" resolve="custom" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="7Yy1vgUlI5U" role="jymVt" />
     <node concept="3clFb_" id="6W$F1JvtF6c" role="jymVt">
       <property role="TrG5h" value="serialiseExpression" />
@@ -2129,46 +2079,32 @@
       </node>
       <node concept="3Tm6S6" id="7Yy1vgU9Rft" role="1B3o_S" />
       <node concept="3clFbS" id="6W$F1JvtF8S" role="3clF47">
-        <node concept="3clFbJ" id="4HCzN1z3lus" role="3cqZAp">
-          <node concept="3clFbS" id="4HCzN1z3luu" role="3clFbx">
-            <node concept="3cpWs8" id="7Yy1vgUlP1_" role="3cqZAp">
-              <node concept="3cpWsn" id="7Yy1vgUlP1A" role="3cpWs9">
-                <property role="TrG5h" value="customResult" />
-                <node concept="3uibUv" id="7Yy1vgUlOzl" role="1tU5fm">
-                  <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
-                </node>
-                <node concept="2OqwBi" id="7Yy1vgUlP1B" role="33vP2m">
-                  <node concept="37vLTw" id="7Yy1vgUlP1C" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7Yy1vgUlB9p" resolve="customSerialiser" />
-                  </node>
-                  <node concept="1Bd96e" id="7Yy1vgUlP1D" role="2OqNvi">
-                    <node concept="37vLTw" id="7Yy1vgUlP1E" role="1BdPVh">
-                      <ref role="3cqZAo" node="6W$F1JvtF8T" resolve="expr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+        <node concept="3cpWs8" id="5_YWH8oupqc" role="3cqZAp">
+          <node concept="3cpWsn" id="5_YWH8oupqd" role="3cpWs9">
+            <property role="TrG5h" value="custom" />
+            <node concept="3uibUv" id="5_YWH8ouoVv" role="1tU5fm">
+              <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
             </node>
-            <node concept="3clFbJ" id="7Yy1vgUlRFy" role="3cqZAp">
-              <node concept="3clFbS" id="7Yy1vgUlRF$" role="3clFbx">
-                <node concept="3cpWs6" id="7Yy1vgUlUqh" role="3cqZAp">
-                  <node concept="37vLTw" id="7Yy1vgUlUQV" role="3cqZAk">
-                    <ref role="3cqZAo" node="7Yy1vgUlP1A" resolve="customResult" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="7Yy1vgUlTml" role="3clFbw">
-                <node concept="10Nm6u" id="7Yy1vgUlTEz" role="3uHU7w" />
-                <node concept="37vLTw" id="7Yy1vgUlSBg" role="3uHU7B">
-                  <ref role="3cqZAo" node="7Yy1vgUlP1A" resolve="customResult" />
-                </node>
+            <node concept="1rXfSq" id="5_YWH8oupqe" role="33vP2m">
+              <ref role="37wK5l" node="5_YWH8ougZf" resolve="serialiseInternalCustom" />
+              <node concept="37vLTw" id="5_YWH8oupqf" role="37wK5m">
+                <ref role="3cqZAo" node="6W$F1JvtF8T" resolve="expr" />
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="4HCzN1z3qWk" role="3clFbw">
-            <node concept="10Nm6u" id="4HCzN1z3twZ" role="3uHU7w" />
-            <node concept="37vLTw" id="4HCzN1z3okf" role="3uHU7B">
-              <ref role="3cqZAo" node="7Yy1vgUlB9p" resolve="customSerialiser" />
+        </node>
+        <node concept="3clFbJ" id="5_YWH8ous0N" role="3cqZAp">
+          <node concept="3clFbS" id="5_YWH8ous0P" role="3clFbx">
+            <node concept="3cpWs6" id="5_YWH8ouvFV" role="3cqZAp">
+              <node concept="37vLTw" id="5_YWH8ouwtB" role="3cqZAk">
+                <ref role="3cqZAo" node="5_YWH8oupqd" resolve="custom" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5_YWH8outOu" role="3clFbw">
+            <node concept="10Nm6u" id="5_YWH8ouuPM" role="3uHU7w" />
+            <node concept="37vLTw" id="5_YWH8out3Z" role="3uHU7B">
+              <ref role="3cqZAo" node="5_YWH8oupqd" resolve="custom" />
             </node>
           </node>
         </node>
@@ -3056,7 +2992,23 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6W$F1JvtFeQ" role="jymVt" />
+    <node concept="3clFb_" id="5_YWH8ougZf" role="jymVt">
+      <property role="TrG5h" value="serialiseInternalCustom" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="37vLTG" id="5_YWH8ougZg" role="3clF46">
+        <property role="TrG5h" value="e" />
+        <node concept="3Tqbb2" id="5_YWH8ouj7d" role="1tU5fm">
+          <ref role="ehGHo" to="hm2y:6sdnDbSla17" resolve="Expression" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5_YWH8ougZi" role="1B3o_S" />
+      <node concept="3clFbS" id="5_YWH8ougZj" role="3clF47" />
+      <node concept="3uibUv" id="5_YWH8ouiEU" role="3clF45">
+        <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6W$F1JvtF5W" role="jymVt" />
+    <node concept="2tJIrI" id="5_YWH8ouglg" role="jymVt" />
     <node concept="3Tm1VV" id="6W$F1JvtF5y" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="3G8rFPcPscs">
@@ -3459,84 +3411,6 @@
   <node concept="312cEu" id="7Yy1vgU1m2R">
     <property role="TrG5h" value="NodeToXMLSerialiser" />
     <property role="1sVAO0" value="true" />
-    <node concept="2tJIrI" id="7Yy1vgU1m3_" role="jymVt" />
-    <node concept="312cEg" id="7Yy1vgUmcc0" role="jymVt">
-      <property role="TrG5h" value="customExpressionSerialiser" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="7Yy1vgUmcc1" role="1B3o_S" />
-      <node concept="1ajhzC" id="7Yy1vgUmcc3" role="1tU5fm">
-        <node concept="3uibUv" id="7Yy1vgUmcc4" role="1ajl9A">
-          <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
-        </node>
-        <node concept="3Tqbb2" id="7Yy1vgUmcc5" role="1ajw0F">
-          <ref role="ehGHo" to="hm2y:6sdnDbSla17" resolve="Expression" />
-        </node>
-      </node>
-    </node>
-    <node concept="312cEg" id="7Yy1vgUmu7X" role="jymVt">
-      <property role="TrG5h" value="customTypeSerialiser" />
-      <property role="3TUv4t" value="true" />
-      <node concept="3Tm6S6" id="7Yy1vgUmu7Y" role="1B3o_S" />
-      <node concept="1ajhzC" id="7Yy1vgUmu7Z" role="1tU5fm">
-        <node concept="17QB3L" id="7Yy1vgUmwx2" role="1ajl9A" />
-        <node concept="3Tqbb2" id="7Yy1vgUmu81" role="1ajw0F">
-          <ref role="ehGHo" to="hm2y:6sdnDbSlaok" resolve="Type" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7Yy1vgUmeFq" role="jymVt" />
-    <node concept="3clFbW" id="7Yy1vgUm9Fe" role="jymVt">
-      <node concept="3cqZAl" id="7Yy1vgUm9Fg" role="3clF45" />
-      <node concept="3Tm1VV" id="7Yy1vgUm9Fh" role="1B3o_S" />
-      <node concept="3clFbS" id="7Yy1vgUm9Fi" role="3clF47">
-        <node concept="3clFbF" id="7Yy1vgUmcc6" role="3cqZAp">
-          <node concept="37vLTI" id="7Yy1vgUmcc8" role="3clFbG">
-            <node concept="2OqwBi" id="7Yy1vgUmesQ" role="37vLTJ">
-              <node concept="Xjq3P" id="7Yy1vgUmetN" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7Yy1vgUmesT" role="2OqNvi">
-                <ref role="2Oxat5" node="7Yy1vgUmcc0" resolve="customExpressionSerialiser" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="7Yy1vgUmccc" role="37vLTx">
-              <ref role="3cqZAo" node="7Yy1vgUmbTx" resolve="customExpressionSerialiser" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7Yy1vgUmwVS" role="3cqZAp">
-          <node concept="37vLTI" id="7Yy1vgUmwVT" role="3clFbG">
-            <node concept="2OqwBi" id="7Yy1vgUmwVU" role="37vLTJ">
-              <node concept="Xjq3P" id="7Yy1vgUmwVV" role="2Oq$k0" />
-              <node concept="2OwXpG" id="7Yy1vgUmwVW" role="2OqNvi">
-                <ref role="2Oxat5" node="7Yy1vgUmu7X" resolve="customTypeSerialiser" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="7Yy1vgUmwVX" role="37vLTx">
-              <ref role="3cqZAo" node="7Yy1vgUmwOL" resolve="customTypeSerialiser" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="7Yy1vgUmbTx" role="3clF46">
-        <property role="TrG5h" value="customExpressionSerialiser" />
-        <node concept="1ajhzC" id="7Yy1vgUmbTv" role="1tU5fm">
-          <node concept="3uibUv" id="7Yy1vgUmc31" role="1ajl9A">
-            <ref role="3uigEE" to="mmaq:~Element" resolve="Element" />
-          </node>
-          <node concept="3Tqbb2" id="7Yy1vgUmbZr" role="1ajw0F">
-            <ref role="ehGHo" to="hm2y:6sdnDbSla17" resolve="Expression" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="7Yy1vgUmwOL" role="3clF46">
-        <property role="TrG5h" value="customTypeSerialiser" />
-        <node concept="1ajhzC" id="7Yy1vgUmwUl" role="1tU5fm">
-          <node concept="17QB3L" id="7Yy1vgUmwUm" role="1ajl9A" />
-          <node concept="3Tqbb2" id="7Yy1vgUmwUn" role="1ajw0F">
-            <ref role="ehGHo" to="hm2y:6sdnDbSlaok" resolve="Type" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="7Yy1vgUm7t9" role="jymVt" />
     <node concept="3clFb_" id="7Yy1vgUcpCl" role="jymVt">
       <property role="TrG5h" value="serialiseToString" />
@@ -3635,47 +3509,6 @@
       <node concept="17QB3L" id="6W$F1Jvnaw9" role="3clF45" />
       <node concept="3Tm1VV" id="6W$F1Jvn7gH" role="1B3o_S" />
       <node concept="3clFbS" id="6W$F1Jvn7gI" role="3clF47">
-        <node concept="3clFbJ" id="4HCzN1z2Qlu" role="3cqZAp">
-          <node concept="3clFbS" id="4HCzN1z2Qlw" role="3clFbx">
-            <node concept="3cpWs8" id="7Yy1vgUmBZh" role="3cqZAp">
-              <node concept="3cpWsn" id="7Yy1vgUmBZi" role="3cpWs9">
-                <property role="TrG5h" value="customString" />
-                <node concept="17QB3L" id="7Yy1vgUmBlN" role="1tU5fm" />
-                <node concept="2OqwBi" id="7Yy1vgUmBZj" role="33vP2m">
-                  <node concept="37vLTw" id="7Yy1vgUmBZk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7Yy1vgUmu7X" resolve="customTypeSerialiser" />
-                  </node>
-                  <node concept="1Bd96e" id="7Yy1vgUmBZl" role="2OqNvi">
-                    <node concept="37vLTw" id="7Yy1vgUmBZm" role="1BdPVh">
-                      <ref role="3cqZAo" node="6W$F1Jvn7Iv" resolve="t" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="7Yy1vgUmEHP" role="3cqZAp">
-              <node concept="3clFbS" id="7Yy1vgUmEHR" role="3clFbx">
-                <node concept="3cpWs6" id="7Yy1vgUmLFN" role="3cqZAp">
-                  <node concept="37vLTw" id="7Yy1vgUmMUs" role="3cqZAk">
-                    <ref role="3cqZAo" node="7Yy1vgUmBZi" resolve="customString" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="7Yy1vgUmIKe" role="3clFbw">
-                <node concept="10Nm6u" id="7Yy1vgUmKbb" role="3uHU7w" />
-                <node concept="37vLTw" id="7Yy1vgUmFX1" role="3uHU7B">
-                  <ref role="3cqZAo" node="7Yy1vgUmBZi" resolve="customString" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3y3z36" id="4HCzN1z2XJJ" role="3clFbw">
-            <node concept="10Nm6u" id="4HCzN1z323j" role="3uHU7w" />
-            <node concept="37vLTw" id="4HCzN1z2UBc" role="3uHU7B">
-              <ref role="3cqZAo" node="7Yy1vgUmu7X" resolve="customTypeSerialiser" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="6W$F1JvnfaW" role="3cqZAp">
           <node concept="3clFbS" id="6W$F1JvnfaY" role="3clFbx">
             <node concept="3cpWs6" id="6W$F1JvnicU" role="3cqZAp">
@@ -4153,14 +3986,8 @@
                         <node concept="3uibUv" id="7Yy1vgUa$v2" role="1tU5fm">
                           <ref role="3uigEE" node="6W$F1JvtF5x" resolve="GenericExpressionSerialiser" />
                         </node>
-                        <node concept="2ShNRf" id="7Yy1vgUa$NV" role="33vP2m">
-                          <node concept="1pGfFk" id="7Yy1vgUmgW4" role="2ShVmc">
-                            <property role="373rjd" value="true" />
-                            <ref role="37wK5l" node="7Yy1vgUlJ13" resolve="GenericExpressionSerialiser" />
-                            <node concept="37vLTw" id="7Yy1vgUmgW3" role="37wK5m">
-                              <ref role="3cqZAo" node="7Yy1vgUmcc0" resolve="customExpressionSerialiser" />
-                            </node>
-                          </node>
+                        <node concept="1rXfSq" id="5_YWH8ovBZn" role="33vP2m">
+                          <ref role="37wK5l" node="5_YWH8ovrID" resolve="createExpressionSerialiser" />
                         </node>
                       </node>
                     </node>
@@ -4586,6 +4413,15 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7Yy1vgU1m3E" role="jymVt" />
+    <node concept="3clFb_" id="5_YWH8ovrID" role="jymVt">
+      <property role="TrG5h" value="createExpressionSerialiser" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="3uibUv" id="5_YWH8ovzCd" role="3clF45">
+        <ref role="3uigEE" node="6W$F1JvtF5x" resolve="GenericExpressionSerialiser" />
+      </node>
+      <node concept="3Tm1VV" id="5_YWH8ovrIG" role="1B3o_S" />
+      <node concept="3clFbS" id="5_YWH8ovrIH" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="7Yy1vgUrub4" role="jymVt" />
     <node concept="3Tm1VV" id="7Yy1vgU1m2S" role="1B3o_S" />
   </node>
@@ -4783,15 +4619,12 @@
     <node concept="2tJIrI" id="Gmv9FZvL9W" role="jymVt" />
     <node concept="3clFb_" id="Gmv9FZvMGc" role="jymVt">
       <property role="TrG5h" value="createExpressionParser" />
+      <property role="1EzhhJ" value="true" />
       <node concept="3uibUv" id="Gmv9FZvO7C" role="3clF45">
         <ref role="3uigEE" node="6W$F1JurHeM" resolve="GenericExpressionParser" />
       </node>
       <node concept="3Tm1VV" id="Gmv9FZvMGf" role="1B3o_S" />
-      <node concept="3clFbS" id="Gmv9FZvMGg" role="3clF47">
-        <node concept="3clFbF" id="Gmv9FZF5SV" role="3cqZAp">
-          <node concept="10Nm6u" id="Gmv9FZF5SU" role="3clFbG" />
-        </node>
-      </node>
+      <node concept="3clFbS" id="Gmv9FZvMGg" role="3clF47" />
       <node concept="37vLTG" id="Gmv9FZvUYH" role="3clF46">
         <property role="TrG5h" value="exprRootElement" />
         <node concept="3uibUv" id="Gmv9FZvUYG" role="1tU5fm">
